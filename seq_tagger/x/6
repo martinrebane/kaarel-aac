@@ -1,0 +1,1166 @@
+/home/kaarel/anaconda3/envs/loputoo-mag/bin/python /home/kaarel/PycharmProjects/loputoo-mag/train.py --model-name et4 --load et4
+['palkadel', 'palkidel']
+['surnuina', 'surnutena']
+['võtku']
+['osta']
+['panite']
+['tahad']
+['polnud']
+['ole']
+['kahanenud']
+['toretsevat']
+['koondada']
+['suletama', 'sulgetama']
+['pruugi']
+['pruugi']
+['on']
+['pannakse']
+('palka', 1)
+2019-02-18 02:18:41 INFO: ## lang: et
+2019-02-18 02:18:41 INFO: ## batch_size: 64
+2019-02-18 02:18:41 INFO: ## task: posmorph
+2019-02-18 02:18:41 INFO: ## words: tuned
+2019-02-18 02:18:41 INFO: ## test: False
+2019-02-18 02:18:41 INFO: ## input_projection: False
+2019-02-18 02:18:41 INFO: ## chars: False
+2019-02-18 02:18:41 INFO: ## word_emb: 300
+2019-02-18 02:18:41 INFO: ## char_emb: 75
+2019-02-18 02:18:41 INFO: ## train_unk: False
+2019-02-18 02:18:41 INFO: ## hidden_dim: 300
+2019-02-18 02:18:41 INFO: ## char_hidden: 75
+2019-02-18 02:18:41 INFO: ## oov_embeddings: False
+2019-02-18 02:18:41 INFO: ## load: et4
+2019-02-18 02:18:41 INFO: ## log_level: info
+2019-02-18 02:18:41 INFO: ## model_name: et4
+2019-02-18 02:18:41 INFO: ## index: None
+<torchtext.data.field.Field object at 0x7f5e5de42cf8>
+2019-02-18 02:18:41 INFO: # fields: ((('word', 'char'), (<torchtext.data.field.Field object at 0x7f5e5de42cc0>, <torchtext.data.field.NestedField object at 0x7f5e5de42d68>)), ('label', <torchtext.data.field.Field object at 0x7f5e5de42cf8>))
+((('word', 'char'), (<torchtext.data.field.Field object at 0x7f5e5de42cc0>, <torchtext.data.field.NestedField object at 0x7f5e5de42d68>)), ('label', <torchtext.data.field.Field object at 0x7f5e5de42cf8>))
+2019-02-18 02:18:41 INFO: input path: data/ud-treebanks-v2.1/UD_Estonian/et-ud-train.conllu
+path: data/ud-treebanks-v2.1/UD_Estonian/et-ud-train.conllu
+algus2
+{'DET|Case=Tra|Number=Plur|PronType=Dem': {'Nendeks'}, 'ADJ|Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass': {'loodavad'}, 'AUX|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act': {'võiks'}, 'NOUN|Case=Com|Number=Sing': {'seadusega'}, 'PRON|Case=Ela|Number=Sing|PronType=Ind': {'millestki'}, 'PROPN|Case=Gen|Number=Plur|Person=1|PronType=Prs': {'Meie'}, 'PRON|Case=Ine|Number=Sing|Person=1|PronType=Prs': {'minus'}, 'PRON|Case=Ine|Number=Sing|PronType=Int,Rel': {'milles'}, 'PRON|Case=Ela|Number=Plur|PronType=Int,Rel': {'millest'}, 'PROPN|Case=Gen|Number=Sing|NumForm=Roman|NumType=Ord': {'ADV'}, 'AUX|VerbForm=Conv': {'olles'}, 'ADJ|Case=Nom|Degree=Sup|Number=Plur': {'olulisimad'}, 'ADJ|Case=Abl|Number=Sing|NumForm=Digit|NumType=Ord': {'2008.'}, 'ADJ|Case=All|Degree=Sup|Number=Sing': {'lähimale'}, 'PROPN|Case=Par|Number=Plur': {'Põhjamaid'}, 'VERB|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'Alustagem'}, 'PRON|Case=Gen|Number=Sing|PronType=Ind': {'Mõne'}, 'ADJ|Case=Ade|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass': {'Huvitaval'}, 'ADJ|Case=Ela|Number=Sing|PronType=Rel': {'millisest'}, 'ADJ|Case=Nom|Number=Sing|NumForm=Roman|NumType=Ord': {'I'}, 'NOUN|Case=Par|Number=Sing|VerbForm=Part': {'läbitavust'}, 'PRON|Case=Par|Number=Plur|PronType=Int,Rel': {'keda'}, 'X|Abbr=Yes': {'in'}, 'VERB|Mood=Cnd|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'poleks'}, 'SYM|Abbr=Yes|Case=All|Number=Sing': {'i-le'}, 'ADJ|Case=Ade|Degree=Pos|Number=Sing': {'viimasel'}, 'NOUN|Case=Par|Number=Plur': {'sisendeid'}, 'ADJ|Case=Gen|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'haritute'}, 'PRON|Case=Ela|Number=Plur|Person=2|PronType=Prs': {'teist'}, 'AUX|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act': {'võisite'}, 'ADJ|Case=Ade|Degree=Cmp|Number=Plur': {'varasematel'}, 'ADJ|Case=Ela|Number=Plur|PronType=Rel': {'millistest'}, 'AUX|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act': {'olimegi'}, 'ADJ|Case=Par|Number=Plur|PronType=Dem': {'selliseid'}, 'DET|Case=Ine|Number=Sing|PronType=Int,Rel': {'missuguses'}, 'ADJ|Case=Add|Number=Sing|NumForm=Letter|NumType=Ord': {'esimesse'}, 'PRON|Case=Gen|Number=Sing|Person=3|PronType=Prs': {'tema'}, 'PRON|Case=Ela|Number=Plur|PronType=Tot': {'kõigist'}, 'ADJ|Case=Par|Number=Sing|NumForm=Letter|NumType=Ord': {'teist'}, 'PROPN|Abbr=Yes|Case=Com|Number=Sing': {'EL-iga'}, 'NOUN|Case=Gen|Hyph=Yes|Number=Plur': {'süsivesikute-'}, 'PRON|Case=Ine|Number=Sing|PronType=Dem': {'selles'}, 'PROPN|Case=Par|Number=Sing': {'Phillipsi'}, 'VERB|Connegative=Yes|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'arvake'}, 'PRON|Case=Nom|Number=Sing|Person=3|PronType=Prs': {'Ta'}, 'NOUN|Case=Ess|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'elavana'}, 'VERB|Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act': {'Viskusime'}, 'PRON|Case=Ine|Number=Sing|PronType=Rcp|Reflex=Yes': {'teineteises'}, 'NOUN|Abbr=Yes|Hyph=Yes': {'AL-'}, 'NOUN|Abbr=Yes|Case=Par|Number=Plur': {'EVPsid'}, 'PRON|Case=Ter|Number=Plur|PronType=Ind': {'paljudeni'}, 'VERB|Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Pass': {'vajataks'}, 'NUM|Case=Ela|Number=Sing|NumForm=Letter|NumType=Card': {'kahest'}, 'SYM|Case=Nom|Number=Sing|NumForm=Digit|NumType=Card': {'%'}, 'PROPN|Case=Ter|Number=Sing': {'Alaskani'}, 'PRON|Case=Ela|Number=Plur|PronType=Dem': {'teistest'}, 'ADJ|Case=All|Degree=Cmp|Number=Sing': {'suuremale'}, 'NOUN|Foreign=Yes': {'live'}, 'ADJ|Case=Par|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'täheldatavat'}, 'NUM|Case=Nom|Number=Plur|NumForm=Digit|NumType=Card': {'3'}, 'PRON|Case=Ade|Number=Sing|PronType=Prs|Reflex=Yes': {'endal'}, 'PROPN|Case=Nom|Number=Plur': {'Lloyd'}, 'ADJ|Case=All|Degree=Pos|Number=Sing|VerbForm=Part|Voice=Act': {'asuvale'}, 'PROPN|Case=Gen|Number=Sing|NumForm=Letter|NumType=Card': {'Kolme'}, 'ADJ|Case=All|Degree=Cmp|Number=Plur': {'kõrgematele'}, 'ADJ|Case=Add|Number=Plur|NumForm=Digit|NumType=Ord': {'1860.'}, 'NUM|Case=Add|Number=Sing|NumType=Card': {'-45,8'}, 'PRON|Case=All|Number=Sing|Poss=Yes|PronType=Prs': {'omale'}, 'ADJ|Case=Abl|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'vastujuhtuvatelt'}, 'ADJ|Case=Ine|Number=Plur|NumForm=Digit|NumType=Ord': {'2.'}, 'PRON|Case=All|Number=Plur|PronType=Prs|Reflex=Yes': {'endile'}, 'PRON|Case=Abe|Number=Sing|PronType=Int,Rel': {'milleta'}, 'NOUN|Hyph=Yes': {'sise-'}, 'PRON|Case=Gen|Number=Plur|PronType=Tot': {'kõikide'}, 'PRON|Case=Gen|Number=Sing|PronType=Int,Rel': {'mille'}, 'PRON|Case=Ela|Number=Sing|PronType=Tot': {'Mõlemist'}, 'VERB|Mood=Ind|VerbForm=Fin': {'näikse'}, 'NUM|Case=Ess|Number=Sing|NumForm=Letter|NumType=Card': {'ühena'}, 'ADJ|Case=Nom|Number=Plur|NumForm=Letter|NumType=Ord': {'esimesed'}, 'PRON|Case=All|Number=Plur|PronType=Int,Rel': {'millele'}, 'PUNCT|Hyph=Yes': {'--'}, 'DET|Case=Par|Number=Plur|PronType=Rel': {'milliseid'}, 'NOUN|Case=Par|Number=Sing|NumForm=Letter': {'poolt'}, 'PRON|Case=Ill|Number=Sing|Person=3|PronType=Prs': {'temasse'}, 'DET|Case=Abl|Number=Sing|PronType=Dem': {'samalt'}, 'DET|Case=Gen|Number=Plur|PronType=Tot': {'mitmete'}, 'DET|Case=Gen|Number=Sing|PronType=Rcp|Reflex=Yes': {'üksteise'}, 'ADJ|Case=Tra|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'limiteerivaks'}, 'PRON|Case=Nom|Number=Sing|PronType=Tot': {'kõik'}, 'NOUN|Case=Gen|Number=Sing|VerbForm=Part': {'manipuleeritavuse'}, 'PRON|Case=Ade|Number=Sing|PronType=Dem|Reflex=Yes': {'üksteisel'}, 'ADJ|Case=Ela|Number=Sing|NumForm=Roman|NumType=Ord': {'II'}, 'ADJ|Case=Par|Degree=Cmp|Number=Plur|VerbForm=Part': {'adutavamaid'}, 'VERB|Mood=Qot|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'olevat'}, 'DET|Case=All|Number=Sing|PronType=Dem': {'sellele'}, 'VERB|Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'kaotaksime'}, 'ADJ|Case=Abl|Degree=Pos|Number=Sing': {'viimaselt'}, 'DET|Case=Add|Number=Sing|PronType=Dem': {'teise'}, 'DET|Case=Gen|Number=Plur|Person=3|PronType=Prs': {'nende'}, 'DET|Case=Nom|Number=Plur|PronType=Tot': {'mõlemad'}, 'ADJ|Case=All|Number=Plur|PronType=Dem': {'Sellistele'}, 'PROPN|Case=Nom|Number=Sing|NumForm=Roman|NumType=Ord': {'M'}, 'DET|Case=Par|Number=Plur|PronType=Dem': {'teisi'}, 'VERB|Connegative=Yes|Mood=Qot|Tense=Pres|VerbForm=Fin|Voice=Act': {'söövatki'}, 'NOUN|Case=Par|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'tehtut'}, 'X|_': {'paribus'}, 'ADJ|Case=Ine|Number=Plur|NumType=Ord': {'20ndates'}, 'PRON|Case=Ela|Number=Plur|Person=3|PronType=Prs': {'nendest'}, 'ADJ|Case=All|Number=Sing|NumForm=Roman|NumType=Ord': {'II'}, 'DET|Case=Par|Number=Plur|PronType=Ind': {'mõningaid'}, 'PRON|Case=Ade|Number=Sing|PronType=Ind': {'mitmel'}, 'NOUN|Case=Nom|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'Vastsündinu'}, 'PRON|Number=Sing|Person=3|PronType=Prs': {'tal'}, 'ADJ|Case=Gen|Degree=Sup|Number=Sing': {'suurima'}, 'NOUN|Case=Nom|Number=Sing|VerbForm=Part': {'korduvkasutatavus'}, 'PROPN|Case=Gen|Number=Sing|NumForm=Letter|NumType=Ord': {'Teise'}, 'PROPN|Case=Ess|Number=Sing': {'Ehatähena'}, 'NOUN|Case=Ela|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'toimuvast'}, 'PROPN|Abbr=Yes|Case=Ela|Number=Sing': {'ESA-st'}, 'NOUN|Abbr=Yes|Case=Com|Number=Sing': {'IT-ga'}, 'PRON|Case=Ela|Number=Sing|Person=3|PronType=Prs': {'temast'}, 'NUM|Case=Add|Number=Sing|NumForm=Letter|NumType=Card': {'nelja'}, 'PROPN|Case=Ine|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'Sõltuvas'}, 'DET|Case=Par|Number=Plur|PronType=Int,Rel': {'Missugused'}, 'ADJ|Case=Nom|Number=Sing|PronType=Dem': {'samasugune'}, 'DET|Case=Ine|Number=Plur|PronType=Dem': {'sellistes'}, 'ADJ|Case=All|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass': {'teatavale'}, 'AUX|Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'võiksid'}, 'DET|Case=Ade|Number=Sing|PronType=Ind': {'Mõnel'}, 'AUX|Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act': {'peaks'}, 'ADJ|Case=Ade|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'erinevatel'}, 'DET|Case=Abl|Number=Plur|PronType=Dem': {'sellistelt'}, 'ADJ|Case=Par|Number=Sing|PronType=Rel': {'millist'}, 'PRON|Case=Nom|Number=Plur|PronType=Int,Rel': {'kes'}, 'NOUN|Abbr=Yes|Case=Ine|Number=Plur': {'VKE-des'}, 'DET|Case=Abl|Number=Plur|PronType=Tot': {'kõigilt'}, 'ADV|Abbr=Yes': {'v.a'}, 'NUM|Case=Gen|Number=Plur|NumForm=Digit|NumType=Card': {'2'}, 'ADJ|Case=All|Number=Plur|NumForm=Letter|NumType=Ord': {'esimestele'}, 'NOUN|Case=Nom|Number=Plur': {'Töötud'}, 'SYM|Case=All|Number=Sing|NumForm=Digit|NumType=Card': {'%-le'}, 'NUM|Case=Ela|Number=Sing|NumForm=Digit|NumType=Card': {'12-14'}, 'PROPN|Abbr=Yes|Case=Ade|Number=Plur': {'MMidel'}, 'ADJ|Case=Ter|Degree=Pos|Number=Plur': {'segmentaarseteni'}, 'DET|Case=Par|Number=Sing|PronType=Int,Rel': {'millist'}, 'PRON|Case=Gen|Number=Sing|PronType=Rcp|Reflex=Yes': {'teineteise'}, 'ADJ|Degree=Pos': {'valmis'}, 'AUX|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'Olgem'}, 'DET|Case=Ela|Number=Sing|PronType=Dem': {'sellest'}, 'ADJ|Case=Ine|Degree=Cmp|Number=Sing': {'pikemas'}, 'VERB|Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'tahaksite'}, 'NOUN|Abbr=Yes|Case=Ter|Number=Sing': {'mg-ni'}, 'PROPN|Case=Nom|Number=Sing|NumType=Card': {'MiG-29'}, 'PROPN|_': {'Society'}, 'ADJ|Case=Ine|Degree=Sup|Number=Plur': {'uusimates'}, 'ADJ|Case=Ill|Degree=Pos|Number=Sing|VerbForm=Part|Voice=Act': {'paiknevasse'}, 'NUM|NumType=Card': {'90o'}, 'PROPN|Case=Add|Number=Sing': {'Tšehhi'}, 'NOUN|Case=Tra|Number=Plur': {'mootoreiks'}, 'NOUN|Case=Com|Number=Plur': {'Kõrvaltöödega'}, 'NOUN|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'vastanud'}, 'PRON|Case=Com|Number=Plur|PronType=Tot': {'kõigiga'}, 'NUM|Case=Add|Number=Sing|NumForm=Letter|NumType=Ord': {'teise'}, 'ADP|_': {'paiku'}, 'PRON|Case=Ela|Number=Plur|Person=1|PronType=Prs': {'meist'}, 'PRON|Case=All|Number=Sing|Person=1|PronType=Prs': {'mulle'}, 'PRON|Case=Ine|Number=Plur|Person=1|PronType=Prs': {'meis'}, 'PROPN|Abbr=Yes|Case=Nom|Number=Plur': {'UAVd'}, 'ADJ|Case=Ine|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'erinevates'}, 'ADJ|Case=Gen|Degree=Cmp|Number=Sing': {'kõrgema'}, 'PRON|Case=Nom|Number=Plur|PronType=Prs|Reflex=Yes': {'ise'}, 'PRON|Case=Add|Number=Sing|PronType=Ind': {'ühte'}, 'NOUN|Case=Ela|Number=Sing|VerbForm=Part': {'prognoositavusest'}, 'ADJ|Case=Par|Degree=Pos|Number=Plur': {'vastassuunalisi'}, 'ADJ|Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'vähenev'}, 'PROPN|Case=Nom|Hyph=Yes|Number=Sing': {'Linool-'}, 'DET|Case=Ade|Number=Sing|PronType=Tot': {'mõlemal'}, 'PRON|Case=Tra|Number=Sing|PronType=Rel': {'milliseks'}, 'PRON|Case=Ade|Number=Plur|PronType=Dem': {'neil'}, 'NUM|Case=Add|Number=Sing|NumForm=Digit|NumType=Card': {'8-9'}, 'AUX|Tense=Past|VerbForm=Part|Voice=Act': {'olnud'}, 'PRON|Case=Com|Number=Plur|Person=2|PronType=Prs': {'teiega'}, 'PROPN|Abbr=Yes|Case=Nom|Number=Sing': {'TRIPs'}, 'PRON|Case=Par|Number=Plur|PronType=Dem': {'neid'}, 'ADJ|Tense=Pres|VerbForm=Part|Voice=Act': {'töötavad'}, 'NUM|Case=Gen|Number=Sing|NumForm=Letter|NumType=Card': {'kahe'}, 'PRON|Case=Tra|Number=Sing|Poss=Yes|PronType=Prs': {'omaks'}, 'SYM|NumForm=Digit|NumType=Card': {'%'}, 'ADJ|Abbr=Yes|Case=Com|Number=Sing': {'II-ga'}, 'VERB|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'oleksid'}, 'PRON|Case=Abl|Number=Sing|Person=1|PronType=Prs': {'minult'}, 'ADJ|Case=All|Number=Plur|NumType=Ord': {'1950ndatele'}, 'PROPN|Case=Ade': {"Party'lgi"}, 'ADJ|Case=Tra|Degree=Pos|Number=Plur': {'peamisteks'}, 'ADJ|Case=Nom|Number=Plur|NumType=Ord': {'60ndad'}, 'ADJ|Case=Par|Number=Plur|PronType=Rel': {'milliseid'}, 'PROPN|Abbr=Yes|Case=Par|Number=Sing': {'LANTUSt'}, 'VERB|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'asetuks'}, 'ADJ|Case=Nom|Degree=Cmp|Number=Sing|VerbForm=Part': {'nauditavam'}, 'PRON|Case=Ine|Number=Sing|Poss=Yes|PronType=Prs': {'omas'}, 'ADJ|Case=Ine|Number=Sing|PronType=Rel': {'millises'}, 'VERB|VerbForm=Sup|Voice=Pass': {'saadetama'}, 'PRON|Case=Ill|Number=Sing|PronType=Dem': {'sellesse'}, 'ADJ|Case=Ine|Degree=Pos|Number=Plur': {'tulevastes'}, 'NUM|Case=Gen|Number=Sing|NumType=Card|PronType=Ind': {'ühe'}, 'PRON|Case=Nom|Number=Plur|PronType=Ind': {'paljud'}, 'NUM|Case=All|Number=Plur|NumForm=Letter|NumType=Card': {'Sadadele'}, 'PRON|Case=Ade|Number=Sing|PronType=Int,Rel': {'kellel'}, 'ADJ|Case=All|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'kiirenevale'}, 'AUX|Mood=Imp|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'Ära'}, 'DET|Case=Gen|Number=Sing|PronType=Tot': {'mitme'}, 'ADJ|Case=Ela|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'loodetust'}, 'NOUN|Case=Add|Number=Plur': {'raudu'}, 'ADJ|Case=Ess|Number=Sing|NumForm=Letter|NumType=Ord': {'esimesena'}, 'PROPN|Foreign=Yes': {'Study'}, 'NOUN|Case=Gen|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'Eeltoodu'}, 'SYM|Case=Gen|Number=Sing|NumForm=Digit|NumType=Card': {'%'}, 'NOUN|Case=Ess|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'võrrelduna'}, 'PRON|Case=Par|Number=Sing|Poss=Yes|PronType=Prs': {'oma'}, 'VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act': {'õngitses'}, 'ADJ|Case=Gen|Degree=Cmp|Number=Plur': {'pikemate'}, 'AUX|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'Olgu'}, 'ADJ|Case=Ill|Degree=Pos|Number=Plur': {'suurtesse'}, 'NOUN|Abbr=Yes|Case=Ine|Number=Sing': {'SKP-s'}, 'PROPN|Abbr=Yes|NumForm=Roman': {'XM'}, 'PRON|Case=Nom|Number=Sing|Poss=Yes|PronType=Prs': {'oma'}, 'PROPN|Case=Nom|Number=Sing': {'Manufaktuur'}, 'SYM|Abbr=Yes': {'s.'}, 'PRON|Case=Nom|Number=Plur|PronType=Tot': {'kõik'}, 'DET|Case=Gen|Number=Plur|PronType=Dem': {'teiste'}, 'PRON|Case=Ade|Number=Plur|Person=1|PronType=Prs': {'meil'}, 'PRON|Case=Gen|Number=Sing|PronType=Rel': {'kelle'}, 'DET|Case=Nom|Number=Plur|PronType=Rel': {'millised'}, 'NOUN|Abbr=Yes|Case=Ela|Number=Sing': {'SKP-st'}, 'ADJ|Case=Ine|Number=Plur|NumForm=Letter|NumType=Ord': {'kuuekümnendates'}, 'PRON|Case=Par|Number=Sing|Person=2|PronType=Prs': {'sind'}, 'PRON|Case=Tra|Number=Plur|PronType=Int,Rel': {'milleks'}, 'PRON|Case=Abl|Number=Plur|Person=3|PronType=Prs': {'neilt'}, 'VERB|Case=Ine|VerbForm=Sup|Voice=Act': {'suurenemas'}, 'PRON|Case=Com|Number=Sing|PronType=Rcp|Reflex=Yes': {'teineteisega'}, 'NOUN|Case=Ine|Number=Sing|PronType=Tot': {'eas'}, 'NOUN|Case=Nom': {'toitu'}, 'VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'saan'}, 'PRON|Case=Tra|Number=Sing|PronType=Int,Rel': {'Milleks'}, 'ADJ|Case=Par|Degree=Sup|Number=Plur': {'varaseimaid'}, 'VERB|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act': {'viisime'}, 'PRON|Case=Ade|Number=Sing|NumForm=Letter|PronType=Dem': {'kolmandal'}, 'NOUN|_': {'vivo'}, 'DET|Case=Add|Number=Sing|PronType=Int,Rel': {'kumbagi'}, 'ADJ|Case=Tra|Number=Sing|NumForm=Digit|NumType=Ord': {'1994.'}, 'SYM|Abbr=Yes|Case=Com|Number=Sing': {'B-ga'}, 'PROPN|Case=Ade|Number=Sing|NumForm=Letter|NumType=Ord': {'Neljandal'}, 'ADJ|Case=Com|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'toimuvaga'}, 'NUM|Case=Nom|Number=Sing|NumForm=Letter|NumType=Card': {'kolme'}, 'AUX|Connegative=Yes': {'ei'}, 'PRON|Case=Gen|Number=Plur|PronType=Int,Rel': {'kelle'}, 'CCONJ|Polarity=Neg': {'ega'}, 'ADJ|Hyph=Yes': {'keskeri-'}, 'ADV|VerbForm=Part|Voice=Act': {'väidetavasti'}, 'AUX|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass': {'olda'}, 'NUM|Case=Nom|Number=Plur|NumForm=Letter|NumType=Card': {'pooled'}, 'PRON|Case=Abl|Number=Sing|Person=2|PronType=Prs': {'sinult'}, 'ADJ|Case=Ill|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'tootvatesse'}, 'AUX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'Ole'}, 'ADJ|Case=Ade|Number=Sing|NumType=Ord': {'teisel'}, 'PRON|Case=All|Number=Sing|Person=2|PronType=Prs': {'sulle'}, 'PRON|Case=Gen|Number=Sing|PronType=Dem': {'selle'}, 'ADJ|Case=Ill|Degree=Pos|Number=Sing': {'konkreetsesse'}, 'PROPN|Number=Sing': {'Yorki'}, 'ADJ|Case=Ade|Number=Sing|PronType=Int,Rel': {'mitmendal'}, 'ADJ|Case=Ine|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass': {'teatavas'}, 'NUM|Case=Tra|Number=Sing|NumForm=Letter|NumType=Card': {'üheks'}, 'ADJ|Case=Nom|Degree=Sup|Number=Sing': {'kõrgeim'}, 'ADJ|Case=Nom|Degree=Cmp|Number=Plur': {'madalamad'}, 'NOUN|Case=Ine|Number=Plur': {'protsentides'}, 'VERB|Connegative=Yes|Mood=Imp|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act': {'pangu'}, 'PRON|Case=Gen|Number=Plur|Person=2|PronType=Prs': {'Teie'}, 'PRON|Case=Nom|Number=Sing|Person=2|PronType=Prs': {'sa'}, 'ADJ|Case=Ela|Degree=Sup|Number=Sing': {'suurimast'}, 'PRON|Case=Par|Number=Plur|Person=2|PronType=Prs': {'teid'}, 'NOUN|Case=Gen|Number=Sing|NumForm=Letter': {'Esimese'}, 'VERB|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act': {'polnud'}, 'ADV|Polarity=Neg': {'mitte'}, 'PRON|Case=Ade|Number=Sing|PronType=Rcp|Reflex=Yes': {'üksteisel'}, 'PRON|Case=Tra|Number=Sing|PronType=Dem': {'teiseks'}, 'ADJ|Case=All|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'asuvatele'}, 'NOUN|Case=Nom|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'uuritav'}, 'ADJ|Case=Ade|Degree=Cmp|Number=Sing': {'ebasoodsamal'}, 'ADJ|Case=Ine|Number=Sing|PronType=Dem': {'niisuguses'}, 'DET|Case=Ade|Number=Sing|PronType=Int,Rel': {'missugusel'}, 'PRON|Case=All|Number=Plur|Person=1|PronType=Prs': {'meile'}, 'AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act': {'ole'}, 'DET|Case=Gen|Number=Sing|PronType=Rel': {'millise'}, 'NUM|Case=Ade|Number=Plur|NumForm=Digit|NumType=Card': {'90'}, 'SCONJ|_': {'kui'}, 'VERB|Connegative=Yes|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'viitsi'}, 'VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act': {'võta'}, 'ADJ|Case=Par|Number=Sing|NumForm=Digit|NumType=Ord': {'2000.'}, 'PRON|Case=Par|Number=Sing|PronType=Int,Rel': {'mida'}, 'NOUN|Case=Ade|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'ravituil'}, 'NOUN|Case=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'soovitatuga'}, 'ADJ|Case=Gen|Degree=Pos|Hyph=Yes|Number=Sing': {'Pika-'}, 'AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'on'}, 'NOUN|Case=Ter|Number=Plur': {'peensusteni'}, 'NOUN|Case=Ess|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'poolsurnuna'}, 'PRON|Case=Ter|Number=Sing|PronType=Int,Rel': {'milleni'}, 'PROPN|Abbr=Yes|Case=Ill|Number=Sing': {'LREsse'}, 'ADJ|Case=Ela|Degree=Pos|Number=Plur': {'struktuursetest'}, 'ADJ|Case=Par|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'täiendavat'}, 'AUX|Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass': {'oldud'}, 'NOUN|Abbr=Yes|Case=Ess|Number=Sing': {'FIE-na'}, 'ADJ|Case=Ess|Degree=Pos|Number=Sing': {'vastuolulisena'}, 'PRON|Case=Abl|Number=Plur|PronType=Ind': {'paljudelt'}, 'ADJ|Case=Com|Number=Plur|NumType=Ord': {'80ndatega'}, 'VERB|Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin|Voice=Act': {'liikusid'}, 'AUX|Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'saaksite'}, 'VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act': {'kaasnes'}, 'DET|Case=Tra|Number=Sing|PronType=Dem': {'samaks'}, 'PRON|Case=Par|Number=Plur|Person=3|PronType=Prs': {'neid'}, 'PRON|Case=Gen|Number=Sing|Person=2|PronType=Prs': {'su'}, 'NUM|Case=Com|Number=Sing|NumForm=Digit|NumType=Card': {'0,78'}, 'DET|Case=Ine|Number=Plur|PronType=Ind': {'muudes'}, 'ADJ|Case=Abl|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'olevalt'}, 'ADV|Hyph=Yes': {'sisse-'}, 'ADJ|Case=Par|Degree=Sup|Number=Sing': {'Sobivaimat'}, 'ADJ|Case=Nom|Number=Sing|NumForm=Letter|NumType=Card': {'Teine'}, 'NOUN|Case=Ess|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'kadunutena'}, 'DET|PronType=Tot': {'kogu'}, 'NOUN|Case=Abe|Number=Sing': {'teooriata'}, 'VERB|Tense=Past|VerbForm=Part|Voice=Pass': {'tehtud'}, 'ADJ|Case=Ade|Degree=Sup|Number=Sing': {'kõrgeimal'}, 'NOUN|Case=Ine|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'juhtunus'}, 'PROPN|Case=Tra|Number=Plur': {'Kentaurideks'}, 'PRON|Case=Com|Number=Sing|PronType=Ind': {'mõnega'}, 'ADJ|Case=Tra|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'õnnestunuks'}, 'VERB|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act': {'töötasid'}, 'PROPN|Abbr=Yes|Case=Gen': {'LANTUSe'}, 'NOUN|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'uuritavad'}, 'VERB|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'MÕELGE'}, 'SYM|Abbr=Yes|Hyph=Yes': {'A-'}, 'PRON|Case=All|Number=Sing|PronType=Dem|Reflex=Yes': {'üksteisele'}, 'PRON|Case=Ade|Number=Sing|Person=2|PronType=Prs': {'sul'}, 'ADJ|Case=Par|Degree=Cmp|Number=Plur': {'kõrgemaid'}, 'NUM|Case=Nom|Number=Sing|NumForm=Letter|NumType=Ord': {'sajas'}, 'NOUN|Case=Ter|Number=Sing|PronType=Tot': {'eani'}, 'VERB|Case=Tra|VerbForm=Sup|Voice=Act': {'tasakaalustamaks'}, 'DET|Case=Ela|Number=Sing|PronType=Tot': {'tervest'}, 'PRON|Case=Ill|Number=Plur|Person=3|PronType=Prs': {'neisse'}, 'NOUN|Case=Abe|Number=Plur': {'tagasilangusteta'}, 'ADJ|Case=Nom|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'Enamkasutatav'}, 'ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act': {'saanud'}, 'DET|Case=Ill|Number=Sing|PronType=Tot': {'igasse'}, 'PRON|Case=Nom|Number=Sing|PronType=Int': {'kes'}, 'ADJ|Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass': {'Huvitav'}, 'CCONJ|Foreign=Yes': {'versus'}, 'PRON|Case=Com|Number=Sing|Person=3|PronType=Prs': {'temaga'}, 'NOUN|Abbr=Yes|Case=Ade|Number=Sing': {'BNP-l'}, 'PRON|Case=Ine|Number=Sing|PronType=Ind': {'paljuski'}, 'PRON|Case=Nom|Number=Sing|PronType=Int,Rel': {'mis'}, 'ADJ|Case=Ine|Degree=Cmp|Number=Plur': {'tihedamates'}, 'ADJ|Case=Abl|Degree=Cmp|Number=Sing': {'selgemalt'}, 'PRON|Case=Ill|Number=Plur|PronType=Dem': {'neisse'}, 'PRON|Case=All|Number=Plur|Poss=Yes|PronType=Prs': {'omadele'}, 'NOUN|Case=Par|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'uuritavat'}, 'X|Case=Gen|Number=Sing': {'outcome'}, 'PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs': {'Nad'}, 'VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass': {'suurendata'}, 'ADV|Case=Abl|Degree=Cmp|Number=Sing': {'optimaalsemalt'}, 'PROPN|Tense=Past|VerbForm=Part|Voice=Pass': {'Avatud'}, 'PRON|Case=Ela|Number=Sing|Person=2|PronType=Prs': {'sinust'}, 'ADJ|_': {'prantsuse'}, 'PRON|Case=Com|Number=Sing|Poss=Yes|PronType=Prs': {'omaga'}, 'DET|Case=Gen|Number=Sing|Poss=Yes|PronType=Prs': {'Oma'}, 'NOUN|Case=All|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'deporteeritutele'}, 'NUM|Case=Abl|Number=Sing|NumForm=Digit|NumType=Card': {'100'}, 'NOUN|Case=Ess|Number=Plur': {'põhjustena'}, 'PRON|Case=All|Number=Sing|PronType=Dem': {'sellele'}, 'NOUN|Case=Gen|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'surnu'}, 'ADJ|Case=Abl|Number=Sing|NumForm=Letter|NumType=Ord': {'esimeselt'}, 'ADJ|Case=Nom|Number=Sing|PronType=Rel': {'milline'}, 'ADJ|Case=Gen|Number=Plur|PronType=Rel': {'milliste'}, 'PRON|Case=Gen|Number=Plur|PronType=Dem': {'nende'}, 'PRON|Case=Nom|Number=Plur|Poss=Yes|PronType=Prs': {'omad'}, 'PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs': {'ma'}, 'ADJ|Case=Ade|Number=Plur|PronType=Rel': {'millistel'}, 'PROPN|Case=All|Number=Sing': {'Venemaale'}, 'VERB|Connegative=Yes|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'öelgu'}, 'VERB|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Pass': {'hüvitataks'}, 'NOUN|Case=Ill|Number=Plur': {'masinatesse'}, 'ADJ|Case=Ess|Degree=Pos|Number=Plur': {'võrdväärsetena'}, 'PRON|Case=Gen|Number=Plur|Person=3|PronType=Prs': {'nende'}, 'PRON|Case=All|Number=Plur|Person=2|PronType=Prs': {'teile'}, 'PRON|Case=Ill|Number=Sing|PronType=Ind': {'kellessegi'}, 'NOUN|Case=Gen|Number=Sing|Poss=Yes|PronType=Prs': {'oma'}, 'PRON|Case=Com|Number=Sing|PronType=Dem': {'sellega'}, 'ADJ|Case=Par|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'kavandatavaid'}, 'PRON|Case=Com|Number=Plur|Person=1|PronType=Prs': {'Meiega'}, 'AUX|Case=Ine|VerbForm=Sup|Voice=Act': {'olemas'}, 'NUM|Case=Gen|Number=Sing|NumForm=Digit|NumType=Card': {'12'}, 'AUX|Mood=Qot|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'polevat'}, 'NOUN|Case=Tra|Number=Sing': {'tekitajaks'}, 'NOUN|Case=Par|Hyph=Yes|Number=Sing': {'piimalehma-'}, 'PROPN|Abbr=Yes|Case=Ine|Number=Plur': {'EVPdes'}, 'AUX|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'peaksid'}, 'NOUN|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'saanute'}, 'DET|PronType=Dem': {'sama'}, 'PRON|Case=Abl|Number=Sing|Poss=Yes|PronType=Prs': {'omalt'}, 'VERB|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'Töötagu'}, 'PRON|Case=Com|Number=Plur|PronType=Dem': {'nendega'}, 'ADJ|Case=Ade|Degree=Sup|Number=Plur': {'uusimatel'}, 'PRON|Case=Gen|Number=Sing|PronType=Dem|Reflex=Yes': {'üksteise'}, 'PRON|Case=Com|Number=Plur|Person=3|PronType=Prs': {'nendega'}, 'AUX|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass': {'oldi'}, 'PROPN|Case=Tra|Number=Sing': {'Janiks'}, 'ADJ|Case=Ill|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass': {'loodavasse'}, 'PRON|Case=Ine|Number=Sing|PronType=Tot': {'kõiges'}, 'DET|Case=All|Number=Plur|PronType=Dem': {'sellistele'}, 'ADP|AdpType=Post': {'järgi'}, 'NOUN|Case=Ela|Number=Plur': {'aastatest'}, 'PRON|Case=Par|Number=Plur|PronType=Tot': {'kõiki'}, 'PROPN|Case=Ine|Number=Sing': {'Eestis'}, 'ADJ|Case=Ine|Number=Sing|NumForm=Letter|NumType=Ord': {'kolmandas'}, 'NOUN|Case=Par|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'jooksnuid'}, 'DET|Case=All|Number=Plur|PronType=Ind': {'ühtedele'}, 'ADJ|Case=Ill|Degree=Sup|Number=Sing': {'lähimasse'}, 'SYM|Case=Abl|Number=Sing|NumForm=Digit|NumType=Card': {'%-lt'}, 'NOUN|Case=All|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'ülaltoodule'}, 'ADJ|Case=Ela|Number=Sing|NumForm=Letter|NumType=Ord': {'esimesest'}, 'DET|Case=Ill|Number=Sing|PronType=Ind': {'mingisugusesse'}, 'VERB|VerbForm=Conv': {'arvestades'}, 'NUM|Case=Ela|Number=Plur|NumForm=Letter|NumType=Card': {'sadadest'}, 'NOUN|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'hõivatud'}, 'SYM|Abbr=Yes|Case=Ter|Number=Sing': {'Hg-ni'}, 'ADJ|Case=Ill|Degree=Cmp|Number=Plur': {'odavamatesse'}, 'PRON|Case=Par|Number=Sing|PronType=Rcp': {'üksteist'}, 'ADJ|Case=Ade|Number=Plur|NumForm=Letter|NumType=Ord': {'seitsmekümnendatel'}, 'NOUN|Case=Ine|Number=Sing': {'kvartalis'}, 'NUM|Case=Ine|Number=Sing|NumForm=Letter|NumType=Card': {'kahes'}, 'DET|Case=Gen|Number=Plur|PronType=Ind': {'muude'}, 'DET|Case=Ela|Number=Sing|PronType=Rel': {'millisest'}, 'PROPN|Case=Nom|Number=Sing|NumForm=Letter|NumType=Ord': {'Esimene'}, 'PRON|Case=Ine|Number=Plur|PronType=Ind': {'Paljudes'}, 'ADJ|Case=Nom|Number=Plur|PronType=Dem': {'samad'}, 'NUM|Case=Ine|Number=Plur|NumForm=Letter|NumType=Card': {'tuhandetes'}, 'NUM|Case=Gen|Hyph=Yes|Number=Sing|NumForm=Letter|NumType=Card': {'viie-'}, 'PRON|Case=Par|Number=Sing|PronType=Dem|Reflex=Yes': {'üksteist'}, 'AUX|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act': {'olid'}, 'VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'leiad'}, 'ADJ|Case=Gen|Number=Sing|NumType=Ord': {'teise'}, 'ADJ|Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'mittetöötavad'}, 'NOUN|Case=Abl|Number=Sing': {'töökohalt'}, 'DET|Case=Abl|Number=Sing|PronType=Ind': {'ühelt'}, 'PRON|Case=All|Number=Plur|PronType=Dem': {'teistele'}, 'PRON|Case=Ade|Number=Sing|PronType=Dem': {'igaühel'}, 'PRON|Case=Com|Number=Plur|Poss=Yes|PronType=Prs': {'omadega'}, 'AUX|Mood=Imp|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'ärgu'}, 'DET|Case=Ade|Number=Plur|PronType=Dem': {'neil'}, 'DET|Case=Par|Number=Sing|PronType=Rel': {'millist'}, 'VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act': {'taastu'}, 'PRON|Case=Par|Number=Sing|PronType=Ind': {'midagi'}, 'PROPN|Case=Ine|Number=Plur': {'Ühendriikides'}, 'NOUN|Case=Gen|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'uuritava'}, 'ADJ|Case=Nom|Degree=Pos|Number=Sing|VerbForm=Part|Voice=Act': {'Nuuksuv'}, 'PRON|Case=Abl|Number=Sing|PronType=Int,Rel': {'millelt'}, 'PRON|Case=Par|Number=Sing|PronType=Rel': {'mida'}, 'NOUN|Case=Add|Number=Sing': {'tööhõivetalitusse'}, 'ADJ|Case=Ine|Degree=Sup|Number=Sing': {'suurimas'}, 'AUX|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'saate'}, 'ADJ|Case=Ela|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'domineerivast'}, 'AUX|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'Olge'}, 'NUM|Case=Gen|Number=Plur|NumType=Card': {'poolte'}, 'PRON|Case=Abl|Number=Sing|PronType=Ind': {'ühelt'}, 'PRON|Case=Ill|Number=Plur|PronType=Int,Rel': {'millesse'}, 'PRON|Case=Nom|Number=Sing|PronType=Ind': {'muu'}, 'DET|Case=Ine|Number=Plur|PronType=Tot': {'mitmetes'}, 'ADJ|Case=Gen|Number=Sing': {'ajutise'}, 'ADJ|Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'baseeruva'}, 'VERB|Mood=Ind|Polarity=Neg|Tense=Imp|VerbForm=Fin|Voice=Act': {'polnud'}, 'DET|Case=Ade|Number=Plur|PronType=Ind': {'mingitel'}, 'ADJ|Case=Nom|Degree=Pos|Number=Plur': {'mitteaktiivsed'}, 'NOUN|Case=Com|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'Eelnevaga'}, 'NOUN|Abbr=Yes|Case=Tra|Number=Sing': {'E4-ks'}, 'NUM|Case=Gen|Number=Sing|NumForm=Roman|NumType=Ord': {'I'}, 'AUX|Mood=Imp|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'ärgem'}, 'AUX|Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'ära'}, 'ADJ|Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'endassetõmbunud'}, 'NUM|Case=Ter|Number=Sing|NumForm=Digit|NumType=Card': {'9,8'}, 'NOUN|Number=Sing': {'nurgas'}, 'DET|Case=Ade|Number=Plur|PronType=Tot': {'kõigil'}, 'ADV|PronType=Int,Rel': {'kus'}, 'PRON|Case=Nom|Number=Plur|PronType=Rel': {'millised'}, 'PRON|Case=All|Number=Sing|Person=3|PronType=Prs': {'talle'}, 'ADJ|Case=Gen|Number=Plur|NumForm=Roman|NumType=Ord': {'III'}, 'ADJ|Case=Nom|Degree=Cmp|Number=Plur|VerbForm=Part': {'eelistatavamad'}, 'ADJ|Case=Ine|Number=Sing|NumForm=Digit|NumType=Ord': {'4.'}, 'ADJ|Case=Ine|Number=Sing|NumType=Ord': {'8-ndas'}, 'AUX|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act': {'olin'}, 'NOUN|Case=Ade|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'uuritavatel'}, 'ADJ|Case=All|Degree=Pos|Number=Plur': {'kodumaistele'}, 'ADJ|Case=Nom|Number=Sing|Poss=Yes|PronType=Prs': {'oma'}, 'NOUN|Case=Ess|Number=Sing': {'näitajana'}, 'ADJ|Case=Tra|Degree=Pos|Number=Sing': {'peamiseks'}, 'PROPN|Case=Ade|Number=Sing|NumForm=Roman|NumType=Ord': {'ADV'}, 'PRON|Case=Gen|Number=Plur|Poss=Yes|PronType=Prs': {'omaeneste'}, 'PROPN|Abbr=Yes|Case=Ade|Number=Sing': {'TV3-l'}, 'AUX|Mood=Qot|Tense=Pres|VerbForm=Fin|Voice=Act': {'olevat'}, 'PRON|Case=Abl|Number=Plur|PronType=Dem': {'teistelt'}, 'PRON|Case=Add|Number=Sing|PronType=Dem': {'teise'}, 'PRON|Case=Ill|Number=Plur|PronType=Ind': {'mitmetesse'}, 'PRON|Case=Ade|Number=Plur|Person=3|PronType=Prs': {'neil'}, 'VERB|Case=Abe|VerbForm=Sup|Voice=Act': {'kartmata'}, 'PRON|Case=Ess|Number=Sing|PronType=Dem': {'Teisena'}, 'NOUN|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass': {'Sõbrad-tuttavad'}, 'PRON|Case=Com|Number=Sing|Person=1|PronType=Prs': {'minuga'}, 'NOUN|Case=Ade|Number=Plur': {'otseinvesteeringutel'}, 'VERB|Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act': {'väheneks'}, 'ADJ|Case=Ter|Number=Plur|NumType=Ord': {'1990ndateni'}, 'ADJ|Case=Ine|Degree=Pos|Number=Sing': {'kõrges'}, 'PROPN|Case=Ade|Number=Sing': {'Iirimaal'}, 'PRON|Case=Ade|Number=Plur|PronType=Ind': {'mitmesugustel'}, 'ADJ|Case=Tra|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'põhjendatuiks'}, 'ADJ|Case=Nom|Number=Sing|NumForm=Digit|NumType=Ord': {'2.'}, 'VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'jätkub'}, 'NUM|Case=All|Number=Sing|NumForm=Digit|NumType=Card': {'26,7'}, 'SYM|Case=Ela|Number=Sing|NumForm=Digit|NumType=Card': {'%'}, 'PRON|Number=Plur|PronType=Dem': {'teistsuguseid'}, 'ADJ|Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord': {'1996.'}, 'DET|Case=Nom|Number=Plur|PronType=Ind': {'mõned'}, 'ADJ|Case=Com|Degree=Pos|Number=Sing': {'viimasega'}, 'NUM|Case=Ela|Number=Sing|NumType=Card': {'-9,9'}, 'NOUN|Case=Ine|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'segatus'}, 'NUM|Case=Ade|Number=Sing|NumForm=Letter|NumType=Card': {'kaheksal'}, 'ADJ|Case=Add|Number=Sing|NumForm=Digit|NumType=Ord': {'2002.'}, 'DET|Case=Nom|Number=Sing|PronType=Ind': {'Üks'}, 'ADJ|Case=Ela|Degree=Cmp|Number=Plur': {'odavamatest'}, 'ADJ|Case=Tra|Number=Sing|PronType=Ind': {'mingisuguseks'}, 'VERB|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act': {'välistanuks'}, 'NUM|NumForm=Digit|NumType=Card': {'1995-2000'}, 'ADJ|Case=Abl|Degree=Cmp|Number=Plur': {'noorematelt'}, 'PROPN|Case=Ill|Number=Plur': {'Emadesse'}, 'PROPN|Hyph=Yes': {'Haridus-'}, 'AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'oled'}, 'NOUN|Case=Ade|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'juhtunul'}, 'PRON|Case=Ade|Number=Plur|Person=2|PronType=Prs': {'teil'}, 'AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act': {'oli'}, 'ADJ|Case=Tra|Degree=Cmp|Number=Plur': {'sagedamateks'}, 'AUX|Connegative=Yes|Mood=Qot|Tense=Pres|VerbForm=Fin|Voice=Act': {'võivat'}, 'NOUN|Case=Par|Number=Sing': {'aastat'}, 'ADJ|Case=Gen|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'ilmajäänute'}, 'ADP|AdpType=Prep|Hyph=Yes': {'siin-'}, 'ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass': {'ettenähtud'}, 'PRON|Case=Com|Number=Sing|PronType=Dem|Reflex=Yes': {'üksteisega'}, 'AUX|Case=Ela|VerbForm=Sup|Voice=Act': {'olemast'}, 'ADJ|Case=Nom|Number=Plur': {'mõnedki'}, 'PRON|Case=Tra|Number=Sing|PronType=Prs|Reflex=Yes': {'iseendaks'}, 'VERB|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Pass': {'kasutata'}, 'DET|Case=Par|Number=Sing|PronType=Ind': {'üht'}, 'PRON|Case=Com|Number=Sing|PronType=Int,Rel': {'millega'}, 'ADJ|Case=Ter|Degree=Pos|Number=Sing': {'Homseni'}, 'PRON|Case=Ade|Number=Sing|Person=3|PronType=Prs': {'tal'}, 'ADJ|Case=Gen|Number=Sing|NumForm=Letter|NumType=Ord': {'teise'}, 'ADJ|Case=All|Number=Sing|NumForm=Letter|NumType=Ord': {'esimesele'}, 'PRON|Case=Com|Number=Plur|PronType=Ind': {'paljudega'}, 'VERB|Mood=Cnd|Tense=Past|VerbForm=Fin|Voice=Act': {'tähendanuks'}, 'VERB|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin': {'istuvad/istusid'}, 'ADJ|Case=Gen|Number=Sing|PronType=Rel': {'millise'}, 'PRON|Case=Ela|Number=Sing|PronType=Dem': {'sellest'}, 'NUM|Case=Nom|Hyph=Yes|Number=Sing|NumType=Card': {'3-'}, 'ADJ|Case=Tra|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'tuntuks'}, 'ADJ|Case=Ess|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'sobivatena'}, 'VERB|Connegative=Yes|Mood=Cnd|Tense=Past|VerbForm=Fin|Voice=Act': {'vallanuks'}, 'VERB|Mood=Qot|Tense=Pres|VerbForm=Fin|Voice=Pass': {'öeldavat'}, 'NOUN|Case=Nom|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'Eeltoodu'}, 'ADJ|Case=Nom|Degree=Cmp|Number=Sing': {'madalam'}, 'NUM|Case=Gen|Number=Sing|NumType=Card': {'-1,0'}, 'PRON|Case=Par|Number=Sing|Person=3|PronType=Prs': {'teda'}, 'ADJ|Case=Ade|Number=Plur|NumForm=Digit|NumType=Ord': {'1970.'}, 'PRON|Case=Ela|Number=Plur|PronType=Rel': {'millistest'}, 'VERB|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act': {'eeldaks'}, 'ADJ|Case=Ess|Degree=Cmp|Number=Plur': {'parematena'}, 'ADJ|Case=Tra|Degree=Pos|Hyph=Yes|Number=Plur': {'otsekohesteks-'}, 'AUX|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'Peaksin'}, 'PRON|Case=Gen|Number=Sing|PronType=Tot': {'Mõlema'}, 'PROPN|Case=Gen|Number=Sing': {'Eesti'}, 'NOUN|Case=All|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'uuritavatele'}, 'PRON|Case=Abl|Number=Sing|Person=3|PronType=Prs': {'Temalt'}, 'PRON|Case=Gen|Number=Sing|PronType=Rcp': {'üksteise'}, 'PRON|Case=All|Number=Sing|PronType=Tot': {'igale'}, 'PRON|Case=Ine|Number=Plur|Person=3|PronType=Prs': {'neis'}, 'NOUN|Case=Ela|Number=Sing': {'üldtasemest'}, 'PRON|Case=Gen|Number=Plur|PronType=Ind': {'muude'}, 'PRON|Case=Ine|Number=Sing|Person=3|PronType=Prs': {'temas'}, 'PRON|Case=Ine|Number=Sing|PronType=Prs|Reflex=Yes': {'endas'}, 'ADJ|Case=All|Degree=Pos|Number=Sing': {'hüppelisele'}, 'DET|Case=Ela|Number=Plur|PronType=Tot': {'kõigist'}, 'PRON|Case=Tra|Number=Sing|PronType=Ind': {'üheks'}, 'ADJ|Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'teatud-tuntud'}, 'AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'võib'}, 'ADJ|Case=Nom|Number=Plur|NumForm=Roman|NumType=Ord': {'IV'}, 'PRON|Case=Abl|Number=Plur|PronType=Int,Rel': {'millelt'}, 'ADJ|Case=Gen|Degree=Sup|Number=Plur': {'kauneimate'}, 'PRON|Case=All|Number=Plur|PronType=Ind': {'paljudele'}, 'ADJ|Case=Ade|Number=Plur|NumType=Ord': {'70ndatel'}, 'AUX|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'peaks'}, 'ADJ|Case=Gen|Degree=Pos|Number=Sing': {'töötuseelse'}, 'NOUN|Case=Tra|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'väljavalituteks'}, 'ADJ|Case=Nom|Degree=Pos|Number=Sing': {'aastakeskmine'}, 'VERB|Mood=Qot|Tense=Past|VerbForm=Fin|Voice=Act': {'põhjendanuvat'}, 'PRON|Case=Tra|Number=Plur|PronType=Ind': {'paljudeks'}, 'DET|Case=All|Number=Plur|PronType=Tot': {'kõigile'}, 'ADJ|Case=Ine|Number=Sing': {'kummaski'}, 'ADJ|Case=Gen|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass': {'loodavate'}, 'PRON|Case=Nom|Number=Plur|PronType=Dem': {'teistsugused'}, 'PRON|Case=Ine|Number=Plur|PronType=Int,Rel': {'milles'}, 'ADJ|Case=Nom|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'nimetatud'}, 'PRON|Case=Ade|Number=Sing|Poss=Yes|PronType=Prs': {'omal'}, 'ADJ|Case=Gen|Number=Sing|PronType=Dem': {'sellise'}, 'DET|Case=Tra|Number=Sing|PronType=Tot': {'igaks'}, 'PRON|Case=Gen|Number=Sing|PronType=Prs|Reflex=Yes': {'enda'}, 'PROPN|Abbr=Yes|Hyph=Yes': {'RDF-'}, 'NOUN|Abbr=Yes|Case=Nom|Number=Sing': {'EE'}, 'DET|Case=Gen|Number=Sing|PronType=Int,Rel': {'millise'}, 'VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass': {'hakati'}, 'NUM|Case=Par|Number=Sing|NumType=Card': {'kahtteistkümmend'}, 'ADJ|Case=Par|Number=Plur|NumType=Ord': {'1950-60ndate'}, 'DET|Case=Gen|Number=Sing|PronType=Dem': {'selle'}, 'NOUN|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'kinnipeetavate'}, 'VERB|Mood=Imp|Tense=Pres|VerbForm=Fin|Voice=Pass': {'munetagu'}, 'PRON|Case=All|Number=Plur|PronType=Tot': {'kõigile'}, 'NOUN|Case=Nom|Number=Plur|NumForm=Letter': {'paarid'}, 'VERB|Tense=Past|VerbForm=Part|Voice=Act': {'loonud'}, 'DET|Case=Nom|Number=Sing|NumForm=Letter|PronType=Ind': {'üks'}, 'ADJ|Case=Ill|Degree=Cmp|Number=Sing': {'terviklikumasse'}, 'CCONJ|_': {'ja'}, 'ADJ|Case=Ess|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'koosnevana'}, 'NUM|Case=Par|Number=Sing|NumForm=Letter|NumType=Ord': {'esimest'}, 'DET|Case=Ine|Number=Sing|PronType=Ind': {'ühes'}, 'NUM|Case=Par|Number=Sing|NumForm=Letter|NumType=Card': {'tuhat'}, 'PRON|Case=All|Number=Sing|PronType=Prs|Reflex=Yes': {'endale'}, 'VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass': {'tahetakse'}, 'NOUN|Abbr=Yes|Case=All|Number=Plur': {'PEdele'}, 'ADJ|Case=Abe|Degree=Pos|VerbForm=Sup|Voice=Act': {'tekitamata'}, 'DET|Case=Ill|Number=Sing|PronType=Dem': {'Sellesse'}, 'ADJ|Case=Tra|Degree=Sup|Number=Plur': {'Suurimateks'}, 'ADJ|Case=Ela|Degree=Cmp|Number=Sing': {'kergemast'}, 'ADJ|Case=Nom|Number=Sing|PronType=Int,Rel': {'missugune'}, 'ADJ|Degree=Pos|Hyph=Yes': {'uni-'}, 'ADJ|Case=Gen|Number=Plur|NumForm=Letter|NumType=Ord': {'kolmandate'}, 'DET|Case=Ine|Number=Sing|PronType=Dem': {'selles'}, 'PRON|Case=All|Number=Sing|PronType=Rcp|Reflex=Yes': {'teineteisele'}, 'ADJ|Case=Par|Number=Plur|NumForm=Digit|NumType=Ord': {'1.'}, 'PRON|Case=Ela|Number=Sing|Poss=Yes|PronType=Prs': {'omast'}, 'ADJ|Case=Tra|Number=Sing|PronType=Rel': {'Milliseks'}, 'VERB|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act': {'arvasin'}, 'PROPN|Case=Abe|Number=Sing': {'Lufthansata'}, 'NUM|Case=Gen|Number=Sing|NumForm=Letter|NumType=Card|PronType=Ind': {'ühe'}, 'ADJ|Case=Par|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'kaetuid'}, 'NUM|Case=Nom|Number=Plur|NumType=Card': {'pooled'}, 'AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'pean'}, 'ADJ|Case=Ela|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'otsivatest'}, 'PRON|Case=Ill|Number=Plur|Poss=Yes|PronType=Prs': {'omadesse'}, 'VERB|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'Mine'}, 'AUX|Mood=Cnd|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'poleks'}, 'PRON|Case=Ade|Number=Plur|PronType=Prs|Reflex=Yes': {'endil'}, 'VERB|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'pole'}, 'DET|Case=Nom|Number=Sing|PronType=Tot': {'Kõik'}, 'ADJ|Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'Kõrgenenud'}, 'DET|Case=Ill|Number=Plur|PronType=Tot': {'kõigisse'}, 'VERB|Mood=Imp|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act': {'olgu'}, 'ADJ|Case=Nom|Number=Sing|NumForm=Letter|NumType=Ord': {'kolmas'}, 'ADJ|NumForm=Roman|NumType=Ord': {'II'}, 'VERB|Case=All|VerbForm=Sup|Voice=Act': {'minema'}, 'VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'eeldame'}, 'PRON|Case=Ill|Number=Sing|PronType=Prs|Reflex=Yes': {'endasse'}, 'ADV|_': {'rohkem'}, 'ADJ|Case=Ine|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'järgnevas'}, 'PRON|Case=Gen|Number=Sing|Poss=Yes|PronType=Prs': {'oma'}, 'AUX|Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act': {'Olin'}, 'PRON|Case=Abl|Number=Plur|Person=1|PronType=Prs': {'meilt'}, 'VERB|Connegative=Yes|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'nimetagem'}, 'PRON|Case=Ade|Number=Sing|PronType=Tot': {'Mõlemal'}, 'PROPN|Abbr=Yes|Case=Gen|Number=Sing': {'LANTUSe'}, 'NOUN|NumType=Card': {'IL-4'}, 'PRON|Case=Ter|Number=Sing|PronType=Dem': {'Selleni'}, 'NOUN|Case=Ela|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'hõivatutest'}, 'SYM|Abbr=Yes|Case=Tra|Number=Sing': {'A-ks'}, 'PROPN|Case=Par|Number=Sing|NumForm=Letter|NumType=Ord': {'Teist'}, 'PRON|Case=Gen|Number=Plur|Person=1|PronType=Prs': {'meie'}, 'PROPN|Case=All|Number=Plur': {'Põldsamitele'}, 'DET|Case=Ela|Number=Plur|PronType=Dem': {'neist'}, 'NOUN|Case=Ill|Number=Sing': {'tehnoloogiasse'}, 'ADJ|Case=Ade|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'eelneval'}, 'PROPN|Case=Ela|Number=Sing': {'Eestist'}, 'PROPN|Abbr=Yes': {'ESA'}, 'ADJ|Case=Par|Number=Sing|NumType=Ord': {'teist'}, 'ADJ|Case=Gen|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'iseloomustavate'}, 'PROPN|Case=Com|Number=Plur': {'Sternbergidega'}, 'VERB|Mood=Ind|Tense=Imp|VerbForm=Fin|Voice=Pass': {'sõidutati'}, 'VERB|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'Julgeksin'}, 'NUM|Case=All|Number=Sing|NumForm=Letter|NumType=Card': {'kuuele'}, 'NUM|Case=Ill|Number=Plur|NumForm=Letter|NumType=Card': {'miljarditesse'}, 'DET|Case=Par|Number=Sing|PronType=Tot': {'iga'}, 'NOUN|Case=Gen|Number=Plur': {'trendide'}, 'PRON|Case=Abe|Number=Sing|PronType=Dem': {'selletagi'}, 'CCONJ|Case=Gen|Number=Sing': {'või'}, 'PRON|Case=Nom|Number=Sing|PronType=Dem': {'see'}, 'ADJ|Tense=Past|VerbForm=Part|Voice=Act': {'toimunud'}, 'ADJ|Case=Par|Number=Sing': {'kumbagi'}, 'ADJ|Case=Gen|Degree=Pos|Number=Sing|VerbForm=Part|Voice=Act': {'mustendava'}, 'ADJ|Case=Ess|Number=Sing|PronType=Rel': {'millisena'}, 'PRON|Case=Ill|Number=Sing|PronType=Int,Rel': {'millesse'}, 'ADJ|Case=Ess|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'mõõdetuna'}, 'VERB|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act': {'lõpetasite'}, 'AUX|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'pole'}, 'NOUN|Case=Nom|Number=Sing|PronType=Tot': {'Kõik'}, 'NOUN|Case=All|Number=Plur': {'teenustele'}, 'PROPN|Case=Gen|Number=Sing|PronType=Dem': {'teise'}, 'ADJ|Tense=Pres|VerbForm=Part|Voice=Pass': {'Huvitav'}, 'NOUN|Case=Ade|Number=Sing': {'põhitööl'}, 'ADJ|Case=Ill|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'tegelevasse'}, 'VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'soovivad'}, 'ADJ|Case=Ade|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'selgrootutel'}, 'ADJ|Case=Ter|Number=Sing|NumForm=Letter|NumType=Ord': {'neljandani'}, 'ADJ|Case=Ela|Degree=Pos|Number=Sing': {'üldisest'}, 'ADJ|Case=Tra|Degree=Sup|Number=Sing': {'nõrgimaks'}, 'ADJ|Case=Par|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass': {'odavat'}, 'NUM|Case=Ter|Number=Sing|NumForm=Letter|NumType=Card': {'kolmeni'}, 'ADP|AdpType=Prep': {'pärast'}, 'PRON|Case=Ine|Number=Plur|PronType=Prs|Reflex=Yes': {'endis'}, 'ADJ|NumForm=Digit|NumType=Ord': {'15-74.'}, 'PROPN|Case=Ade|Number=Plur': {'Vahemeremail'}, 'DET|Case=Com|Number=Plur|PronType=Tot': {'kõigiga'}, 'ADJ|Case=Nom|Number=Plur|PronType=Rel': {'millised'}, 'DET|Case=All|Number=Sing|PronType=Ind': {'mingile'}, 'ADJ|Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass': {'Huvitava'}, 'NOUN|Case=Gen|Number=Sing|PronType=Tot': {'ea'}, 'PROPN|Case=Abl|Number=Sing': {'Päikeselt'}, 'NOUN|Case=All|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'edasijõudnutele'}, 'NUM|Case=Gen|Number=Plur|NumForm=Letter|NumType=Card': {'poolte'}, 'NOUN|Case=Nom|Number=Sing|NumType=Card': {'IL-5'}, 'NOUN|Case=Par|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'olemasolevaid'}, 'DET|Case=Ess|Number=Sing|PronType=Ind': {'ühena'}, 'ADJ|Case=Gen|Number=Plur|NumType=Ord': {'90ndate'}, 'PROPN|Tense=Past|VerbForm=Part|Voice=Act': {'Ühinenud'}, 'NOUN|Case=Nom|Hyph=Yes|Number=Sing': {'alg-'}, 'NOUN|Case=Abl|Number=Plur': {'tegevusaladelt'}, 'PRON|Case=Abl|Number=Sing|PronType=Tot': {'mõlemalt'}, 'DET|Case=Nom|Number=Plur|PronType=Int,Rel': {'missugused'}, 'NUM|Case=Par|Number=Sing|NumForm=Digit|NumType=Card': {'2/3'}, 'PRON|Case=Ade|Number=Sing|Person=1|PronType=Prs': {'mul'}, 'AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass': {'ollakse'}, 'PRON|Case=Nom|Number=Plur|Person=2|PronType=Prs': {'te'}, 'AUX|Case=Ill|VerbForm=Sup|Voice=Act': {'olema'}, 'DET|Case=Par|Number=Plur|PronType=Tot': {'kõiki'}, 'VERB|Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act': {'avaldunud'}, 'CCONJ|Abbr=Yes': {'e'}, 'NOUN|Case=All|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'uuritavale'}, 'ADJ|NumType=Ord': {'VII'}, 'PRON|Case=Com|Number=Sing|PronType=Rcp': {'üksteisega'}, 'PRON|Case=Par|Number=Plur|Poss=Yes|PronType=Prs': {'omi'}, 'NOUN|Case=Ter|Number=Sing': {'lõpuni'}, 'ADJ|Case=All|Number=Plur|PronType=Rel': {'millistele'}, 'NOUN|Abbr=Yes': {'a.'}, 'PRON|Case=Nom|Number=Sing|PronType=Rel': {'Milline'}, 'PRON|Case=All|Number=Plur|Person=3|PronType=Prs': {'neile'}, 'NOUN|Case=Ela|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'osalenutest'}, 'VERB|Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act': {'viskusid'}, 'ADJ|Case=Abe|Degree=Pos|Tense=Pres|VerbForm=Sup|Voice=Act': {'tasumata'}, 'ADJ|Case=Abl|Degree=Pos|Number=Plur': {'vanadelt'}, 'ADJ|Case=Par|Number=Sing|PronType=Int,Rel': {'Missugust'}, 'AUX|Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act': {'olnud'}, 'VERB|Case=Ill|VerbForm=Sup|Voice=Act': {'võtma'}, 'NUM|Case=Com|Number=Sing|NumForm=Letter|NumType=Card': {'viiega'}, 'PRON|Case=All|Number=Sing|PronType=Ind': {'kellelegi'}, 'VERB|Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act': {'Väljusin'}, 'VERB|Mood=Qot|Tense=Pres|VerbForm=Fin|Voice=Act': {'reageerivat'}, 'PRON|Case=Ess|Number=Sing|PronType=Int,Rel': {'kellena'}, 'PRON|Case=Ela|Number=Sing|PronType=Rcp|Reflex=Yes': {'teineteisest'}, 'ADJ|Case=Gen|Number=Sing|NumForm=Digit|NumType=Ord': {'1999.'}, 'ADJ|Degree=Pos|VerbForm=Part|Voice=Act': {'Valgustatud'}, 'NUM|Case=Nom|Hyph=Yes|Number=Sing|NumForm=Letter|NumType=Card': {'kahe-'}, 'PRON|Case=Com|Number=Plur|PronType=Int,Rel': {'millega'}, 'PRON|Case=Ter|Number=Plur|Person=1|PronType=Prs': {'meieni'}, 'ADJ|Case=Par|Degree=Cmp|Number=Sing': {'Pikemat'}, 'NUM|Case=Ine|Number=Sing|NumForm=Digit|NumType=Card': {'10'}, 'PRON|Case=Com|Number=Sing|PronType=Rel': {'kummaga'}, 'ADJ|Case=Nom|Number=Sing': {'van'}, 'PRON|Case=Abl|Number=Sing|PronType=Dem': {'Teiselt'}, 'ADJ|Case=Ine|Number=Sing|NumForm=Roman|NumType=Ord': {'II'}, 'DET|Case=Ill|Number=Plur|PronType=Dem': {'neisse'}, 'NOUN|Case=Nom|Number=Plur|VerbForm=Part': {'tänavad'}, 'VERB|Connegative=Yes|Mood=Ind|Tense=Imp|VerbForm=Fin|Voice=Act': {'lahkunud'}, 'DET|Case=All|Number=Sing|PronType=Tot': {'igale'}, 'NOUN|Case=Gen|Number=Sing': {'meetodi'}, 'VERB|Mood=Ind|Tense=Pres|VerbForm=Fin': {'näikse'}, 'NOUN|Abbr=Yes|Case=Nom|Number=Plur': {'PEd'}, 'ADJ|Degree=Pos|Number=Sing': {'kappidevahelisse'}, 'AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act': {'olid'}, 'NOUN|Case=Ade|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'nähtul'}, 'ADJ|Case=Ade|Number=Sing|PronType=Rel': {'millisel'}, 'PRON|Case=Par|Number=Sing|PronType=Prs|Reflex=Yes': {'end'}, 'ADJ|Case=Par|Number=Plur|NumForm=Letter|NumType=Ord': {'esimesi'}, 'PRON|Case=Par|Number=Sing|PronType=Tot': {'mõlemat'}, 'VERB|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'saate'}, 'ADJ|Case=Abe|VerbForm=Sup|Voice=Act': {'saamata'}, 'VERB|Mood=Cnd|Tense=Past|VerbForm=Fin|Voice=Pass': {'grillituks'}, 'ADJ|Case=Ine|Degree=Pos|Number=Sing|VerbForm=Part|Voice=Act': {'mustendavas'}, 'ADJ|Case=Add|Degree=Pos|Number=Sing': {'riiklikku'}, 'ADJ|Case=Par|Degree=Pos|Number=Sing|VerbForm=Part|Voice=Act': {'lippavat'}, 'ADJ|Case=Gen|Number=Sing|NumForm=Roman|NumType=Ord': {'II'}, 'ADJ|Case=Ade|Degree=Pos|Number=Plur': {'välismaistel'}, 'PRON|Case=Abe|Number=Sing|Person=1|PronType=Prs': {'minuta'}, 'AUX|Mood=Imp|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'ärge'}, 'PRON|Case=Ill|Number=Sing|PronType=Tot': {'mõlemasse'}, 'PRON|Case=Tra|Number=Sing|PronType=Tot': {'kõigeks'}, 'ADJ|Abbr=Yes': {'nn'}, 'DET|Case=Gen|Number=Sing|PronType=Ind': {'Ühe'}, 'NOUN|Case=All|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'tulnule'}, 'PRON|Case=Gen|Number=Plur|PronType=Prs|Reflex=Yes': {'endi'}, 'DET|Case=Nom|Number=Plur|PronType=Dem': {'need'}, 'PRON|Case=Par|Number=Sing|Person=1|PronType=Prs': {'mind'}, 'ADJ|Case=Abl|Number=Sing': {'töötult'}, 'NOUN|Case=All|Number=Sing': {'koduturule'}, 'NOUN|Case=Par|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'tänu'}, 'PRON|Case=Ela|Number=Sing|PronType=Prs|Reflex=Yes': {'endast'}, 'ADJ|Case=Ela|Number=Plur|NumForm=Letter|NumType=Ord': {'kolmandatest'}, 'NUM|Abbr=Yes|NumForm=Letter|NumType=Card': {'milj.'}, 'PRON|Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes': {'ise'}, 'DET|Case=Tra|Number=Sing|PronType=Ind': {'üheks'}, 'ADJ|Case=Par|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass': {'huvitavaid'}, 'DET|Case=Ela|Number=Plur|PronType=Ind': {'mingitest'}, 'PRON|Case=Gen|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes': {'omaenda'}, 'DET|Case=Ine|Number=Sing|PronType=Rel': {'millises'}, 'ADJ|Case=Ela|Number=Sing|NumType=Ord': {'1670-datest'}, 'AUX|Mood=Imp|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act': {'olgu'}, 'NUM|Case=Tra|Number=Sing|NumForm=Digit|NumType=Card': {'2000'}, 'AUX|Polarity=Neg': {'ei'}, 'ADJ|Case=Ess|Degree=Cmp|Number=Sing': {'targemana'}, 'AUX|Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act': {'olid'}, 'SYM|Case=Par|Number=Sing|NumForm=Digit|NumType=Card': {'%'}, 'NUM|Case=Abl|Number=Sing|NumForm=Letter|NumType=Card': {'kolmelt'}, 'ADJ|Case=Par|Number=Sing|PronType=Dem': {'Samasugust'}, 'PRON|Case=Ela|Number=Sing|PronType=Rcp': {'üksteisest'}, 'ADJ|Case=Com|Degree=Pos|Number=Plur': {'Viimastega'}, 'AUX|VerbForm=Inf': {'olla'}, 'PROPN|NumType=Card': {'Sputnik-1'}, 'DET|Case=Nom|Number=Sing|PronType=Dem': {'see'}, 'VERB|Abbr=Yes|Mood=Imp|VerbForm=Fin': {'vt'}, 'NUM|Case=Ade|Number=Sing|NumType=Card': {'poolel'}, 'PROPN|Case=Ela|Number=Plur': {'Sudokudest'}, 'PRON|Case=Ine|Number=Plur|PronType=Dem': {'Neis'}, 'ADJ|Tense=Past|VerbForm=Part|Voice=Pass': {'pakutud'}, 'PRON|Case=Ela|Number=Sing|Person=1|PronType=Prs': {'minust'}, 'INTJ|_': {'Ah'}, 'NUM|Case=Nom|Number=Sing|NumForm=Digit|NumType=Card': {'6'}, 'PRON|Case=Par|Number=Sing|PronType=Dem': {'seda'}, 'ADJ|Case=Ela|Number=Plur|NumType=Ord': {'70ndaist'}, 'ADJ|Case=Par|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'õnnestunut'}, 'PROPN|Abbr=Yes|Case=All|Number=Sing': {'ÜRO-le'}, 'NUM|Case=Nom|Number=Sing|NumType=Card': {'-0,65'}, 'PRON|Case=Par|Number=Plur|PronType=Ind': {'muid'}, 'DET|Case=Ine|Number=Sing|PronType=Tot': {'mõlemas'}, 'DET|Case=Ela|Number=Sing|PronType=Ind': {'mõnest'}, 'DET|Case=Add|Number=Sing|PronType=Ind': {'mitmesse'}, 'ADJ|Case=Ela|Number=Plur|PronType=Dem': {'taolistest'}, 'NOUN|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'hõivatute'}, 'NOUN|Abbr=Yes|Case=Ess|Number=Plur': {'DVD-dena'}, 'ADJ|Case=Gen|Number=Plur|PronType=Dem': {'nendesamade'}, 'AUX|Mood=Imp|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'ärgu'}, 'NUM|Case=Ill|Number=Sing|NumForm=Letter|NumType=Card': {'esikaheksasse'}, 'NOUN|Abbr=Yes|Case=Ill|Number=Sing': {'USBsse'}, 'ADJ|Case=Tra|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'domineerivaiks'}, 'ADJ|Case=Nom|Degree=Pos|Hyph=Yes|Number=Sing': {'täis-'}, 'AUX|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act': {'oli'}, 'PROPN|Abbr=Yes|Case=Ine|Number=Sing': {'OECD-s'}, 'PRON|Case=Ade|Number=Plur|PronType=Int,Rel': {'kellel'}, 'NUM|Hyph=Yes|NumType=Card': {'2000-'}, 'ADJ|Case=Abl|Number=Sing|NumType=Ord': {'esimeselt'}, 'NOUN|Case=Par|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'hõivatuid'}, 'PRON|Case=Ter|Number=Plur|Person=2|PronType=Prs': {'teieni'}, 'X|Case=Nom|Number=Sing': {'pruritus'}, 'PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs': {'me'}, 'ADV|VerbForm=Part': {'märgatavamalt'}, 'PRON|Case=Ela|Number=Sing|PronType=Int,Rel': {'millest'}, 'PROPN|Case=Gen|Hyph=Yes|Number=Sing': {'Kunsti-'}, 'PRON|Case=Par|Number=Sing|PronType=Rcp|Reflex=Yes': {'teineteist'}, 'ADJ|Case=Ela|Degree=Sup|Number=Plur': {'parimaist'}, 'PRON|Case=Gen|Number=Sing|Person=1|PronType=Prs': {'minu'}, 'PRON|Case=Ter|Number=Sing|Person=3|PronType=Prs': {'temani'}, 'DET|Case=Abl|Number=Sing|PronType=Tot': {'igalt'}, 'PRON|Case=Com|Number=Sing|PronType=Tot': {'kõigega'}, 'NUM|Case=Gen|Hyph=Yes|Number=Sing|NumType=Card': {'ühe-'}, 'NOUN|Case=Gen|Hyph=Yes|Number=Sing': {'magistri-'}, 'NOUN|Abbr=Yes|Case=Gen|Number=Plur': {'PEde'}, 'VERB|VerbForm=Inf': {'töötada'}, 'VERB|Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass': {'rakendatud'}, 'ADJ|Case=Ela|Number=Plur|NumForm=Digit|NumType=Ord': {'1980.'}, 'NUM|Case=Ine|Number=Sing|NumType=Card': {'kuus'}, 'PROPN|Case=Gen|Number=Plur': {'Tuleviku-uuringute'}, 'NOUN|Case=Ade|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'liitunutel'}, 'AUX|Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'oleksime'}, 'PRON|Case=Com|Number=Sing|PronType=Prs|Reflex=Yes': {'endaga'}, 'PRON|Case=Ade|Number=Plur|PronType=Tot': {'Kõigil'}, 'ADJ|Case=All|Number=Sing|NumForm=Digit|NumType=Ord': {'17.'}, 'PROPN|Case=Com|Number=Sing': {'Liiduga'}, 'NOUN|Abbr=Yes|Case=All|Number=Sing': {'DHA-le'}, 'ADJ|Case=Nom|Number=Plur|NumForm=Digit|NumType=Ord': {'1.'}, 'NOUN|Abbr=Yes|Case=Gen|Number=Sing': {'RAMi'}, 'DET|Case=Par|Number=Sing|PronType=Dem': {'Sama'}, 'ADJ|Case=Gen|Degree=Pos|Number=Plur': {'aktiivsete'}, 'ADJ|Case=Tra|Number=Sing|NumForm=Letter|NumType=Ord': {'Teiseks'}, 'PRON|Case=Ela|Number=Plur|PronType=Ind': {'paljudest'}, 'ADJ|Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'huvitatud'}, 'AUX|Mood=Cnd|Tense=Past|VerbForm=Fin|Voice=Act': {'olnuks'}, 'NOUN|Abbr=Yes|Case=Par|Number=Sing': {'SAPi'}, 'ADJ|Case=Nom|Number=Plur|PronType=Int': {'millised'}, 'ADV|Poss=Yes|PronType=Prs': {'oma'}, 'ADJ|Case=Ill|Number=Sing|PronType=Rel': {'millisesse'}, 'ADJ|Case=Tra|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass': {'Huvitavaks'}, 'VERB|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'ole'}, 'AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'oleme'}, 'PROPN|Case=Ill|Number=Sing': {'Eestisse'}, 'PRON|Case=Tra|Number=Plur|PronType=Dem': {'Nendeks'}, 'PRON|Case=All|Number=Sing|PronType=Int,Rel': {'millele'}, 'ADJ|Case=Ade|Number=Sing|PronType=Dem': {'samal'}, 'DET|Case=Nom|Number=Sing|PronType=Int,Rel': {'mis'}, 'ADJ|Case=Ade|Number=Sing': {'kummalgi'}, 'VERB|Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'näeksid'}, 'ADJ|Case=Ade|Number=Sing|NumForm=Letter|NumType=Ord': {'teisel'}, 'VERB|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act': {'leidsid'}, 'ADJ|Case=All|Number=Sing|PronType=Dem': {'Samasugusele'}, 'PRON|Case=Com|Number=Sing|Person=2|PronType=Prs': {'Sinuga'}, 'ADJ|Case=Ela|Number=Sing|NumForm=Digit|NumType=Ord': {'1989.'}, 'ADJ|Case=Nom|Number=Sing|NumType=Ord': {'teine'}, 'NUM|Case=Par|Number=Plur|NumForm=Letter|NumType=Card': {'miljardeid'}, 'X|NumForm=Roman|NumType=Ord': {'C'}, 'NOUN|Case=Nom|Number=Sing': {'määr'}, 'SYM|_': {'%'}, 'AUX|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act': {'polnud'}, 'ADJ|Case=Ade|Number=Sing|NumForm=Roman|NumType=Ord': {'VI'}, 'ADJ|Case=Com|Degree=Cmp|Number=Sing': {'paremaga'}, 'ADJ|Case=Gen|Number=Plur|NumForm=Digit|NumType=Ord': {'1990.'}, 'PUNCT|_': {','}, 'VERB|Case=Ela|VerbForm=Sup|Voice=Act': {'võtmast'}, 'ADJ|Case=Tra|Degree=Cmp|Number=Sing': {'ebasoodsamaks'}, 'PRON|Case=Par|Number=Plur|Person=1|PronType=Prs': {'meid'}, 'NUM|Case=Ade|Number=Plur|NumForm=Letter|NumType=Card': {'pooltel'}, 'PRON|Case=Ade|Number=Sing|PronType=Rel': {'kellel'}, 'PROPN|Abbr=Yes|Case=Add|Number=Sing': {'EL-i'}, 'ADJ|Case=Par|Degree=Pos|Number=Sing': {'üliolulist'}, 'X|Foreign=Yes': {'al'}, 'AUX|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act': {'ole'}, 'PRON|Case=Abl|Number=Sing|PronType=Prs|Reflex=Yes': {'endalt'}, 'NOUN|Case=Ela|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'uuritust'}, 'ADJ|Case=Tra|Number=Sing|NumType=Ord': {'esimeseks'}, 'ADV|Foreign=Yes': {'u'}, 'NUM|Case=Ade|Number=Sing|NumForm=Digit|NumType=Card': {'1996-2000'}, 'DET|Case=Ade|Number=Sing|PronType=Dem': {'sel'}, 'ADJ|Case=Ess|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'jahtununa'}, 'ADJ|Case=Par|Degree=Pos|Number=Plur|VerbForm=Part|Voice=Act': {'seonduvaid'}, 'NOUN|Case=Ela|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'juhtunust'}}
+2019-02-18 02:18:43 INFO: input path: data/ud-treebanks-v2.1/UD_Estonian/et-ud-dev.conllu
+path: data/ud-treebanks-v2.1/UD_Estonian/et-ud-dev.conllu
+algus2
+{'ADJ|Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass': {'odavad'}, 'AUX|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'olete'}, 'AUX|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act': {'peaks'}, 'NOUN|Case=Com|Number=Sing': {'haigusega'}, 'PRON|Case=Abl|Number=Sing|PronType=Ind': {'Ühelt'}, 'PRON|Case=Nom|Number=Sing|PronType=Ind': {'üks'}, 'DET|Case=Ine|Number=Plur|PronType=Tot': {'Kõigis'}, 'PRON|Case=Ine|Number=Sing|PronType=Int,Rel': {'milles'}, 'ADJ|Case=Gen|Number=Sing': {'mõningase'}, 'PRON|Case=Ela|Number=Plur|PronType=Int,Rel': {'kellest'}, 'ADJ|Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'korduva'}, 'AUX|VerbForm=Conv': {'olles'}, 'ADJ|Case=Nom|Degree=Sup|Number=Plur': {'parimad'}, 'ADJ|Case=Gen|Degree=Pos|Number=Plur': {'neurofibrillaarsete'}, 'PROPN|Case=Par|Number=Plur': {'Oravaid'}, 'VERB|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'saagem'}, 'NOUN|Case=Com|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'koondatavaga'}, 'PRON|Case=All|Number=Plur|PronType=Int,Rel': {'kellele'}, 'ADJ|Case=Par|Number=Sing|PronType=Ind': {'mingisugust'}, 'PRON|Case=Gen|Number=Sing|PronType=Ind': {'kellegi'}, 'PRON|Case=Ter|Number=Sing|Person=1|PronType=Prs': {'minuni'}, 'ADJ|Case=Nom|Number=Sing|NumForm=Roman|NumType=Ord': {'III'}, 'AUX|Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'Ära'}, 'ADJ|Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'vettinud'}, 'NOUN|Case=All|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'lahkunuile'}, 'PRON|Case=Par|Number=Plur|PronType=Int,Rel': {'mida'}, 'X|Abbr=Yes': {'ex'}, 'VERB|Mood=Cnd|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'poleks'}, 'ADJ|Case=Par|Number=Plur|PronType=Dem': {'selliseid'}, 'DET|Case=Ade|Number=Plur|PronType=Tot': {'kõigil'}, 'ADJ|Case=Gen|Number=Plur|NumForm=Letter|NumType=Ord': {'kaheksakümnendate'}, 'NOUN|Case=Par|Number=Plur': {'koldesümptomeid'}, 'PRON|Case=Nom|Number=Plur|PronType=Rel': {'mis'}, 'PRON|Case=All|Number=Sing|Person=3|PronType=Prs': {'temale'}, 'DET|Case=Nom|Number=Plur|PronType=Ind': {'mitmed'}, 'ADJ|Case=Ade|Degree=Cmp|Number=Plur': {'varasematel'}, 'DET|Case=Ill|Number=Sing|PronType=Ind': {'mõnesse'}, 'PROPN|Abbr=Yes|Case=Com|Number=Sing': {'PÖFFiga'}, 'AUX|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act': {'olin'}, 'NOUN|Case=Ade|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'uuritavatel'}, 'ADJ|Case=Abl|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'asuvalt'}, 'ADJ|Case=All|Degree=Pos|Number=Plur': {'kliinilistele'}, 'PRON|Case=Gen|Number=Sing|Person=3|PronType=Prs': {'tema'}, 'NOUN|Case=Ess|Number=Sing': {'ravivõimalusena'}, 'ADJ|Case=Tra|Degree=Pos|Number=Sing': {'tugevaks'}, 'ADJ|Case=Par|Number=Sing|NumForm=Letter|NumType=Ord': {'viiendat'}, 'PRON|Case=Ill|Number=Sing|Person=3|PronType=Prs': {'temasse'}, 'AUX|Mood=Qot|Tense=Pres|VerbForm=Fin|Voice=Act': {'olevat'}, 'PRON|Case=Ade|Number=Plur|Person=1|PronType=Prs': {'meil'}, 'AUX|VerbForm=Inf': {'olla'}, 'PRON|Case=Ade|Number=Plur|Person=3|PronType=Prs': {'neil'}, 'PRON|Case=Ine|Number=Sing|PronType=Dem': {'igaühes'}, 'VERB|Case=Abe|VerbForm=Sup|Voice=Act': {'sõltumata'}, 'SYM|Abbr=Yes|Case=Com|Number=Sing': {'K-ga'}, 'PRON|Case=Com|Number=Sing|Person=1|PronType=Prs': {'minuga'}, 'PRON|Case=Nom|Number=Sing|Person=3|PronType=Prs': {'ta'}, 'PRON|Case=Ade|Number=Sing|PronType=Prs|Reflex=Yes': {'endal'}, 'ADJ|Case=Ill|Degree=Pos|Number=Sing': {'öisesse'}, 'VERB|Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act': {'Sõudsime'}, 'VERB|Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act': {'tülitaks'}, 'PRON|Case=Ela|Number=Sing|PronType=Ind': {'muust'}, 'ADJ|Case=Ine|Degree=Pos|Number=Sing': {'kliinilises'}, 'NOUN|Case=Ela|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'järgnevatest'}, 'PROPN|Case=Ade|Number=Sing': {'Arstil'}, 'PRON|Case=Ela|Number=Sing|Poss=Yes|PronType=Prs': {'omast'}, 'ADJ|Case=Nom|Number=Sing|NumForm=Digit|NumType=Ord': {'449.'}, 'VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'Puudub'}, 'VERB|Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Pass': {'sõidetaks'}, 'PROPN|Case=Ter|Number=Sing': {'Mihhailini'}, 'PRON|Case=Ela|Number=Plur|PronType=Dem': {'neist'}, 'NOUN|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'Uuritavad'}, 'NUM|NumForm=Digit|NumType=Ord': {'2000.-2001.'}, 'ADJ|Case=All|Degree=Cmp|Number=Sing': {'kõrgemale'}, 'NOUN|Foreign=Yes': {'obscura'}, 'ADJ|Case=Ine|Number=Plur|NumType=Ord': {'esimestes'}, 'ADJ|Case=Tra|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'raskendavaks'}, 'PROPN|Case=Nom|Number=Plur': {'MADALMAAD'}, 'ADJ|Case=All|Degree=Sup|Number=Sing': {'olulisimale'}, 'NUM|Case=Abl|Number=Sing|NumForm=Digit|NumType=Card': {'1245'}, 'ADJ|Case=Com|Degree=Pos|Number=Sing': {'lamedaga'}, 'PRON|Case=All|Number=Plur|Person=2|PronType=Prs': {'teile'}, 'VERB|Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'tuleksid'}, 'DET|Case=Nom|Number=Sing|PronType=Ind': {'mitu'}, 'ADJ|Case=Nom|Number=Plur|PronType=Int,Rel': {'missugused'}, 'NUM|NumForm=Digit|NumType=Card': {'27'}, 'AUX|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass': {'võidi'}, 'PROPN|Hyph=Yes': {'Kuurort-'}, 'PRON|Case=Ade|Number=Plur|Person=2|PronType=Prs': {'teil'}, 'PRON|Case=Gen|Number=Plur|PronType=Tot': {'kõigi'}, 'AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act': {'võis'}, 'VERB|Mood=Ind|VerbForm=Fin': {'näikse'}, 'NOUN|Case=Par|Number=Sing': {'dementsust'}, 'NUM|Case=Ess|Number=Sing|NumForm=Letter|NumType=Card': {'nullina'}, 'ADJ|Case=Nom|Number=Plur|NumForm=Letter|NumType=Ord': {'esimesed'}, 'ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass': {'seotud'}, 'PRON|Case=Tra|Number=Sing|Person=3|PronType=Prs': {'temaks'}, 'DET|Case=Par|Number=Sing|PronType=Ind': {'ühtegi'}, 'PRON|Case=Ela|Number=Sing|PronType=Dem': {'sest'}, 'DET|Case=Abl|Number=Sing|PronType=Dem': {'minusuguselt'}, 'DET|Case=Gen|Number=Plur|PronType=Tot': {'kõikide'}, 'PRON|Case=Ade|Number=Sing|Person=3|PronType=Prs': {'tal'}, 'ADJ|Case=Gen|Number=Sing|NumForm=Letter|NumType=Ord': {'kolmanda'}, 'ADJ|Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord': {'19.'}, 'PRON|Case=Nom|Number=Sing|PronType=Tot': {'kõik'}, 'VERB|Mood=Cnd|Tense=Past|VerbForm=Fin|Voice=Act': {'jäänuks'}, 'PRON|Case=Ade|Number=Sing|PronType=Dem|Reflex=Yes': {'üksteisel'}, 'ADJ|Case=Nom|Number=Plur|NumType=Ord': {'esimesed'}, 'AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'oled'}, 'PRON|Case=All|Number=Sing|PronType=Rcp': {'üksteisele'}, 'PRON|Case=Com|Number=Sing|PronType=Int,Rel': {'kellega'}, 'VERB|Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'tahaksime'}, 'ADJ|Case=Abl|Degree=Pos|Number=Sing': {'kliiniliselt'}, 'ADJ|Case=Ill|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'vastavatesse'}, 'DET|Case=Add|Number=Sing|PronType=Dem': {'teise'}, 'NOUN|Case=Nom|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'toodu'}, 'ADJ|Case=Nom|Degree=Cmp|Number=Sing': {'parem'}, 'DET|Case=Nom|Number=Plur|PronType=Tot': {'mõlemad'}, 'NOUN|Case=Tra|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'viibinuks'}, 'PRON|Case=Par|Number=Sing|Person=3|PronType=Prs': {'teda'}, 'ADJ|Case=Gen|Number=Sing|NumType=Ord': {'teise'}, 'PRON|Case=Ela|Number=Plur|PronType=Rel': {'millest'}, 'DET|Case=Par|Number=Plur|PronType=Dem': {'teisi'}, 'NUM|Case=Par|Number=Sing|NumType=Card': {'kuut'}, 'VERB|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act': {'peataks'}, 'AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'peame'}, 'AUX|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'oleksin'}, 'AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'olen'}, 'NOUN|Number=Sing': {'sajandi'}, 'PRON|Case=Ela|Number=Plur|Person=3|PronType=Prs': {'neist'}, 'PROPN|Case=Gen|Number=Sing': {'Alzheimeri'}, 'PRON|Case=Ine|Number=Plur|PronType=Dem': {'neis'}, 'PRON|Case=Abl|Number=Sing|Person=3|PronType=Prs': {'talt'}, 'DET|Case=Par|Number=Plur|PronType=Ind': {'mitmeid'}, 'PRON|Case=Ade|Number=Sing|PronType=Ind': {'kellelgi'}, 'PRON|Case=All|Number=Sing|PronType=Tot': {'igale'}, 'PRON|Case=Ill|Number=Sing|PronType=Dem': {'sellesse'}, 'NOUN|Case=Ela|Number=Sing': {'esinemisest'}, 'ADJ|Case=Gen|Degree=Sup|Number=Sing': {'vähimagi'}, 'PRON|Case=Gen|Number=Plur|PronType=Ind': {'paljude'}, 'ADJ|Case=All|Degree=Pos|Number=Sing': {'Vaskulaarsele'}, 'PROPN|Case=Ess|Number=Sing': {'Liibanonina'}, 'NOUN|Case=Ela|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'ümbritsevast'}, 'PROPN|Abbr=Yes|Case=Ela|Number=Sing': {'USAst'}, 'DET|Case=Ela|Number=Plur|PronType=Tot': {'kõigist'}, 'NOUN|Abbr=Yes|Case=Com|Number=Sing': {'VDga'}, 'PRON|Case=Ela|Number=Sing|Person=3|PronType=Prs': {'Temast'}, 'ADJ|Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'planeeritud'}, 'NUM|Hyph=Yes|NumType=Card': {'40-'}, 'AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'on'}, 'NOUN|Case=Gen|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'surnu'}, 'PROPN|Case=Ela|Number=Plur': {'Ühendriikidest'}, 'ADJ|Case=Nom|Number=Sing|PronType=Dem': {'säärane'}, 'NUM|Case=Par|Number=Sing|NumForm=Digit|NumType=Card': {'90,5'}, 'ADJ|Case=Gen|Degree=Sup|Number=Plur': {'haruldasimate'}, 'PRON|Case=Com|Number=Sing|PronType=Prs|Reflex=Yes': {'endaga'}, 'NOUN|Abbr=Yes': {'VD'}, 'DET|Case=Ade|Number=Sing|PronType=Ind': {'Ühel'}, 'ADJ|Case=Ade|Number=Plur|NumType=Ord': {'60ndatel'}, 'NUM|Case=Gen|Number=Sing|NumType=Card': {'poole'}, 'ADJ|Case=Gen|Degree=Pos|Number=Sing': {'tõenäose'}, 'AUX|Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act': {'peaks'}, 'ADJ|Case=Nom|Degree=Pos|Number=Sing': {'neurodegeneratiivne'}, 'AUX|Case=Abe|VerbForm=Sup|Voice=Act': {'Olemata'}, 'NOUN|Case=Ade|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'Uuritaval'}, 'ADJ|Case=Ade|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'eelnevatel'}, 'ADJ|Case=Ade|Number=Plur|NumForm=Letter|NumType=Ord': {'seitsmekümnendatel'}, 'DET|Case=All|Number=Plur|PronType=Tot': {'kõigile'}, 'AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act': {'ole'}, 'ADJ|Case=Par|Number=Sing|PronType=Rel': {'kumba'}, 'PRON|Case=Nom|Number=Plur|PronType=Dem': {'Need'}, 'ADJ|Case=Gen|Number=Sing|NumForm=Roman|NumType=Ord': {'I'}, 'ADJ|Case=All|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'käigusolevale'}, 'PRON|Case=Ade|Number=Sing|Poss=Yes|PronType=Prs': {'omalgi'}, 'ADV|Abbr=Yes': {'s.t'}, 'PRON|Case=Ade|Number=Plur|PronType=Tot': {'kõigil'}, 'NOUN|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'viibinute'}, 'AUX|Mood=Imp|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act': {'olgu'}, 'NUM|Case=Nom|Number=Plur|NumForm=Letter|NumType=Card': {'Pooled'}, 'ADJ|Case=Gen|Number=Sing|PronType=Dem': {'sellise'}, 'ADJ|Case=Ess|Degree=Cmp|Number=Sing': {'mustemana'}, 'NUM|Case=Ela|Number=Sing|NumForm=Digit|NumType=Card': {'17'}, 'NOUN|Abbr=Yes|Hyph=Yes': {'PET-'}, 'PRON|Case=Ade|Number=Sing|Person=2|PronType=Prs': {'sul'}, 'PRON|Case=All|Number=Sing|PronType=Rel': {'kellele'}, 'PRON|Case=Gen|Number=Sing|PronType=Rcp|Reflex=Yes': {'teineteise'}, 'VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass': {'publitseeriti'}, 'ADJ|Degree=Pos': {'eri'}, 'VERB|Connegative=Yes|Mood=Qot|Tense=Pres|VerbForm=Fin|Voice=Act': {'suutvat'}, 'AUX|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'Olgem'}, 'DET|Case=Gen|Number=Sing|PronType=Dem': {'Sama'}, 'ADJ|Case=Ine|Degree=Cmp|Number=Sing': {'hilisemas'}, 'VERB|Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'saaksite'}, 'ADJ|Case=Nom|Number=Plur|NumForm=Roman|NumType=Ord': {'III'}, 'PRON|Case=All|Number=Plur|PronType=Tot': {'kõigile'}, 'PROPN|_': {'Telia'}, 'NOUN|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'uuritavate'}, 'VERB|Tense=Past|VerbForm=Part|Voice=Act': {'kujunenud'}, 'ADJ|Case=Ill|Degree=Cmp|Number=Sing': {'paremasse'}, 'NOUN|Case=Tra|Number=Plur': {'infarktideks'}, 'CCONJ|_': {'ja'}, 'DET|Case=Ine|Number=Sing|PronType=Ind': {'mingis'}, 'NUM|Case=Par|Number=Sing|NumForm=Letter|NumType=Card': {'kahte'}, 'PRON|Case=All|Number=Sing|PronType=Prs|Reflex=Yes': {'endale'}, 'VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass': {'kasutatakse'}, 'ADJ|Case=Gen|Degree=Cmp|Number=Plur': {'sügavamate'}, 'ADJ|Case=Abe|Degree=Pos|VerbForm=Sup|Voice=Act': {'registreerimata'}, 'DET|Case=Ill|Number=Sing|PronType=Dem': {'teistsugusesse'}, 'PRON|Case=Ela|Number=Plur|Person=1|PronType=Prs': {'meist'}, 'ADJ|Case=Ela|Degree=Cmp|Number=Sing': {'ilusamast'}, 'VERB|Case=Tra|VerbForm=Sup|Voice=Act': {'tõestamaks'}, 'ADJ|Degree=Pos|Hyph=Yes': {'frontaal-'}, 'ADJ|Case=Ade|Degree=Pos|Number=Sing': {'Viimasel'}, 'SYM|_': {'%'}, 'DET|Case=Ine|Number=Sing|PronType=Dem': {'selles'}, 'PRON|Case=All|Number=Sing|PronType=Rcp|Reflex=Yes': {'üksteisele'}, 'ADJ|Case=Ine|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'vastavates'}, 'ADJ|Case=Gen|Degree=Cmp|Number=Sing': {'halvema'}, 'PRON|Case=Nom|Number=Plur|PronType=Prs|Reflex=Yes': {'ise'}, 'ADJ|Case=Tra|Number=Sing|PronType=Rel': {'milliseks'}, 'NUM|Case=Ela|Number=Sing|NumForm=Letter|NumType=Card': {'kahest'}, 'VERB|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act': {'hoidsin'}, 'ADJ|Case=Par|Degree=Pos|Number=Plur': {'neuroloogilisi'}, 'ADJ|Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'viitav'}, 'PROPN|Case=Nom|Hyph=Yes|Number=Sing': {'Kuurort-'}, 'DET|Case=Ade|Number=Sing|PronType=Tot': {'mõlemal'}, 'NOUN|Case=Abe|Number=Plur': {'omadusteta'}, 'AUX|Tense=Past|VerbForm=Part|Voice=Act': {'olnud'}, 'PRON|Case=Tra|Number=Sing|PronType=Int,Rel': {'milleks'}, 'ADJ|Case=Ela|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'meenutavatest'}, 'PRON|Case=Par|Number=Plur|PronType=Dem': {'neid'}, 'AUX|Mood=Cnd|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'poleks'}, 'PROPN|Case=Ine|Number=Sing': {'Eestis'}, 'INTJ|_': {'Ih-ih-ih'}, 'PRON|Case=Gen|Number=Sing|PronType=Tot': {'kõige'}, 'PRON|Case=Tra|Number=Sing|Poss=Yes|PronType=Prs': {'omaks'}, 'DET|Case=Nom|Number=Sing|PronType=Tot': {'kõik'}, 'ADJ|Case=Gen|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'klanitu'}, 'VERB|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'käiksid'}, 'PRON|Case=Abl|Number=Sing|Person=1|PronType=Prs': {'minult'}, 'NOUN|Case=Nom|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'juhtunu'}, 'ADJ|Case=Nom|Number=Sing|NumForm=Letter|NumType=Ord': {'esimene'}, 'NUM|Case=Add|Number=Sing|NumForm=Digit|NumType=Card': {'45'}, 'ADJ|NumForm=Roman|NumType=Ord': {'XX'}, 'NUM|Case=Gen|Number=Sing|NumForm=Letter|NumType=Card': {'kolme'}, 'ADJ|Case=Ine|Number=Sing|NumForm=Letter|NumType=Ord': {'teises'}, 'ADJ|Case=Par|Number=Plur|PronType=Rel': {'Milliseid'}, 'PROPN|Abbr=Yes|Case=Par|Number=Sing': {'ETVd'}, 'VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'Täname'}, 'PRON|Case=Ill|Number=Sing|PronType=Prs|Reflex=Yes': {'endasse'}, 'ADJ|Case=Ine|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'piiratus'}, 'PRON|Case=Par|Number=Sing|Poss=Yes|PronType=Prs': {'oma'}, 'NOUN|Abbr=Yes|Case=Ade|Number=Sing': {'DVDl'}, 'DET|Case=Gen|Number=Plur|PronType=Dem': {'teiste'}, 'PRON|Case=Nom|Number=Sing|Person=2|PronType=Prs': {'Sa'}, 'PRON|Case=Gen|Number=Sing|Poss=Yes|PronType=Prs': {'oma'}, 'NOUN|Abbr=Yes|Case=Abl|Number=Sing': {'DVDlt'}, 'ADJ|Case=Ine|Degree=Pos|Number=Plur': {'olulistes'}, 'PRON|Case=Nom|Number=Plur|PronType=Ind': {'Paljud'}, 'NUM|Case=Gen|Hyph=Yes|Number=Sing|NumType=Card': {'6-'}, 'PRON|Case=Ade|Number=Sing|PronType=Int,Rel': {'millel'}, 'ADJ|Case=Tra|Number=Plur|PronType=Dem': {'sellisteks'}, 'PRON|Case=Ine|Number=Sing|Person=1|PronType=Prs': {'minus'}, 'PROPN|Abbr=Yes|Case=Gen|Number=Sing': {'PÖFFi'}, 'DET|Case=Gen|Number=Sing|PronType=Tot': {'Iga'}, 'ADJ|Case=Ine|Number=Sing|NumType=Ord': {'VII'}, 'ADJ|Case=Ess|Number=Sing|NumForm=Letter|NumType=Ord': {'esimesena'}, 'VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act': {'õpigi'}, 'NOUN|Case=Gen|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'uuritu'}, 'PRON|Case=Gen|Number=Plur|Person=1|PronType=Prs': {'Meie'}, 'NOUN|Case=Ess|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'ristatuna'}, 'PRON|Case=Ine|Number=Sing|Poss=Yes|PronType=Prs': {'omas'}, 'VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act': {'viskas'}, 'DET|Case=Ela|Number=Plur|PronType=Dem': {'teistest'}, 'ADJ|Case=Ill|Degree=Pos|Number=Plur': {'uskumatutesse'}, 'NOUN|Case=Ill|Number=Sing': {'arvesse'}, 'NOUN|Abbr=Yes|Case=Ine|Number=Sing': {'USAs'}, 'PROPN|Case=Ela|Number=Sing': {'Sawyerist'}, 'PROPN|Abbr=Yes': {'ml'}, 'PRON|Case=Nom|Number=Sing|Poss=Yes|PronType=Prs': {'oma'}, 'ADJ|Case=Gen|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'laatuvate'}, 'PROPN|Case=Nom|Number=Sing': {'NINDS-AIREN'}, 'SYM|Abbr=Yes': {'='}, 'PRON|Case=Nom|Number=Plur|PronType=Tot': {'mõlemad'}, 'ADV|_': {'kas'}, 'NUM|Case=All|Number=Sing|NumForm=Letter|NumType=Card': {'kümnele'}, 'DET|Case=Par|Number=Sing|PronType=Tot': {'igat'}, 'ADJ|Case=Ine|Number=Plur|NumForm=Letter|NumType=Ord': {'esimestes'}, 'NOUN|Case=Gen|Number=Plur': {'kämpude'}, 'PRON|Case=Abe|Number=Sing|PronType=Dem': {'selleta'}, 'PRON|Case=Par|Number=Sing|Person=2|PronType=Prs': {'sind'}, 'NOUN|Case=Par|Hyph=Yes|Number=Sing': {'forelli-'}, 'PRON|Case=Nom|Number=Sing|PronType=Dem': {'see'}, 'ADJ|Case=Tra|Number=Sing|NumType=Ord': {'kolmandaks'}, 'ADJ|Case=All|Number=Sing|NumForm=Letter|NumType=Ord': {'esimesele'}, 'NOUN|Abbr=Yes|Case=Par|Number=Plur': {'VDsid'}, 'VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'loodan'}, 'DET|Case=All|Number=Plur|PronType=Dem': {'neile'}, 'NUM|Case=Tra|Number=Sing|NumForm=Letter|NumType=Card': {'kaheks'}, 'ADJ|Case=Par|Degree=Sup|Number=Plur': {'suurimaid'}, 'ADJ|Case=Ess|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'lummatuna'}, 'ADJ|Case=Ill|Number=Sing|PronType=Rel': {'millisesse'}, 'VERB|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act': {'teatasite'}, 'VERB|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act': {'jaotasime'}, 'NOUN|Case=Abl|Number=Sing': {'seisukohalt'}, 'VERB|VerbForm=Conv': {'võrreldes'}, 'PROPN|Case=Par|Number=Sing': {'Liitu'}, 'NOUN|Case=Ade|Number=Sing': {'diagnoosimisel'}, 'ADJ|Case=Tra|Number=Sing|NumForm=Digit|NumType=Ord': {'1990.'}, 'ADJ|Case=Ill|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'seisvasse'}, 'PRON|Case=Ess|Number=Sing|PronType=Dem': {'sellisena'}, 'VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'Puuduvad'}, 'NUM|Case=Nom|Number=Sing|NumForm=Letter|NumType=Card': {'kaks'}, 'AUX|Connegative=Yes': {'ei'}, 'PRON|Case=Gen|Number=Plur|PronType=Int,Rel': {'mille'}, 'ADJ|Case=Ela|Degree=Pos|Number=Sing': {'vaskulaarsest'}, 'NUM|Case=Ade|Hyph=Yes|Number=Sing|NumType=Card': {'60-'}, 'ADJ|Case=Tra|Degree=Sup|Number=Sing': {'sagedasimaks'}, 'PRON|Case=Abl|Number=Sing|PronType=Int,Rel': {'millelt'}, 'NUM|Case=Ter|Number=Sing|NumForm=Letter|NumType=Card': {'viieni'}, 'ADP|AdpType=Prep': {'Peale'}, 'ADJ|NumForm=Digit|NumType=Ord': {'1993.'}, 'ADJ|Case=Ela|Degree=Cmp|Number=Plur': {'suurematest'}, 'ADJ|Case=Nom|Number=Plur|PronType=Rel': {'Millised'}, 'DET|Case=All|Number=Sing|PronType=Ind': {'mõnele'}, 'ADJ|Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass': {'odava'}, 'PROPN|Case=Abl|Number=Sing': {'Eetikakomiteelt'}, 'PRON|Case=Abe|Number=Sing|Person=2|PronType=Prs': {'sinuta'}, 'NOUN|Case=Gen|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'uuritava'}, 'PRON|Case=Ine|Number=Sing|PronType=Ind': {'paljuski'}, 'NUM|Case=Gen|Number=Plur|NumForm=Letter|NumType=Card': {'poolte'}, 'AUX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'ole'}, 'NOUN|Abbr=Yes|Case=Par|Number=Sing': {'VDd'}, 'PRON|Case=All|Number=Sing|Person=2|PronType=Prs': {'sulle'}, 'PRON|Case=Gen|Number=Sing|PronType=Dem': {'selle'}, 'NOUN|Case=Par|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'süüdistatavaid'}, 'ADJ|Case=Gen|Number=Plur|NumType=Ord': {'1990ndate'}, 'NOUN|Case=Ade|Number=Plur': {'patsientidel'}, 'NOUN|Case=Nom|Hyph=Yes|Number=Sing': {'juhtkontroll-'}, 'PRON|Case=Ine|Number=Plur|PronType=Int,Rel': {'milles'}, 'NOUN|Case=Abl|Number=Plur': {'arstidelt'}, 'DET|Case=Ine|Number=Plur|PronType=Dem': {'teistes'}, 'PRON|Case=Ade|Number=Sing|Person=1|PronType=Prs': {'mul'}, 'AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass': {'ollakse'}, 'PRON|Case=Nom|Number=Plur|Person=2|PronType=Prs': {'te'}, 'ADJ|Case=Nom|Degree=Cmp|Number=Plur': {'intelligentsemad'}, 'NOUN|Case=Ine|Number=Plur': {'Ravimiuuringutes'}, 'AUX|Case=Ill|VerbForm=Sup|Voice=Act': {'olema'}, 'ADJ|Case=Ela|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'erinevast'}, 'PRON|Case=Gen|Number=Plur|Person=2|PronType=Prs': {'teie'}, 'PRON|Case=Ess|Number=Sing|PronType=Prs|Reflex=Yes': {'iseendana'}, 'DET|Case=Par|Number=Plur|PronType=Tot': {'kõiki'}, 'VERB|Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act': {'erinenud'}, 'DET|Case=Par|Number=Sing|PronType=Dem': {'seda'}, 'ADJ|Case=Ela|Degree=Sup|Number=Sing': {'sagedasimast'}, 'PRON|Case=Par|Number=Plur|Person=2|PronType=Prs': {'teid'}, 'ADJ|Case=Ade|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'kasutataval'}, 'ADV|Polarity=Neg': {'Ega'}, 'NOUN|Case=Ter|Number=Sing': {'tekkeni'}, 'PRON|Case=Tra|Number=Sing|PronType=Dem': {'Selleks'}, 'ADJ|Case=All|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'laatuvatele'}, 'PRON|Case=Nom|Number=Sing|PronType=Rel': {'kes'}, 'NOUN|Case=Nom|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'ümbritsev'}, 'PRON|Case=All|Number=Plur|Person=3|PronType=Prs': {'neile'}, 'NOUN|Case=Ela|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'läbipõdenutest'}, 'ADJ|Case=Ade|Degree=Cmp|Number=Sing': {'pikemal'}, 'VERB|Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act': {'voorisid'}, 'PRON|Case=Abl|Number=Sing|PronType=Tot': {'igalt'}, 'ADJ|Case=Abl|Degree=Pos|Number=Plur': {'verbaalsetelt'}, 'AUX|Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act': {'olnud'}, 'ADV|PronType=Rel': {'kus'}, 'VERB|Case=Ill|VerbForm=Sup|Voice=Act': {'hoidma'}, 'PRON|Case=All|Number=Plur|Person=1|PronType=Prs': {'meile'}, 'VERB|Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin|Voice=Act': {'viskusid'}, 'ADJ|Case=Par|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass': {'huvitavaid'}, 'PRON|Case=All|Number=Sing|PronType=Ind': {'teisele'}, 'VERB|Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act': {'Valasin'}, 'VERB|Mood=Qot|Tense=Pres|VerbForm=Fin|Voice=Act': {'olevat'}, 'SCONJ|_': {'kui'}, 'VERB|Connegative=Yes|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'karda'}, 'ADJ|Case=Gen|Number=Sing|NumForm=Digit|NumType=Ord': {'20.'}, 'ADJ|Degree=Pos|VerbForm=Part|Voice=Act': {'meigitud'}, 'PRON|Case=Ade|Number=Plur|PronType=Ind': {'Paljudel'}, 'DET|Case=Ade|Number=Plur|PronType=Ind': {'mõningatel'}, 'ADJ|Case=Par|Number=Sing|NumForm=Digit|NumType=Ord': {'30.'}, 'PRON|Case=Ter|Number=Plur|Person=1|PronType=Prs': {'Meieni'}, 'ADJ|Case=Par|Degree=Cmp|Number=Sing': {'tuntumat'}, 'PRON|Case=Par|Number=Sing|PronType=Int,Rel': {'mida'}, 'VERB|Case=All|VerbForm=Sup|Voice=Act': {'minema'}, 'PRON|Case=Com|Number=Sing|Poss=Yes|PronType=Prs': {'omaga'}, 'AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'on'}, 'ADJ|Case=Nom|Number=Sing': {'Kumbki'}, 'PRON|Case=Abl|Number=Sing|PronType=Dem': {'Teiselt'}, 'NOUN|Case=Ter|Number=Plur': {'kontideni'}, 'NOUN|Case=Ess|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'jõudnuna'}, 'ADJ|Case=Ela|Degree=Pos|Number=Plur': {'kliinilistest'}, 'ADJ|Case=Par|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'vastavat'}, 'DET|Case=All|Number=Sing|PronType=Tot': {'eale'}, 'NOUN|Case=Gen|Number=Sing': {'diagnoosi'}, 'ADJ|Case=Ess|Degree=Pos|Number=Sing': {'ulmelisena'}, 'DET|Case=All|Number=Sing|PronType=Dem': {'sellele'}, 'ADJ|Case=Ela|Number=Sing|NumForm=Letter|NumType=Ord': {'esimesest'}, 'VERB|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'Vaata'}, 'NOUN|Case=Nom|Number=Plur': {'haigused'}, 'NOUN|_': {'paralytica'}, 'AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act': {'võisid'}, 'VERB|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act': {'korraldasid'}, 'VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act': {'esines'}, 'PRON|Case=Par|Number=Sing|PronType=Prs|Reflex=Yes': {'end'}, 'PRON|Case=Ela|Number=Sing|Person=2|PronType=Prs': {'sinust'}, 'ADJ|Case=Par|Number=Plur|NumForm=Letter|NumType=Ord': {'esimesi'}, 'PRON|Case=Com|Number=Sing|Person=2|PronType=Prs': {'sinuga'}, 'DET|Case=Tra|Number=Sing|PronType=Dem': {'Teiseks'}, 'PRON|Case=Par|Number=Plur|Person=3|PronType=Prs': {'Neid'}, 'ADJ|Case=Par|Degree=Pos|Number=Plur|VerbForm=Part|Voice=Act': {'harevaid'}, 'PRON|Case=Gen|Number=Sing|Person=2|PronType=Prs': {'sinu'}, 'ADJ|Case=Add|Degree=Pos|Number=Sing': {'uhiuude'}, 'PRON|Case=Nom|Number=Plur|PronType=Int,Rel': {'mis'}, 'ADV|Hyph=Yes': {'mehe-'}, 'ADJ|Case=Par|Degree=Sup|Number=Sing': {'vähimatki'}, 'ADJ|Case=Ade|Degree=Pos|Number=Plur': {'vanemaealistel'}, 'PRON|Case=Par|Number=Sing|PronType=Tot': {'kõike'}, 'DET|PronType=Tot': {'kogu'}, 'NOUN|Case=Abe|Number=Sing': {'insuldita'}, 'AUX|Mood=Imp|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'Ärge'}, 'VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'võid'}, 'VERB|Tense=Past|VerbForm=Part|Voice=Pass': {'kinnitatud'}, 'ADJ|Abbr=Yes': {'nn'}, 'DET|Case=Gen|Number=Sing|PronType=Ind': {'Ühe'}, 'PRON|Case=Par|Number=Sing|PronType=Dem': {'Seda'}, 'PUNCT|Hyph=Yes': {'--'}, 'ADJ|Case=Nom|Number=Plur|PronType=Dem': {'sellised'}, 'NUM|Case=All|Number=Sing|NumForm=Digit|NumType=Card': {'5'}, 'PRON|Case=Par|Number=Sing|Person=1|PronType=Prs': {'mind'}, 'ADJ|Case=Ter|Number=Plur|NumForm=Letter|NumType=Ord': {'üheksakümnendateni'}, 'PRON|Case=Ess|Number=Plur|PronType=Prs|Reflex=Yes': {'iseendina'}, 'X|_': {'Walking'}, 'NOUN|Case=All|Number=Sing': {'ajuinsuldile'}, 'VERB|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'Jätke'}, 'PROPN|NumForm=Digit|NumType=Card': {'8'}, 'SYM|Abbr=Yes|Hyph=Yes': {'B-'}, 'PRON|Case=Ela|Number=Sing|PronType=Prs|Reflex=Yes': {'enesest'}, 'ADJ|Case=Par|Degree=Cmp|Number=Plur': {'lihtsamaid'}, 'PROPN|Case=Add|Number=Sing': {'Internetti'}, 'PRON|Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes': {'isegi'}, 'DET|Case=Tra|Number=Sing|PronType=Ind': {'Üheks'}, 'PRON|Case=All|Number=Sing|Person=1|PronType=Prs': {'Mulle'}, 'PRON|Case=Ade|Number=Plur|PronType=Rel': {'kellel'}, 'DET|Case=Ela|Number=Sing|PronType=Tot': {'mõlemast'}, 'NUM|Case=Ine|Number=Sing|NumForm=Digit|NumType=Card': {'17'}, 'PRON|Case=Gen|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes': {'omaenda'}, 'ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act': {'väljendunud'}, 'ADJ|Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass': {'teatav'}, 'NOUN|Case=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'tooduga'}, 'AUX|Polarity=Neg': {'ei'}, 'PRON|Case=Com|Number=Sing|Person=3|PronType=Prs': {'temaga'}, 'ADJ|Case=Gen|Degree=Pos|Hyph=Yes|Number=Sing': {'naise-'}, 'PRON|Case=Abl|Number=Plur|Person=1|PronType=Prs': {'meilt'}, 'ADJ|Case=Par|Number=Sing|PronType=Dem': {'Sama'}, 'AUX|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act': {'polnudki'}, 'ADJ|Case=Com|Degree=Pos|Number=Plur': {'tühjadega'}, 'CCONJ|Polarity=Neg': {'ega'}, 'ADJ|Case=Ine|Degree=Cmp|Number=Plur': {'armetumates'}, 'VERB|Abbr=Yes|Mood=Imp|VerbForm=Fin': {'vt'}, 'NUM|Case=Ade|Number=Sing|NumType=Card': {'-7,5'}, 'NUM|Case=Add|Number=Sing|NumForm=Letter|NumType=Card': {'kahte'}, 'VERB|Mood=Ind|Tense=Imp|VerbForm=Fin|Voice=Pass': {'roniti'}, 'PRON|Case=Com|Number=Sing|PronType=Ind': {'millegagi'}, 'NOUN|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'saanud'}, 'PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs': {'nad'}, 'VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass': {'kanta'}, 'PRON|Case=Ela|Number=Sing|Person=1|PronType=Prs': {'minust'}, 'PROPN|Tense=Past|VerbForm=Part|Voice=Pass': {'Avatud'}, 'PRON|Case=Gen|Number=Sing|PronType=Prs|Reflex=Yes': {'enda'}, 'ADJ|_': {'saksa'}, 'NUM|Case=Nom|Number=Sing|NumForm=Digit|NumType=Card': {'34'}, 'DET|Case=Ela|Number=Sing|PronType=Ind': {'millestki'}, 'VERB|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act': {'viibisid'}, 'ADJ|Case=Gen|Number=Plur|NumForm=Digit|NumType=Ord': {'18.'}, 'PROPN|Abbr=Yes|Case=All|Number=Sing': {'DMCAle'}, 'NUM|Case=Nom|Number=Sing|NumType=Card': {'RHK-10'}, 'NOUN|Case=Ess|Number=Plur': {'atakkidena'}, 'PRON|Case=All|Number=Sing|PronType=Dem': {'Sellele'}, 'PRON|Case=Par|Number=Plur|PronType=Ind': {'mitmesuguseid'}, 'PRON|Case=Gen|Number=Sing|PronType=Int,Rel': {'mille'}, 'PRON|Case=Nom|Number=Sing|PronType=Int,Rel': {'mis'}, 'ADJ|Case=Nom|Number=Sing|PronType=Rel': {'Milline'}, 'PRON|Case=Gen|Number=Plur|PronType=Dem': {'nende'}, 'PRON|Case=Nom|Number=Plur|Poss=Yes|PronType=Prs': {'omad'}, 'PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs': {'ma'}, 'NOUN|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'uuritute'}, 'PROPN|Case=All|Number=Sing': {'Eestile'}, 'VERB|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Pass': {'rõhutaks'}, 'NOUN|Case=Ill|Number=Plur': {'rühmadesse'}, 'VERB|Case=Ela|VerbForm=Sup|Voice=Act': {'kirjutamast'}, 'ADJ|Case=Nom|Degree=Pos|Hyph=Yes|Number=Sing': {'maagiline-'}, 'AUX|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act': {'oli'}, 'PRON|Case=Gen|Number=Plur|Person=3|PronType=Prs': {'nende'}, 'NUM|Case=Ade|Number=Sing|NumForm=Letter|NumType=Card': {'ühel'}, 'DET|Case=Ela|Number=Sing|PronType=Dem': {'sellest'}, 'PRON|Case=Ade|Number=Sing|PronType=Dem': {'samal'}, 'PRON|Case=Ill|Number=Sing|PronType=Ind': {'millessegi'}, 'X|Case=Nom|Number=Sing': {'of'}, 'PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs': {'me'}, 'PRON|Case=Com|Number=Sing|PronType=Dem': {'sellega'}, 'ADJ|Case=Par|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'erinevaid'}, 'ADJ|Case=Nom|Degree=Pos|Number=Plur': {'Varajased'}, 'NOUN|Case=Tra|Number=Sing': {'puuduseks'}, 'PRON|Case=Ela|Number=Sing|PronType=Int,Rel': {'millest'}, 'PRON|Case=Com|Number=Plur|PronType=Int,Rel': {'millega'}, 'PRON|Case=Ine|Number=Sing|PronType=Rel': {'milles'}, 'PRON|Case=Gen|Number=Sing|Person=1|PronType=Prs': {'minu'}, 'AUX|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'võiksid'}, 'VERB|Case=Ine|VerbForm=Sup|Voice=Act': {'saamas'}, 'NOUN|Case=Gen|Hyph=Yes|Number=Sing': {'hüpo-'}, 'PRON|Case=Abl|Number=Sing|Poss=Yes|PronType=Prs': {'omalt'}, 'VERB|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'vedelegu'}, 'VERB|VerbForm=Inf': {'põhjustada'}, 'VERB|Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass': {'leitud'}, 'PRON|Case=Com|Number=Plur|PronType=Dem': {'sellistega'}, 'PROPN|Case=Gen|Number=Plur': {'Meditsiiniuuringute'}, 'NOUN|Case=Ade|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'jõudnutel'}, 'PRON|Case=Ill|Number=Sing|PronType=Dem|Reflex=Yes': {'üksteisesse'}, 'AUX|Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'võiksime'}, 'ADJ|Case=Nom|Degree=Sup|Number=Sing': {'sagedasim'}, 'PRON|Case=Com|Number=Plur|Person=3|PronType=Prs': {'nendega'}, 'VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act': {'peitu'}, 'ADJ|Case=Par|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass': {'huvitavat'}, 'PROPN|Case=Tra|Number=Sing': {'Timbu-Limbuks'}, 'NOUN|Case=Par|Hyph=Yes|Number=Plur': {'laste-'}, 'ADJ|Case=Ine|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'asuvas'}, 'ADJ|Case=All|Number=Sing|NumForm=Digit|NumType=Ord': {'551.'}, 'PROPN|Case=Com|Number=Sing': {'Finniga'}, 'NOUN|Abbr=Yes|Case=All|Number=Sing': {'VD-le'}, 'ADJ|Case=Nom|Number=Plur|NumForm=Digit|NumType=Ord': {'1850.'}, 'NUM|Case=Gen|Number=Sing|NumForm=Digit|NumType=Card': {'3-6'}, 'VERB|Connegative=Yes|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'kahelge'}, 'ADJ|Case=Tra|Degree=Pos|Number=Plur': {'mittetäielikeks'}, 'NOUN|Abbr=Yes|Case=Gen|Number=Sing': {'SMSi'}, 'ADP|AdpType=Post': {'taga'}, 'NOUN|Case=Ela|Number=Plur': {'sümptomitest'}, 'X|Foreign=Yes': {'locally'}, 'VERB|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'polegi'}, 'PRON|Case=All|Number=Plur|PronType=Ind': {'paljudele'}, 'ADJ|Case=Ess|Degree=Pos|Number=Plur': {'heledaina'}, 'NOUN|Case=Par|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'varitsenuid'}, 'ADJ|Case=Tra|Number=Sing|NumForm=Letter|NumType=Ord': {'Kolmandaks'}, 'NOUN|Abbr=Yes|Case=Ela|Number=Sing': {'VHSist'}, 'PROPN|Abbr=Yes|Case=Ine|Number=Sing': {'USAs'}, 'NUM|NumType=Card': {'RHK-10'}, 'ADJ|Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'vaevatud'}, 'VERB|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'nimetaksin'}, 'NOUN|Case=Ela|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'alustanust'}, 'NOUN|Abbr=Yes|Case=Ela|Number=Plur': {'VDdest'}, 'ADJ|Case=Gen|Degree=Pos|Number=Sing|VerbForm=Part|Voice=Act': {'eksitava'}, 'NOUN|Abbr=Yes|Case=Nom|Number=Plur': {'VDd'}, 'NOUN|Case=All|Number=Plur': {'kriteeriumidele'}, 'NOUN|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'tõlgitud'}, 'PROPN|Case=Ill|Number=Sing': {'Tartusse'}, 'PRON|Case=Tra|Number=Plur|PronType=Dem': {'sellisteks'}, 'PRON|Case=All|Number=Sing|PronType=Int,Rel': {'kellele'}, 'PRON|Case=Par|Number=Sing|PronType=Rcp': {'üksteist'}, 'NOUN|Case=Com|Number=Plur': {'inhibiitoritega'}, 'DET|Case=Nom|Number=Sing|PronType=Int,Rel': {'Missugune'}, 'PRON|Case=Ade|Number=Plur|PronType=Int,Rel': {'kellel'}, 'NOUN|Case=Ine|Number=Sing': {'ravis'}, 'NUM|Case=Ine|Number=Sing|NumForm=Letter|NumType=Card': {'kahes'}, 'DET|Case=Gen|Number=Plur|PronType=Ind': {'mitmete'}, 'NOUN|Case=Ine|Number=Sing|PronType=Tot': {'eas'}, 'ADJ|Case=Ade|Number=Sing|NumForm=Letter|NumType=Ord': {'teisel'}, 'NOUN|Case=Ela|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'toodust'}, 'VERB|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Pass': {'palutud'}, 'PRON|Case=Ine|Number=Plur|PronType=Ind': {'muudes'}, 'ADJ|Case=Ela|Number=Sing|NumForm=Digit|NumType=Ord': {'1.'}, 'DET|Case=Nom|Number=Plur|PronType=Dem': {'teised'}, 'NOUN|Hyph=Yes': {'kuulmis-'}, 'NUM|Case=Par|Number=Plur|NumForm=Letter|NumType=Card': {'miljardeid'}, 'PUNCT|_': {'?'}, 'NOUN|Case=Nom|Number=Sing': {'protsess'}, 'PRON|Case=Gen|Number=Sing|PronType=Rel': {'mille'}, 'AUX|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act': {'olid'}, 'DET|Case=Nom|Number=Sing|PronType=Dem': {'see'}, 'AUX|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'pole'}, 'ADJ|Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'Vastavad'}, 'DET|Case=Ine|Number=Sing|PronType=Tot': {'mõlemas'}, 'AUX|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'olgu'}, 'DET|Case=Abl|Number=Sing|PronType=Ind': {'ühelt'}, 'PRON|Case=All|Number=Plur|PronType=Dem': {'temasugustele'}, 'ADJ|Case=Tra|Degree=Cmp|Number=Sing': {'lihtsamaks'}, 'PRON|Case=Par|Number=Plur|Person=1|PronType=Prs': {'meid'}, 'NUM|Case=Ade|Number=Plur|NumForm=Letter|NumType=Card': {'pooltel'}, 'DET|Case=Ade|Number=Plur|PronType=Dem': {'sellistel'}, 'ADJ|Case=Ela|Number=Plur|NumForm=Letter|NumType=Ord': {'esimestest'}, 'PROPN|Abbr=Yes|Case=Add|Number=Sing': {'EKSi'}, 'DET|Case=Par|Number=Sing|PronType=Rel': {'millist'}, 'ADJ|Case=Par|Degree=Pos|Number=Sing': {'järgmist'}, 'PRON|Case=Par|Number=Sing|PronType=Ind': {'midagi'}, 'PROPN|Case=Ine|Number=Plur': {'Uuralites'}, 'AUX|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act': {'ole'}, 'ADP|_': {'saadik'}, 'ADJ|Case=Ess|Number=Sing|NumType=Ord': {'esimesena'}, 'ADJ|Case=Add|Number=Sing|NumForm=Roman|NumType=Ord': {'I'}, 'VERB|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'vastutate'}, 'ADJ|Case=Tra|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'lubatuks'}, 'NUM|Case=Ade|Number=Sing|NumForm=Digit|NumType=Card': {'26'}, 'DET|Case=Ade|Number=Sing|PronType=Dem': {'sel'}, 'PRON|Case=Par|Number=Sing|PronType=Rel': {'keda'}, 'NOUN|Case=Add|Number=Sing': {'klassi'}, 'ADJ|Case=Ine|Degree=Sup|Number=Sing': {'Lähimas'}, 'NUM|Case=Gen|Hyph=Yes|Number=Sing|NumForm=Digit|NumType=Card': {'10-'}}
+2019-02-18 02:18:43 INFO: input path: data/ud-treebanks-v2.1/UD_Estonian/et-ud-test.conllu
+path: data/ud-treebanks-v2.1/UD_Estonian/et-ud-test.conllu
+algus2
+{'AUX|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'olete'}, 'ADJ|Case=Ela|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'vastavast'}, 'AUX|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act': {'võiks'}, 'NOUN|Case=Com|Number=Sing': {'koondiga'}, 'PRON|Case=Ela|Number=Plur|Person=1|PronType=Prs': {'meist'}, 'PRON|Case=Nom|Number=Sing|PronType=Ind': {'üks'}, 'DET|Case=Ine|Number=Plur|PronType=Tot': {'kõigis'}, 'PRON|Case=Ine|Number=Sing|PronType=Int,Rel': {'Milles'}, 'ADJ|Case=Gen|Number=Sing': {'vähihaige'}, 'PRON|Case=Ela|Number=Plur|PronType=Int,Rel': {'millest'}, 'ADJ|Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'tugineva'}, 'AUX|VerbForm=Conv': {'olles'}, 'ADJ|Case=Nom|Degree=Sup|Number=Plur': {'sobivaimad'}, 'ADJ|Case=Gen|Number=Sing|NumForm=Roman|NumType=Ord': {'XI'}, 'PRON|Case=Tra|Number=Plur|Person=3|PronType=Prs': {'nendeks'}, 'ADJ|Case=Gen|Degree=Pos|Number=Plur': {'Kultuuriliste'}, 'PROPN|Case=Par|Number=Plur': {"Cabernet'-veine"}, 'VERB|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'Lisagem'}, 'ADV|Foreign=Yes': {'nahui'}, 'PRON|Case=All|Number=Plur|PronType=Int,Rel': {'kellele'}, 'PRON|Case=Gen|Number=Sing|PronType=Ind': {'ühe'}, 'PRON|Case=Abl|Number=Sing|PronType=Ind': {'kelleltki'}, 'PRON|Case=Com|Number=Plur|Poss=Yes|PronType=Prs': {'omadega'}, 'AUX|Connegative=Yes|Mood=Ind|Tense=Imp|VerbForm=Fin|Voice=Act': {'tohtinud'}, 'NOUN|Case=All|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'läinutele'}, 'PRON|Case=Par|Number=Plur|PronType=Int,Rel': {'mida'}, 'X|Abbr=Yes': {'of'}, 'NOUN|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'hõivatud'}, 'DET|Case=Ade|Number=Plur|PronType=Tot': {'kõigil'}, 'VERB|Tense=Pres|VerbForm=Part|Voice=Act': {'toretsevat'}, 'ADJ|Case=Gen|Number=Plur|NumForm=Letter|NumType=Ord': {'kolmekümnendate'}, 'NOUN|Case=Par|Number=Plur': {'näitajaid'}, 'NOUN|Case=Nom|Number=Sing|Person=3|PronType=Prs': {'Kõneleja'}, 'PRON|Case=All|Number=Sing|Person=3|PronType=Prs': {'Talle'}, 'DET|Case=Par|Number=Plur|PronType=Rel': {'milliseid'}, 'ADJ|Case=Ine|Number=Sing|NumType=Ord': {'70-80ndate'}, 'ADJ|Case=Ade|Degree=Cmp|Number=Plur': {'vaesematel'}, 'ADJ|Case=Ela|Number=Plur|PronType=Rel': {'millistest'}, 'AUX|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act': {'olime'}, 'AUX|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act': {'olin'}, 'ADJ|Case=Par|Number=Plur|PronType=Dem': {'sääraseid'}, 'ADJ|Case=All|Degree=Pos|Number=Plur': {'suurtele'}, 'PRON|Case=Gen|Number=Sing|Person=3|PronType=Prs': {'Tema'}, 'NOUN|Case=Ess|Number=Sing': {'mõjurina'}, 'ADJ|Case=Tra|Degree=Pos|Number=Sing': {'ebaoluliseks'}, 'ADJ|Case=Par|Number=Sing|NumForm=Letter|NumType=Ord': {'kuuekümnendat'}, 'PROPN|Abbr=Yes|Case=Ade|Number=Sing': {'MMil'}, 'AUX|Mood=Qot|Tense=Pres|VerbForm=Fin|Voice=Act': {'olevat'}, 'PRON|Case=Ade|Number=Plur|Person=1|PronType=Prs': {'Meil'}, 'AUX|VerbForm=Inf': {'olla'}, 'ADJ|Case=Ela|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass': {'teatavast'}, 'PRON|Case=Ade|Number=Plur|Person=3|PronType=Prs': {'neil'}, 'PRON|Case=Ine|Number=Sing|PronType=Dem': {'selleski'}, 'VERB|Case=Abe|VerbForm=Sup|Voice=Act': {'kasutamata'}, 'SYM|Abbr=Yes|Case=Com|Number=Sing': {'i-ga'}, 'PRON|Case=Ill|Number=Sing|PronType=Dem': {'sellesse'}, 'PRON|Case=Nom|Number=Sing|Person=3|PronType=Prs': {'ta'}, 'NOUN|Case=Ade|Number=Plur': {'paneelandmetel'}, 'DET|Case=Ela|Number=Sing|PronType=Ind': {'Ühest'}, 'PRON|Case=Tra|Number=Sing|PronType=Dem': {'samaks'}, 'ADJ|Case=Tra|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'suurendavaks'}, 'ADJ|Case=Ine|Degree=Pos|Number=Sing': {'avalikus'}, 'PROPN|Case=Ade|Number=Sing': {'Saaremaal'}, 'PRON|Case=Ade|Number=Plur|PronType=Ind': {'paljudel'}, 'ADJ|Case=Nom|Number=Sing|NumForm=Digit|NumType=Ord': {'1.2.2.'}, 'VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'kinnitab'}, 'PROPN|Case=Ter|Number=Sing': {'Inglismaani'}, 'PRON|Case=Ela|Number=Plur|PronType=Dem': {'neist'}, 'VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act': {'viskas'}, 'ADJ|Case=All|Degree=Cmp|Number=Sing': {'vasemale'}, 'ADJ|Case=All|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'mõjutavatele'}, 'PRON|Case=Ade|Number=Sing|PronType=Prs|Reflex=Yes': {'endal'}, 'PROPN|Case=Nom|Number=Plur': {'Türukud'}, 'DET|Case=Ade|Number=Plur|PronType=Ind': {'muudel'}, 'DET|Case=Nom|Number=Plur|PronType=Ind': {'mitmed'}, 'ADJ|Case=Com|Degree=Pos|Number=Sing': {'viimasega'}, 'NUM|Case=Ela|Number=Sing|NumType=Card': {'kahest'}, 'ADJ|Case=All|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'nimetatuile'}, 'ADJ|NumForm=Digit|NumType=Ord': {'47.'}, 'PRON|Case=All|Number=Plur|Person=2|PronType=Prs': {'teile'}, 'ADJ|Case=All|Degree=Cmp|Number=Plur': {'jõukamatele'}, 'DET|Case=Nom|Number=Sing|PronType=Ind': {'mõnigi'}, 'ADV|Case=Nom|Number=Sing': {'täis'}, 'NOUN|Case=Gen|Hyph=Yes|Number=Sing': {'töö-'}, 'AUX|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass': {'oldi'}, 'PRON|Case=All|Number=Sing|Poss=Yes|PronType=Prs': {'omale'}, 'PROPN|Hyph=Yes': {'Kesk-'}, 'PRON|Case=Tra|Number=Sing|PronType=Tot': {'kõigeks'}, 'ADJ|Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass': {'huvitava'}, 'ADJ|Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'mõõtev'}, 'PRON|Case=Ade|Number=Plur|Person=2|PronType=Prs': {'teil'}, 'PRON|Case=Gen|Number=Plur|PronType=Tot': {'kõigi'}, 'PRON|Case=Par|Number=Plur|PronType=Rel': {'mida'}, 'AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act': {'oli'}, 'PRON|Case=Ela|Number=Sing|PronType=Tot': {'mõlemast'}, 'PRON|Case=Abl|Number=Sing|Poss=Yes|PronType=Prs': {'omalt'}, 'NOUN|Case=Par|Number=Sing': {'ebavõrdsust'}, 'ADJ|Case=Nom|Number=Plur|NumForm=Letter|NumType=Ord': {'Esimesed'}, 'ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass': {'huvitatud'}, 'PUNCT|Hyph=Yes': {'--'}, 'ADJ|Case=Nom|Number=Plur': {'mõned'}, 'DET|Case=Par|Number=Sing|PronType=Ind': {'mingit'}, 'DET|Case=All|Number=Sing|PronType=Dem': {'Samale'}, 'ADJ|Case=Ter|Degree=Pos|Number=Sing': {'praeguseni'}, 'DET|Case=Gen|Number=Plur|PronType=Tot': {'kõigi'}, 'PRON|Case=Ade|Number=Sing|Person=3|PronType=Prs': {'tal'}, 'ADJ|Case=Gen|Number=Sing|NumForm=Letter|NumType=Ord': {'esimese'}, 'ADJ|Case=Gen|Degree=Pos|Number=Plur|VerbForm=Part|Voice=Act': {'auravate'}, 'ADJ|Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord': {'90.'}, 'PRON|Case=Nom|Number=Sing|PronType=Tot': {'kõik'}, 'VERB|Mood=Cnd|Tense=Past|VerbForm=Fin|Voice=Act': {'tõusnuks'}, 'AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'oled'}, 'PRON|Case=Ela|Number=Sing|PronType=Dem': {'sellest'}, 'ADJ|Case=Abl|Degree=Pos|Number=Sing': {'lavastuslikult'}, 'DET|Case=Add|Number=Sing|PronType=Dem': {'teise'}, 'ADJ|Case=Nom|Degree=Cmp|Number=Sing': {'suurem'}, 'ADJ|Case=Gen|Degree=Sup|Number=Plur': {'parimate'}, 'PRON|Case=Par|Number=Sing|Person=3|PronType=Prs': {'teda'}, 'ADJ|Case=Ade|Number=Plur|NumForm=Digit|NumType=Ord': {'1950.'}, 'DET|Case=Par|Number=Plur|PronType=Dem': {'Neid'}, 'VERB|Mood=Ind|Tense=Imp|VerbForm=Fin|Voice=Act': {'valati'}, 'VERB|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act': {'eksisteerikski'}, 'AUX|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'Oleksin'}, 'X|_': {'sure'}, 'NOUN|Number=Sing': {'metsa'}, 'PRON|Case=Ela|Number=Plur|Person=3|PronType=Prs': {'neist'}, 'PROPN|Case=Gen|Number=Sing': {'Gini'}, 'PRON|Case=Abl|Number=Sing|Person=3|PronType=Prs': {'temalt'}, 'DET|Case=Par|Number=Plur|PronType=Ind': {'Mõningaid'}, 'PRON|Case=Ade|Number=Sing|PronType=Ind': {'kellelgi'}, 'NOUN|Case=Nom|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'toimunu'}, 'PRON|Case=Ine|Number=Plur|Person=3|PronType=Prs': {'neis'}, 'AUX|Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act': {'olin'}, 'NOUN|Case=Ela|Number=Sing': {'ümberjaotusest'}, 'ADJ|Case=Gen|Degree=Sup|Number=Sing': {'mõjukaima'}, 'PRON|Case=Gen|Number=Plur|PronType=Ind': {'Paljude'}, 'ADJ|Case=Tra|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'kibestunuks'}, 'PRON|Case=Ine|Number=Sing|Person=3|PronType=Prs': {'temas'}, 'PROPN|Case=Gen|Number=Sing|NumForm=Letter|NumType=Ord': {'Neljanda'}, 'ADJ|Case=All|Degree=Pos|Number=Sing': {'avalikule'}, 'PROPN|Case=Ess|Number=Sing': {'Liliana'}, 'PROPN|Abbr=Yes|Case=Ela|Number=Sing': {'BBC-st'}, 'DET|Case=Ela|Number=Plur|PronType=Tot': {'kõigist'}, 'NOUN|Case=Par': {'käigushoidmist'}, 'PRON|Case=Ela|Number=Sing|Person=3|PronType=Prs': {'temast'}, 'ADJ|Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'tuntud'}, 'NUM|Case=Add|Number=Sing|NumForm=Letter|NumType=Card': {'viide'}, 'AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'on'}, 'DET|PronType=Ind': {'igasugu'}, 'ADJ|Case=Nom|Number=Sing|PronType=Dem': {'niisugune'}, 'DET|Case=Ine|Number=Plur|PronType=Dem': {'neis'}, 'DET|Case=Nom|Number=Plur|PronType=Tot': {'kõik'}, 'PRON|Case=Com|Number=Plur|Person=3|PronType=Prs': {'nendega'}, 'AUX|Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'peaksid'}, 'DET|Case=Ade|Number=Sing|PronType=Ind': {'mingil'}, 'ADJ|Case=Ade|Number=Plur|NumType=Ord': {'1960ndatel'}, 'ADJ|Case=Gen|Degree=Pos|Number=Sing': {'etnilise'}, 'AUX|Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act': {'võiks'}, 'ADJ|Case=Nom|Degree=Pos|Number=Sing': {'oluline'}, 'PRON|Case=Tra|Number=Plur|PronType=Ind': {'paljudeks'}, 'ADJ|Case=Ade|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'sünteesivatel'}, 'DET|Case=All|Number=Plur|PronType=Tot': {'kõigile'}, 'NUM|Case=All|Number=Sing|NumForm=Digit|NumType=Card': {'000'}, 'ADJ|Case=Par|Number=Sing|PronType=Rel': {'millist'}, 'PRON|Case=Nom|Number=Plur|PronType=Dem': {'need'}, 'PRON|Case=Ine|Number=Plur|PronType=Int,Rel': {'milles'}, 'ADV|Abbr=Yes': {'n.ö.'}, 'PROPN|Case=Tra|Number=Sing': {'Mafiaboyks'}, 'NOUN|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'väljarännanute'}, 'AUX|Mood=Imp|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act': {'olgu'}, 'NOUN|Case=Nom|Number=Plur': {'inimesed'}, 'NUM|Case=Ela|Number=Sing|NumForm=Digit|NumType=Card': {'10'}, 'DET|Case=Tra|Number=Sing|PronType=Tot': {'kõigeks'}, 'PRON|Case=Gen|Number=Sing|PronType=Prs|Reflex=Yes': {'enda'}, 'PRON|Case=Gen|Number=Sing|PronType=Rcp|Reflex=Yes': {'iseenda'}, 'VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass': {'saavutati'}, 'ADJ|Degree=Pos': {'eri'}, 'AUX|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act': {'oli'}, 'DET|Case=Gen|Number=Sing|PronType=Dem': {'selle'}, 'ADJ|Case=Ine|Degree=Cmp|Number=Sing': {'demokraatlikumas'}, 'VERB|Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'paneksite'}, 'VERB|Mood=Imp|Tense=Pres|VerbForm=Fin|Voice=Pass': {'Räägitagu'}, 'PRON|Case=All|Number=Plur|PronType=Tot': {'kõigile'}, 'PROPN|_': {'Prantsuse'}, 'VERB|Tense=Past|VerbForm=Part|Voice=Act': {'kahanenud'}, 'NUM|NumType=Card': {'2002b'}, 'NOUN|Case=Tra|Number=Plur': {'tegevusteks'}, 'CCONJ|_': {'ja'}, 'ADJ|Case=Ess|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'kahtlustatavana'}, 'DET|Case=Ine|Number=Sing|PronType=Ind': {'mingis'}, 'NUM|Case=Par|Number=Sing|NumForm=Letter|NumType=Card': {'kolme'}, 'PRON|Case=All|Number=Sing|PronType=Prs|Reflex=Yes': {'endale'}, 'VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass': {'Oletatakse'}, 'ADP|_': {'abil'}, 'ADJ|Case=Abe|Degree=Pos|VerbForm=Sup|Voice=Act': {'löömata'}, 'DET|Case=Ill|Number=Sing|PronType=Dem': {'sellesse'}, 'PRON|Case=Ela|Number=Sing|PronType=Ind': {'muust'}, 'ADJ|Case=Ela|Degree=Cmp|Number=Sing': {'kaugemast'}, 'ADJ|Case=Nom|Number=Sing|PronType=Int,Rel': {'milline'}, 'VERB|Case=Tra|VerbForm=Sup|Voice=Act': {'võtmaks'}, 'PRON|Case=Ine|Number=Plur|Person=1|PronType=Prs': {'meis'}, 'ADJ|Case=Ade|Degree=Pos|Number=Sing': {'empiirilisel'}, 'DET|Case=Ine|Number=Sing|PronType=Dem': {'selles'}, 'PROPN|Abbr=Yes|Case=Nom|Number=Plur': {'SRVd'}, 'ADJ|Case=Ine|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'erinevates'}, 'ADJ|Case=Gen|Degree=Cmp|Number=Sing': {'suurema'}, 'PRON|Case=Nom|Number=Plur|PronType=Prs|Reflex=Yes': {'ise'}, 'DET|Case=All|Number=Plur|PronType=Dem': {'teistele'}, 'NUM|Case=Ela|Number=Sing|NumForm=Letter|NumType=Card': {'kolmest'}, 'VERB|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act': {'arvasin'}, 'DET|Case=Tra|Number=Sing|PronType=Dem': {'selleks'}, 'ADJ|Case=Par|Degree=Pos|Number=Plur': {'poliitilisi'}, 'PRON|Case=Nom|Number=Plur|Person=2|PronType=Prs': {'te'}, 'DET|Case=Abl|Number=Plur|PronType=Ind': {'mitmetelt'}, 'DET|Case=Ade|Number=Sing|PronType=Tot': {'Mõlemal'}, 'DET|Case=Gen|Number=Sing|PronType=Rel': {'kumma'}, 'PRON|Case=Ade|Number=Plur|PronType=Dem': {'teistel'}, 'AUX|Tense=Past|VerbForm=Part|Voice=Act': {'olnud'}, 'AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'olen'}, 'ADJ|Case=Ela|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'erinevatest'}, 'PROPN|Abbr=Yes|Case=Nom|Number=Sing': {'R250s'}, 'PRON|Case=Par|Number=Plur|PronType=Dem': {'neid'}, 'NOUN|Case=Nom|Number=Sing|PronType=Tot': {'Kõik'}, 'PRON|Case=Ade|Number=Sing|Person=2|PronType=Prs': {'sul'}, 'AUX|Mood=Cnd|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'poleks'}, 'PRON|Case=Com|Number=Sing|PronType=Int,Rel': {'kellega'}, 'PROPN|Case=Ine|Number=Sing': {'Eestis'}, 'PRON|Case=Gen|Number=Sing|PronType=Tot': {'kõige'}, 'DET|Case=Nom|Number=Sing|PronType=Tot': {'iga'}, 'VERB|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'tuleneksidki'}, 'ADJ|Case=Ine|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'tõrjutus'}, 'ADJ|Case=Nom|Number=Sing|NumForm=Letter|NumType=Ord': {'kolmas'}, 'PROPN|Number=Sing': {'Tallinna'}, 'ADJ|NumForm=Roman|NumType=Ord': {'ADV'}, 'NUM|Case=Gen|Number=Sing|NumForm=Letter|NumType=Card': {'Ühe'}, 'ADJ|Case=Gen|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'tõrjutu'}, 'PROPN|Abbr=Yes|Case=Par|Number=Sing': {'BBC-d'}, 'VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'läheme'}, 'ADJ|Case=Nom|Degree=Cmp|Number=Sing|VerbForm=Part': {'konverteeritavam'}, 'PRON|Case=Par|Number=Sing|Poss=Yes|PronType=Prs': {'oma'}, 'NOUN|Abbr=Yes|Case=Ade|Number=Sing': {'CD-l'}, 'ADV|_': {'seega'}, 'ADJ|Case=Ine|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'põhinevas'}, 'PRON|Case=Gen|Number=Sing|Poss=Yes|PronType=Prs': {'oma'}, 'PRON|Case=Com|Number=Sing|PronType=Rcp|Reflex=Yes': {'teienteisega'}, 'NOUN|Case=Ine|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'loodus'}, 'ADJ|Case=Ine|Degree=Pos|Number=Plur': {'kommunistlikes'}, 'PRON|Case=Nom|Number=Plur|PronType=Ind': {'mõned'}, 'PRON|Case=Abl|Number=Sing|Person=1|PronType=Prs': {'minult'}, 'ADJ|Case=Ela|Number=Sing|NumForm=Letter|NumType=Ord': {'teisest'}, 'PRON|Case=Ade|Number=Sing|PronType=Int,Rel': {'kellel'}, 'ADJ|Case=All|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'oletatavale'}, 'PRON|Case=Ade|Number=Sing|PronType=Tot': {'Mõlemal'}, 'PROPN|Abbr=Yes|Case=Gen|Number=Sing': {'DDRi'}, 'DET|Case=Gen|Number=Sing|PronType=Tot': {'iga'}, 'PRON|Case=Ter|Number=Sing|PronType=Dem': {'selleni'}, 'ADJ|Case=Ela|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'loodetust'}, 'ADJ|Case=Ess|Number=Sing|NumForm=Letter|NumType=Ord': {'esimesena'}, 'VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act': {'ole'}, 'PROPN|Case=Par|Number=Sing|NumForm=Letter|NumType=Ord': {'Teist'}, 'PRON|Case=Gen|Number=Plur|Person=1|PronType=Prs': {'meie'}, 'ADP|AdpType=Prep|Case=Gen': {'Läbi'}, 'NOUN|Case=Ess|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'jaotatuna'}, 'NUM|Case=Nom|Number=Plur|NumForm=Letter|NumType=Card': {'Tuhanded'}, 'DET|Case=Ela|Number=Plur|PronType=Dem': {'neist'}, 'ADJ|Case=Ill|Degree=Pos|Number=Plur': {'uutesse'}, 'NOUN|Case=Ill|Number=Sing': {'erasektorisse'}, 'NOUN|Abbr=Yes|Case=Ine|Number=Sing': {'SKP-s'}, 'PROPN|Case=Ela|Number=Sing': {'Moskvast'}, 'PROPN|Abbr=Yes': {'USA'}, 'ADJ|Case=Ine|Number=Sing|PronType=Rel': {'Millises'}, 'PRON|Case=Nom|Number=Sing|Poss=Yes|PronType=Prs': {'oma'}, 'ADJ|Case=Gen|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'erinevate'}, 'PROPN|Case=Nom|Number=Sing': {'Zou'}, 'SYM|Abbr=Yes': {'*'}, 'PRON|Case=Nom|Number=Plur|PronType=Tot': {'mõlemad'}, 'DET|Case=Gen|Number=Plur|PronType=Dem': {'nende'}, 'ADJ|Case=Nom|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'jäänud'}, 'NUM|Case=All|Number=Sing|NumForm=Letter|NumType=Card': {'ühele'}, 'DET|Case=Par|Number=Sing|PronType=Tot': {'mõlemat'}, 'ADJ|Hyph=Yes|PronType=Tot': {'kogu-'}, 'NOUN|Case=Gen|Number=Plur': {'sissetulekute'}, 'PRON|Case=Abe|Number=Sing|PronType=Dem': {'selleta'}, 'PRON|Case=Par|Number=Sing|Person=2|PronType=Prs': {'sind'}, 'ADJ|_': {'mitteesti'}, 'PRON|Case=Nom|Number=Sing|PronType=Dem': {'teine'}, 'PRON|Case=Ess|Number=Sing|PronType=Prs|Reflex=Yes': {'iseendana'}, 'ADJ|Case=Par|Number=Sing': {'mõndagi'}, 'NOUN|Case=Add|Hyph=Yes|Number=Sing': {'tolmu-'}, 'VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'kasutan'}, 'ADJ|Case=Tra|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'soodustavateks'}, 'ADJ|Case=Ess|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'võetuna'}, 'VERB|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act': {'panite'}, 'VERB|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act': {'vahetasime'}, 'PROPN|Abbr=Yes|Case=Abl|Number=Sing': {'MMilt'}, 'VERB|VerbForm=Conv': {'kasutades'}, 'PROPN|Case=Par|Number=Sing': {'Perotti'}, 'NOUN|Case=Ade|Number=Sing': {'uurimisel'}, 'ADJ|Case=Tra|Number=Sing|NumForm=Digit|NumType=Ord': {'1902.'}, 'ADJ|Case=Ill|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'vastavasse'}, 'PRON|Case=Ess|Number=Sing|PronType=Dem': {'esimesena'}, 'VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'jõuavad'}, 'NUM|Case=Nom|Number=Sing|NumForm=Letter|NumType=Card': {'üks'}, 'AUX|Connegative=Yes': {'ei'}, 'PRON|Case=Gen|Number=Plur|PronType=Int,Rel': {'mille'}, 'ADJ|Case=Ela|Degree=Pos|Number=Sing': {'keskmisest'}, 'ADJ|Case=Tra|Degree=Sup|Number=Sing': {'parimaks'}, 'ADP|AdpType=Prep': {'seoses'}, 'AUX|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass': {'olda'}, 'ADJ|Case=Ela|Degree=Cmp|Number=Plur': {'Varasematest'}, 'ADJ|Case=Nom|Number=Plur|PronType=Rel': {'Millised'}, 'DET|Case=All|Number=Sing|PronType=Ind': {'ühelegi'}, 'PRON|Case=All|Number=Plur|Person=3|PronType=Prs': {'neile'}, 'ADJ|Case=Ine|Degree=Cmp|Number=Plur': {'suuremates'}, 'PROPN|Case=Abl|Number=Sing': {'Tenerifelt'}, 'PRON|Case=Abl|Number=Sing|Person=2|PronType=Prs': {'sult'}, 'ADJ|Case=Ill|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'olemasolevatesse'}, 'PRON|Case=Ine|Number=Sing|PronType=Ind': {'milleski'}, 'NUM|Case=Gen|Number=Plur|NumForm=Letter|NumType=Card': {'b-poolte'}, 'AUX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'ole'}, 'ADJ|Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass': {'huvitavad'}, 'NOUN|Abbr=Yes|Case=Par|Number=Sing': {'SKP-d'}, 'PRON|Case=All|Number=Sing|Person=2|PronType=Prs': {'sulle'}, 'PRON|Case=Gen|Number=Sing|PronType=Dem': {'selle'}, 'ADJ|Case=Gen|Number=Plur|NumType=Ord': {'1960-ndate'}, 'ADJ|Case=Ill|Degree=Pos|Number=Sing': {'Järgmisesse'}, 'NOUN|Case=Nom|Hyph=Yes|Number=Sing': {'tööstus-'}, 'AUX|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act': {'pidid'}, 'VERB|VerbForm=Sup|Voice=Pass': {'suletama'}, 'PROPN|Tense=Past|VerbForm=Part|Voice=Act': {'Ühinenud'}, 'PRON|Case=Ade|Number=Sing|Person=1|PronType=Prs': {'Mul'}, 'NUM|Case=Tra|Number=Sing|NumForm=Letter|NumType=Card': {'Üheks'}, 'ADJ|Case=Nom|Degree=Sup|Number=Sing': {'vanim'}, 'ADJ|Case=Nom|Degree=Cmp|Number=Plur': {'vaesemad'}, 'NOUN|Case=Ine|Number=Plur': {'riikides'}, 'AUX|Case=Ill|VerbForm=Sup|Voice=Act': {'olema'}, 'PRON|Case=Gen|Number=Plur|Person=2|PronType=Prs': {'teie'}, 'PRON|Case=Nom|Number=Sing|Person=2|PronType=Prs': {'sa'}, 'DET|Case=Par|Number=Plur|PronType=Tot': {'kõiki'}, 'VERB|Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act': {'mõjutanud'}, 'ADJ|Case=Ade|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'pidutseval'}, 'VERB|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act': {'polnudki'}, 'ADV|Polarity=Neg': {'mitte'}, 'NOUN|Case=Ter|Number=Sing': {'ebastabiilsuseni'}, 'VERB|Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act': {'läheks'}, 'NOUN|Abbr=Yes': {'ibid'}, 'ADJ|Case=Abl|Degree=Pos|Number=Plur': {'kohalikelt'}, 'NOUN|Case=Nom|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'elav'}, 'ADJ|Case=Add|Number=Sing|NumForm=Letter|NumType=Ord': {'Esimesse'}, 'NOUN|Case=Ela|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'pöördunutest'}, 'ADJ|Case=Ade|Degree=Cmp|Number=Sing': {'kiiremal'}, 'VERB|Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act': {'võbelesid'}, 'AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass': {'ollakse'}, 'AUX|Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act': {'olnud'}, 'VERB|Case=Ill|VerbForm=Sup|Voice=Act': {'langema'}, 'PRON|Case=All|Number=Plur|Person=1|PronType=Prs': {'meile'}, 'AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act': {'ole'}, 'DET|Case=Gen|Number=Plur|PronType=Ind': {'muude'}, 'VERB|Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act': {'Väljusime'}, 'PRON|Case=All|Number=Sing|PronType=Ind': {'mõnele'}, 'VERB|Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act': {'Valasin'}, 'VERB|Mood=Qot|Tense=Pres|VerbForm=Fin|Voice=Act': {'tõusvat'}, 'SCONJ|_': {'et'}, 'PROPN|Case=Gen|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'Iseseisva'}, 'PRON|Case=Ess|Number=Sing|PronType=Int,Rel': {'kellena'}, 'PRON|Case=Ela|Number=Sing|PronType=Rcp|Reflex=Yes': {'üksteisest'}, 'ADJ|Case=Gen|Number=Sing|NumForm=Digit|NumType=Ord': {'1960.-1995.'}, 'ADJ|Degree=Pos|VerbForm=Part|Voice=Act': {'otsastrebitud'}, 'ADJ|Case=Par|Number=Sing|NumForm=Digit|NumType=Ord': {'15.'}, 'ADJ|Case=Par|Degree=Cmp|Number=Sing': {'harvemat'}, 'PRON|Case=Par|Number=Sing|PronType=Int,Rel': {'mida'}, 'VERB|Case=All|VerbForm=Sup|Voice=Act': {'minema'}, 'PRON|Case=Com|Number=Sing|Poss=Yes|PronType=Prs': {'omaga'}, 'AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'on'}, 'ADJ|Case=Nom|Number=Sing': {'naasugune'}, 'PRON|Case=Abl|Number=Sing|PronType=Dem': {'teiselt'}, 'ADJ|Case=Ine|Number=Sing|NumForm=Roman|NumType=Ord': {'XII'}, 'NUM|Case=Nom|Number=Sing|NumForm=Digit|NumType=Card': {'2003'}, 'NOUN|Case=Ess|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'surnuna'}, 'PRON|Case=Ter|Number=Sing|Person=1|PronType=Prs': {'minuni'}, 'VERB|Hyph=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act': {'karjus-'}, 'ADJ|Case=Ela|Degree=Pos|Number=Plur': {'majanduspoliitilistest'}, 'ADJ|Case=Par|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'suurendavat'}, 'DET|Case=All|Number=Sing|PronType=Tot': {'Igale'}, 'NOUN|Case=Gen|Number=Sing': {'aasta'}, 'ADJ|Case=Ess|Degree=Pos|Number=Sing': {'keskmisena'}, 'PRON|Case=Ine|Number=Sing|PronType=Prs|Reflex=Yes': {'endas'}, 'VERB|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'võta'}, 'NOUN|_': {'börsile'}, 'AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act': {'olid'}, 'VERB|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act': {'pakkusid'}, 'VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act': {'osutus'}, 'PRON|Case=Par|Number=Sing|PronType=Prs|Reflex=Yes': {'end'}, 'VERB|Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'osta'}, 'ADJ|Case=Par|Number=Plur|NumForm=Letter|NumType=Ord': {'esimesi'}, 'PRON|Case=Par|Number=Sing|PronType=Tot': {'kõike'}, 'PRON|Case=Par|Number=Plur|Person=3|PronType=Prs': {'neid'}, 'PRON|Case=Abl|Number=Plur|Person=3|PronType=Prs': {'neilt'}, 'PRON|Case=Gen|Number=Sing|Person=2|PronType=Prs': {'su'}, 'ADJ|Case=Add|Degree=Pos|Number=Sing': {'empiirilisse'}, 'VERB|Mood=Ind|Tense=Imp|VerbForm=Fin|Voice=Pass': {'valati'}, 'DET|Case=Ine|Number=Plur|PronType=Ind': {'Mõnedes'}, 'PRON|Case=Nom|Number=Plur|PronType=Int,Rel': {'mis'}, 'ADV|Hyph=Yes': {'jae-'}, 'ADJ|Case=Par|Degree=Sup|Number=Sing': {'parimat'}, 'ADJ|Case=Ade|Degree=Pos|Number=Plur': {'rahvusvahelistel'}, 'DET|PronType=Tot': {'kogu'}, 'NOUN|Case=Abe|Number=Sing': {'tasuta'}, 'VERB|Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'oskaksid'}, 'VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'tahad'}, 'VERB|Tense=Past|VerbForm=Part|Voice=Pass': {'uuritud'}, 'ADJ|Abbr=Yes': {'nn'}, 'DET|Case=Gen|Number=Sing|PronType=Ind': {'ühe'}, 'NOUN|Case=All|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'eelnenule'}, 'PRON|Case=Gen|Number=Plur|PronType=Prs|Reflex=Yes': {'eneste'}, 'DET|Case=Nom|Number=Plur|PronType=Dem': {'teised'}, 'PRON|Case=Com|Number=Sing|PronType=Ind': {'kellegagi'}, 'PRON|Case=Par|Number=Sing|Person=1|PronType=Prs': {'Mind'}, 'ADJ|Case=Ela|Number=Plur|NumType=Ord': {'1970-ndatest'}, 'NOUN|Case=All|Number=Sing': {'ebavõrdsusele'}, 'VERB|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'Vaadake'}, 'PRON|Case=Ela|Number=Sing|PronType=Prs|Reflex=Yes': {'endast'}, 'NUM|Case=Abl|Number=Sing|NumForm=Digit|NumType=Card': {'33-lt'}, 'ADJ|Case=Par|Degree=Cmp|Number=Plur': {'olulisemaid'}, 'PROPN|Case=Add|Number=Sing': {'Riigikokku'}, 'PRON|Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes': {'ise'}, 'DET|Case=Tra|Number=Sing|PronType=Ind': {'üheks'}, 'PRON|Case=All|Number=Sing|Person=1|PronType=Prs': {'mulle'}, 'DET|Case=Ela|Number=Sing|PronType=Tot': {'kõigest'}, 'NOUN|Case=Abe|Number=Plur': {'elaniketa'}, 'NOUN|Case=Ade|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act': {'Allakirjutanul'}, 'ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act': {'arenenud'}, 'NUM|Case=Tra|Number=Sing|NumForm=Digit|NumType=Card': {'15'}, 'ADJ|Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass': {'teatav'}, 'VERB|Connegative=Yes|Mood=Ind|Tense=Imp|VerbForm=Fin|Voice=Pass': {'kutsutud'}, 'AUX|Polarity=Neg': {'ei'}, 'PRON|Case=Com|Number=Sing|Person=3|PronType=Prs': {'Temaga'}, 'NUM|Case=Abl|Number=Sing|NumForm=Letter|NumType=Card': {'Ühelt'}, 'ADJ|Case=Par|Number=Sing|PronType=Dem': {'Sama'}, 'AUX|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act': {'polnud'}, 'CCONJ|Polarity=Neg': {'ega'}, 'PRON|Case=Nom|Number=Sing|PronType=Int,Rel': {'mis'}, 'PROPN|Case=Com|Number=Plur': {'Sõpradega'}, 'VERB|Abbr=Yes|Mood=Imp|VerbForm=Fin': {'vt.'}, 'NOUN|Case=Par|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'elusolevat'}, 'DET|Case=Nom|Number=Sing|PronType=Int': {'milline'}, 'X|Case=Gen|Number=Sing': {"siecle'i"}, 'NOUN|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act': {'Tänud'}, 'PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs': {'nad'}, 'VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass': {'lasta'}, 'PRON|Case=Ela|Number=Sing|Person=1|PronType=Prs': {'minust'}, 'PRON|Case=Ela|Number=Sing|Person=2|PronType=Prs': {'Sinust'}, 'INTJ|_': {'No'}, 'NUM|Case=Ine|Number=Sing|NumForm=Digit|NumType=Card': {'32'}, 'NOUN|Case=Ter|Number=Plur': {'tarbijateni'}, 'PRON|Case=Par|Number=Sing|PronType=Dem': {'Seda'}, 'VERB|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act': {'analüüsisid'}, 'ADJ|Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'erinevad'}, 'NUM|Case=Nom|Number=Sing|NumType=Card': {'1999a'}, 'NOUN|Case=Ess|Number=Plur': {'mõjuritena'}, 'PRON|Case=All|Number=Sing|PronType=Dem': {'sellele'}, 'PRON|Case=Par|Number=Plur|PronType=Ind': {'mitmeid'}, 'PRON|Case=Gen|Number=Sing|PronType=Int,Rel': {'kelle'}, 'ADJ|Case=Abl|Number=Sing|NumForm=Letter|NumType=Ord': {'teiselt'}, 'ADJ|Case=Nom|Number=Sing|PronType=Rel': {'milline'}, 'DET|Case=Ine|Number=Sing|PronType=Tot': {'mõlemas'}, 'PRON|Case=Gen|Number=Plur|PronType=Dem': {'nende'}, 'DET|Case=Add|Number=Sing|PronType=Ind': {'mõnda'}, 'PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs': {'mina'}, 'NOUN|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'hõivatute'}, 'PROPN|Case=All|Number=Sing': {'Venemaale'}, 'ADJ|Case=Gen|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass': {'huvitavate'}, 'VERB|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Pass': {'kulutataks'}, 'NOUN|Case=Ill|Number=Plur': {'seadmetesse'}, 'PRON|Case=All|Number=Plur|PronType=Dem': {'teistele'}, 'ADJ|Case=Ess|Degree=Pos|Number=Plur': {'arreteerituina'}, 'PRON|Case=Gen|Number=Plur|Person=3|PronType=Prs': {'nende'}, 'NUM|Case=Ade|Number=Sing|NumForm=Letter|NumType=Card': {'paaril'}, 'DET|Case=Ela|Number=Sing|PronType=Dem': {'Teisest'}, 'PRON|Case=Par|Number=Plur|Person=1|PronType=Prs': {'meid'}, 'PRON|Case=Ter|Number=Plur|Person=2|PronType=Prs': {'teieni'}, 'ADJ|Case=Ade|Degree=Sup|Number=Sing': {'parimal'}, 'X|Case=Nom|Number=Sing': {'acid'}, 'PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs': {'Me'}, 'PRON|Case=Com|Number=Sing|PronType=Dem': {'sellega'}, 'ADJ|Case=Par|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act': {'erinevaid'}, 'PRON|Case=Com|Number=Plur|Person=1|PronType=Prs': {'meiega'}, 'ADJ|Case=Nom|Degree=Pos|Number=Plur': {'kultuurilised'}, 'NOUN|Case=Tra|Number=Sing': {'mõjuriks'}, 'PRON|Case=Ela|Number=Sing|PronType=Int,Rel': {'millest'}, 'PROPN|Case=Gen|Hyph=Yes|Number=Sing': {'Valga-'}, 'PRON|Case=Par|Number=Sing|PronType=Rcp|Reflex=Yes': {'üksteist'}, 'PRON|Case=Com|Number=Plur|PronType=Int,Rel': {'millega'}, 'NOUN|Case=Par|Hyph=Yes|Number=Sing': {'õnge-'}, 'PRON|Case=Gen|Number=Sing|Person=1|PronType=Prs': {'minu'}, 'AUX|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'võiksid'}, 'VERB|Case=Ine|VerbForm=Sup|Voice=Act': {'toimumas'}, 'NUM|NumForm=Digit|NumType=Card': {'2003'}, 'ADJ|Case=Tra|Degree=Cmp|Number=Plur': {'suuremateks'}, 'VERB|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'võtku'}, 'VERB|VerbForm=Inf': {'koondada'}, 'VERB|Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass': {'aetud'}, 'PRON|Case=Com|Number=Plur|PronType=Dem': {'nendega'}, 'PROPN|Case=Gen|Number=Plur': {'Filipiinide'}, 'DET|Case=Nom|Number=Plur|PronType=Rel': {'millised'}, 'AUX|Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'oleksime'}, 'PRON|Case=Com|Number=Sing|PronType=Prs|Reflex=Yes': {'endaga'}, 'ADJ|Case=Par|Degree=Pos|Number=Sing': {'etnilist'}, 'ADJ|Case=Par|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass': {'huvitavat'}, 'PRON|Case=Ade|Number=Plur|PronType=Tot': {'kõigil'}, 'ADJ|Degree=Pos|Foreign=Yes': {'druzhnõi'}, 'ADJ|Case=All|Number=Sing|NumForm=Digit|NumType=Ord': {'20.'}, 'PROPN|Case=Com|Number=Sing': {'Allikuga'}, 'NOUN|Abbr=Yes|Case=All|Number=Sing': {'SKP-le'}, 'NUM|Case=Gen|Number=Sing|NumForm=Digit|NumType=Card': {'91'}, 'ADJ|Case=Tra|Degree=Pos|Number=Plur': {'ekstensiivseteks'}, 'NOUN|Abbr=Yes|Case=Gen|Number=Sing': {'GSMi'}, 'ADP|AdpType=Post': {'hulgas'}, 'NOUN|Case=Ela|Number=Plur': {'aastatest'}, 'PRON|Case=Par|Number=Sing|PronType=Ind': {'midagi'}, 'VERB|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'Pole'}, 'PRON|Case=All|Number=Plur|PronType=Ind': {'paljudele'}, 'ADJ|Case=Ine|Number=Sing|NumForm=Letter|NumType=Ord': {'Üheteistkümnendas'}, 'ADJ|Case=Tra|Number=Sing|NumForm=Letter|NumType=Ord': {'kolmandaks'}, 'NOUN|Abbr=Yes|Case=Ela|Number=Sing': {'SKP-st'}, 'PROPN|Abbr=Yes|Case=Ine|Number=Sing': {'USA-s'}, 'PRON|Case=Ela|Number=Plur|PronType=Ind': {'paljudest'}, 'ADJ|Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass': {'kasutatud'}, 'AUX|Mood=Cnd|Tense=Past|VerbForm=Fin|Voice=Act': {'olnuks'}, 'VERB|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'arvaksin'}, 'NOUN|Case=Gen|Number=Sing|PronType=Dem': {'selle'}, 'ADJ|Case=Gen|Degree=Pos|Number=Sing|VerbForm=Part|Voice=Act': {'kasvava'}, 'NOUN|Case=All|Number=Plur': {'tööstusprojektidele'}, 'NOUN|Case=Gen|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act': {'tagaotsitava'}, 'AUX|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act': {'ole'}, 'PROPN|Case=Ill|Number=Sing': {'Lilysse'}, 'PRON|Case=All|Number=Sing|PronType=Int,Rel': {'kellele'}, 'ADJ|Case=Ade|Number=Sing|PronType=Dem': {'seesugusel'}, 'NOUN|Case=Abl|Number=Plur': {'litsidelt'}, 'PRON|Case=Ade|Number=Plur|PronType=Int,Rel': {'millel'}, 'DET|Case=Tra|Number=Plur|PronType=Ind': {'muudeks'}, 'NOUN|Case=Ine|Number=Sing': {'uurimuses'}, 'NUM|Case=Ine|Number=Sing|NumForm=Letter|NumType=Card': {'ühes'}, 'PRON|Case=Abl|Number=Plur|PronType=Dem': {'neilt'}, 'ADJ|Case=Ade|Number=Sing|NumForm=Letter|NumType=Ord': {'kolmandal'}, 'PRON|Case=Ine|Number=Plur|PronType=Ind': {'paljudes'}, 'ADJ|Case=Ela|Number=Sing|NumForm=Digit|NumType=Ord': {'1996.'}, 'DET|Case=Nom|Number=Sing|PronType=Rel': {'milline'}, 'ADJ|Case=Nom|Number=Plur|PronType=Dem': {'niisugused'}, 'ADJ|Case=Nom|Number=Sing|NumType=Ord': {'Esimene'}, 'NUM|Case=Par|Number=Plur|NumForm=Letter|NumType=Card': {'tuhandeid'}, 'PUNCT|_': {'.'}, 'NOUN|Case=Nom|Number=Sing': {'ebavõrdsus'}, 'SYM|_': {'%'}, 'NOUN|Case=Com|Number=Plur': {'loodusressurssidega'}, 'DET|Case=Nom|Number=Sing|PronType=Dem': {'see'}, 'AUX|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act': {'pole'}, 'ADJ|Case=Gen|Number=Plur|NumForm=Digit|NumType=Ord': {'1980.-1997.'}, 'NOUN|Case=Abl|Number=Sing': {'Taksojuhilt'}, 'AUX|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act': {'olgu'}, 'DET|Case=Abl|Number=Sing|PronType=Ind': {'ühelt'}, 'VERB|Case=Ela|VerbForm=Sup|Voice=Act': {'laulmast'}, 'ADJ|Case=Tra|Degree=Cmp|Number=Sing': {'olulisemaks'}, 'PRON|Case=Ade|Number=Sing|PronType=Dem': {'sellel'}, 'DET|Case=Ade|Number=Plur|PronType=Dem': {'teistel'}, 'ADJ|Case=Ela|Number=Plur|NumForm=Letter|NumType=Ord': {'kolmandatest'}, 'PROPN|Abbr=Yes|Case=Add|Number=Sing': {'ELi'}, 'DET|Case=Par|Number=Sing|PronType=Rel': {'millist'}, 'VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act': {'pruugi'}, 'DET|Case=Par|Number=Sing|PronType=Dem': {'Sellist'}, 'PROPN|Case=Ine|Number=Plur': {'Ühendriikides'}, 'AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act': {'oleme'}, 'ADJ|Case=Gen|Degree=Cmp|Number=Plur': {'väiksemate'}, 'ADJ|Case=Nom|Degree=Pos|Number=Sing|VerbForm=Part|Voice=Act': {'Tilkuv'}, 'NOUN|Case=Ela|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'Eeltoodust'}, 'VERB|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act': {'julgete'}, 'ADJ|Case=Tra|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass': {'seotuks'}, 'DET|Case=Ade|Number=Sing|PronType=Dem': {'samal'}, 'NOUN|Case=Add|Number=Sing': {'gruppi'}, 'ADJ|Case=Ine|Degree=Sup|Number=Sing': {'parimas'}}
+labels
+['<pad>', '<bos>', '<eos>', 'PUNCT|_', 'ADV|_', 'NOUN|Case=Nom|Number=Sing', 'NOUN|Case=Gen|Number=Sing', 'CCONJ|_', 'NOUN|Case=Par|Number=Sing', 'PROPN|Case=Nom|Number=Sing']
+2019-02-18 02:18:44 INFO: # Loading word vectors from file
+The `device` argument should be set by using `torch.device` or passing a string as an argument. This behavior will be deprecated soon and currently defaults to cpu.
+The `device` argument should be set by using `torch.device` or passing a string as an argument. This behavior will be deprecated soon and currently defaults to cpu.
+The `device` argument should be set by using `torch.device` or passing a string as an argument. This behavior will be deprecated soon and currently defaults to cpu.
+2019-02-18 02:18:45 INFO: # Word vocab size: 35386
+2019-02-18 02:18:45 INFO: # Tag vocab size: 964
+2019-02-18 02:18:45 INFO: # Char vocab size: 130
+2019-02-18 02:18:45 INFO: # Creating a model with trainable embeddings ...
+2019-02-18 02:18:45 INFO: # Creating encoder ...
+2019-02-18 02:18:45 INFO: # Creating WordEncoder
+2019-02-18 02:18:45 INFO: # Copying pretrained embeddings to model...
+2019-02-18 02:18:45 INFO: # Loading model from file ...
+2019-02-18 02:18:45 INFO: # Creating loss function ...
+2019-02-18 02:18:45 INFO: # Creating the parameter optimizer ...
+2019-02-18 02:18:45 INFO: # Copying objects to device ...
+<bos>: false: -2 : ADV|_
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+ka: false: -2 : ADV|_
+tööd: true : NOUN|Case=Par|Number=Sing
+,: false: -2 : PUNCT|_
+kus: false: -2 : ADV|_
+korraga: false: -2 : ADV|_
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+vaatluse: true : NOUN|Case=Gen|Number=Sing
+alla: false: -2 : ADV|_
+võtma: false: -2 : VERB|Tense=Past|VerbForm=Part|Voice=Pass
+enam: false: -2 : ADV|_
+tegurid: true : NOUN|Case=Nom|Number=Plur
+(: false: -2 : PUNCT|_
+küllaltki: false: -2 : ADV|_
+paljude: true : PRON|Case=Gen|Number=Plur|PronType=Ind
+erinevad: true : ADJ|Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act
+mõjurid: true : NOUN|Case=Nom|Number=Plur
+olema: false: 0 : AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+oma: true : PRON|Case=Gen|Number=Sing|Poss=Yes|PronType=Prs
+tööd: true : NOUN|Case=Par|Number=Sing
+kaasama: false: -2 : VERB|Tense=Past|VerbForm=Part|Voice=Act
+nielsen: true : PROPN|Case=Nom|Number=Sing
+,: false: -2 : PUNCT|_
+1994: true : NUM|Case=Nom|Number=Sing|NumForm=Digit|NumType=Card
+;: false: -2 : PUNCT|_
+unk: true : NOUN|Case=Nom|Number=Sing
+ja: false: -2 : CCONJ|_
+ungid: true : NOUN|Case=Nom|Number=Plur
+,: false: -2 : PUNCT|_
+1997: true : NUM|Case=Nom|Number=Sing|NumForm=Digit|NumType=Card
+;: false: -2 : PUNCT|_
+nielsen: true : PROPN|Case=Nom|Number=Sing
+ja: false: -2 : CCONJ|_
+unk: true : PROPN|Case=Nom|Number=Sing
+,: false: -2 : PUNCT|_
+1997: false: -2 : NUM|NumForm=Digit|NumType=Card
+;: false: -2 : PUNCT|_
+ungid: true : NOUN|Case=Nom|Number=Plur
+ja: false: -2 : CCONJ|_
+ungid: true : NOUN|Case=Nom|Number=Plur
+,: false: -2 : PUNCT|_
+2000: true : NUM|Case=Nom|Number=Sing|NumForm=Digit|NumType=Card
+;: false: -2 : PUNCT|_
+ungid: true : NOUN|Case=Nom|Number=Plur
+,: false: -2 : PUNCT|_
+unk: true : NOUN|Case=Nom|Number=Sing
+ja: false: -2 : CCONJ|_
+ungid: true : NOUN|Case=Nom|Number=Plur
+,: false: -2 : PUNCT|_
+2003: true : NUM|Case=Nom|Number=Sing|NumForm=Digit|NumType=Card
+): false: -2 : PUNCT|_
+,: false: -2 : PUNCT|_
+kuid: false: -2 : CCONJ|_
+ei: false: -2 : AUX|Polarity=Neg
+saama: false: -2 : AUX|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act
+ütlema: false: -2 : VERB|VerbForm=Inf
+,: false: -2 : PUNCT|_
+et: false: -2 : SCONJ|_
+see: true : DET|Case=Nom|Number=Sing|PronType=Dem
+töö: true : NOUN|Case=Nom|Number=Sing
+hõlmama: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+kõigud: true : DET|Case=Nom|Number=Plur|PronType=Tot
+tegurid: true : NOUN|Case=Nom|Number=Plur
+,: false: -2 : PUNCT|_
+mis: true : PRON|Case=Nom|Number=Plur|PronType=Int,Rel
+olema: false: 0 : AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+oletatavate: true : ADJ|Case=Gen|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act
+sissetulekute: true : NOUN|Case=Gen|Number=Plur
+ebavõrdsuse: true : NOUN|Case=Gen|Number=Sing
+mõjuri: true : ADJ|Case=Gen|Degree=Pos|Number=Sing
+kirjanduse: true : NOUN|Case=Gen|Number=Sing
+käsitluse: true : NOUN|Case=Gen|Number=Sing
+leidma: false: -2 : VERB|Tense=Past|VerbForm=Part|Voice=Act
+.: false: -2 : PUNCT|_
+<eos>: false: -2 : <eos>
+<bos>: false: -2 : PUNCT|_
+ma: true : PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs
+meenutama: false: 0 : VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act
+siin_kohal: false: -2 : ADV|_
+hea: true : ADJ|Case=Gen|Degree=Pos|Number=Sing
+töö_kaaslane: false: 0 : NOUN|Case=Com|Number=Plur
+hendriku: true : PROPN|Case=Gen|Number=Sing
+ungi: true : PROPN|Case=Gen|Number=Sing
+jutti: true : NOUN|Case=Par|Number=Sing
+,: false: -2 : PUNCT|_
+et: false: -2 : SCONJ|_
+kui: false: -2 : SCONJ|_
+ta: true : PRON|Case=Nom|Number=Sing|Person=3|PronType=Prs
+hommikul: true : NOUN|Case=Ade|Number=Sing
+üles: false: -2 : ADV|_
+ärkama: false: 0 : VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act
+,: false: -2 : PUNCT|_
+siis: false: -2 : ADV|_
+nad: true : PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs
+olema: false: 0 : AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+konservatiivid: true : NOUN|Case=Nom|Number=Plur
+ja: false: -2 : CCONJ|_
+parempoolne: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+või: false: -2 : CCONJ|_
+rahulik: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+liberaalid: true : NOUN|Case=Nom|Number=Plur
+,: false: -2 : PUNCT|_
+aga: false: -2 : CCONJ|_
+kui: false: -2 : SCONJ|_
+päev: true : NOUN|Case=Nom|Number=Sing
+edenema: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+,: false: -2 : PUNCT|_
+võima: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+ta: true : PRON|Case=Nom|Number=Sing|Person=3|PronType=Prs
+kalduma: false: -2 : VERB|VerbForm=Inf
+üha: false: -2 : ADV|_
+enam: false: -2 : ADV|_
+vasemaks: true : ADJ|Case=Tra|Degree=Cmp|Number=Sing
+ja: false: -2 : CCONJ|_
+kui: false: -2 : SCONJ|_
+enne: false: -2 : ADP|AdpType=Prep
+õhtut: true : NOUN|Case=Par|Number=Sing
+saama: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+veel: false: -2 : ADV|_
+paari: true : NUM|Case=Gen|Number=Sing|NumForm=Letter|NumType=Card
+õlut: true : NOUN|Case=Par|Number=Sing
+ära: false: -2 : ADV|_
+jooma: false: -2 : VERB|VerbForm=Inf
+,: false: -2 : PUNCT|_
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+ta: true : PRON|Case=Nom|Number=Sing|Person=3|PronType=Prs
+<unk>: false: 0 : NOUN|Case=Ela|Number=Sing
+valmis: false: -2 : ADJ|Degree=Pos
+ja: false: -2 : CCONJ|_
+minema: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+kohe: false: -2 : ADV|_
+rikka: true : ADJ|Case=Gen|Degree=Pos|Number=Sing
+vara: false: 0 : NOUN|Case=Add|Number=Sing
+(: false: -2 : PUNCT|_
+ma: true : PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs
+ei: false: -2 : AUX|Polarity=Neg
+mäletama: false: -2 : VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act
+,: false: -2 : PUNCT|_
+kas: false: -2 : ADV|_
+ise_enese: false: 0 : PRON|Case=Par|Number=Sing|PronType=Prs|Reflex=Yes
+oma: true : PRON|Case=Gen|Number=Sing|Poss=Yes|PronType=Prs
+ka: false: -2 : ADV|_
+): false: -2 : PUNCT|_
+vaeseks: true : ADJ|Case=Tra|Degree=Pos|Number=Sing
+jagama: false: 0 : VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+.: false: -2 : PUNCT|_
+<eos>: false: -2 : <eos>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<bos>: false: -2 : ADV|_
+ja: false: -2 : CCONJ|_
+see: false: 0 : PRON|Case=Ela|Number=Sing|PronType=Dem
+midagi: true : PRON|Case=Par|Number=Sing|PronType=Ind
+kõlama: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+vähem: false: -2 : ADV|_
+unki: true : NOUN|Case=Par|Number=Sing
+kui: false: -2 : SCONJ|_
+teadmisi: true : NOUN|Case=Par|Number=Plur
+,: false: -2 : PUNCT|_
+et: false: -2 : SCONJ|_
+sooned: true : NOUN|Case=Nom|Number=Plur
+ungi: true : NOUN|Case=Gen|Number=Sing
+veres: true : NOUN|Case=Ine|Number=Sing
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+kõigud: true : DET|Case=Nom|Number=Plur|PronType=Tot
+punased: true : ADJ|Case=Nom|Degree=Pos|Number=Plur
+:: false: -2 : PUNCT|_
+unk: true : NOUN|Case=Nom|Number=Sing
+john: true : PROPN|Case=Nom|Number=Sing
+ja: false: -2 : CCONJ|_
+unk: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+ungil: true : NOUN|Case=Ade|Number=Sing
+olema: false: 0 : AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+üks: true : DET|Case=Nom|Number=Sing|PronType=Ind
+lippi: true : NOUN|Case=Par|Number=Sing
+(: false: -2 : PUNCT|_
+lugema: false: -2 : VERB|Tense=Past|VerbForm=Part|Voice=Act
+:: false: -2 : PUNCT|_
+unk: true : NOUN|Case=Nom|Number=Sing
+): false: -2 : PUNCT|_
+alla: false: -2 : ADV|_
+saama: false: 0 : VERB|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+ungid: true : NOUN|Case=Nom|Number=Plur
+ja: false: -2 : CCONJ|_
+unke: true : ADJ|Case=Par|Degree=Pos|Number=Plur
+ungid: true : NOUN|Case=Nom|Number=Plur
+,: false: -2 : PUNCT|_
+tina: true : NOUN|Case=Nom|Number=Sing
+unkideks: true : NOUN|Case=Tra|Number=Plur
+ja: false: -2 : CCONJ|_
+ungi: true : PROPN|Case=Gen|Number=Sing
+unkidele: true : NOUN|Case=All|Number=Plur
+,: false: -2 : PUNCT|_
+unkideks: true : NOUN|Case=Tra|Number=Plur
+unk: true : NOUN|Case=Nom|Number=Sing
+ja: false: -2 : CCONJ|_
+unk: true : PROPN|Case=Nom|Number=Sing
+jacksoni: true : PROPN|Case=Gen|Number=Sing
+,: false: -2 : PUNCT|_
+ja: false: -2 : CCONJ|_
+paljud: true : PRON|Case=Nom|Number=Plur|PronType=Ind
+teistele: true : PRON|Case=All|Number=Plur|PronType=Dem
+ja: false: -2 : CCONJ|_
+palju: false: -2 : ADV|_
+teistele: true : PRON|Case=All|Number=Plur|PronType=Dem
+,: false: -2 : PUNCT|_
+ning: false: -2 : CCONJ|_
+ühes_koos: false: -2 : ADV|_
+kandma: false: 0 : VERB|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+ta: true : PRON|Case=Nom|Number=Sing|Person=3|PronType=Prs
+ette: false: -2 : ADV|_
+johni: true : PROPN|Case=Gen|Number=Sing
+ja: false: -2 : CCONJ|_
+unki: true : ADJ|Case=Par|Degree=Pos|Number=Sing
+kirja: true : NOUN|Case=Par|Number=Sing
+pan=dud: false: -2 : ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass
+uut: true : ADJ|Case=Par|Degree=Pos|Number=Sing
+unki: true : NOUN|Case=Par|Number=Sing
+.: false: -2 : PUNCT|_
+<eos>: false: -2 : <eos>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<bos>: false: -2 : PUNCT|_
+nende: true : DET|Case=Gen|Number=Plur|PronType=Dem
+nelja: true : NUM|Case=Gen|Number=Sing|NumForm=Letter|NumType=Card
+akna: true : NOUN|Case=Gen|Number=Sing
+valmistamise: true : NOUN|Case=Gen|Number=Sing
+kulud: true : NOUN|Case=Nom|Number=Plur
+võtma: false: -2 : VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass
+end: true : PRON|Case=Par|Number=Sing|PronType=Prs|Reflex=Yes
+kandma: false: 0 : VERB|Case=Ill|VerbForm=Sup|Voice=Act
+tartu: true : PROPN|Case=Gen|Number=Sing
+ungi: true : PROPN|Case=Gen|Number=Sing
+ja: false: -2 : CCONJ|_
+püha: true : PROPN|Case=Gen|Number=Sing
+unk: true : PROPN|Case=Nom|Number=Sing
+gild: true : PROPN|Case=Nom|Number=Sing
+,: false: -2 : PUNCT|_
+ühe: true : NUM|Case=Gen|Number=Sing|NumForm=Letter|NumType=Card
+akna: true : NOUN|Case=Gen|Number=Sing
+valmistamise: true : NOUN|Case=Gen|Number=Sing
+kulud: true : NOUN|Case=Nom|Number=Plur
+katma: false: 0 : VERB|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+proua: true : NOUN|Case=Nom|Number=Sing
+n.: false: -2 : PROPN|Abbr=Yes
+ungi: true : NOUN|Case=Gen|Number=Sing
+ja: false: -2 : CCONJ|_
+proua: true : NOUN|Case=Gen|Number=Sing
+e.: false: -2 : PROPN|Abbr=Yes
+ungis: true : NOUN|Case=Ine|Number=Sing
+ungi: true : NOUN|Case=Gen|Number=Sing
+,: false: -2 : PUNCT|_
+kahe: true : NUM|Case=Gen|Number=Sing|NumForm=Letter|NumType=Card
+akna: true : NOUN|Case=Gen|Number=Sing
+valmistamise: true : NOUN|Case=Gen|Number=Sing
+kulusid: true : NOUN|Case=Par|Number=Plur
+tulema: false: 0 : VERB|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+katma: false: -2 : VERB|VerbForm=Inf
+koguduse: true : NOUN|Case=Gen|Number=Sing
+ungi: true : PROPN|Case=Gen|Number=Sing
+ungile: true : NOUN|Case=All|Number=Sing
+,: false: -2 : PUNCT|_
+kaks: true : NUM|Case=Nom|Number=Sing|NumForm=Letter|NumType=Card
+koguduse: true : NOUN|Case=Gen|Number=Sing
+teenekas: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+unk: true : PROPN|Case=Nom|Number=Sing
+w.: false: -2 : PROPN|Abbr=Yes
+schwartz: true : PROPN|Case=Nom|Number=Sing
+ja: false: -2 : CCONJ|_
+g.: false: -2 : PROPN|Abbr=Yes
+ungi: true : NOUN|Case=Gen|Number=Sing
+ungi: true : NOUN|Case=Gen|Number=Sing
+valmistamisel: true : NOUN|Case=Ade|Number=Sing
+annetama: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+unk: true : PROPN|Case=Nom|Number=Sing
+w.: false: -2 : PROPN|Abbr=Yes
+schwartz: true : PROPN|Case=Nom|Number=Sing
+ja: false: -2 : CCONJ|_
+ungi: true : NOUN|Case=Gen|Number=Sing
+ning: false: -2 : CCONJ|_
+ühe: true : NUM|Case=Gen|Number=Sing|NumForm=Letter|NumType=Card
+akna: true : NOUN|Case=Gen|Number=Sing
+jaoks: false: -2 : ADP|AdpType=Post
+ungi: true : NOUN|Case=Gen|Number=Sing
+esimees: true : NOUN|Case=Nom|Number=Sing
+h.: false: -2 : PROPN|Abbr=Yes
+von: true : NOUN|Case=Nom|Number=Sing
+unk: true : PROPN|Case=Nom|Number=Sing
+.: false: -2 : PUNCT|_
+<eos>: false: -2 : <eos>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<bos>: false: -2 : PUNCT|_
+selliste: true : DET|Case=Gen|Number=Plur|PronType=Dem
+muutuste: true : NOUN|Case=Gen|Number=Plur
+seletus: true : NOUN|Case=Nom|Number=Sing
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+pakkuma: false: -2 : VERB|Tense=Past|VerbForm=Part|Voice=Pass
+,: false: -2 : PUNCT|_
+et: false: -2 : SCONJ|_
+kui: false: -2 : SCONJ|_
+sissetulekute: true : NOUN|Case=Gen|Number=Plur
+ebavõrdsus: true : NOUN|Case=Nom|Number=Sing
+sektorite: true : NOUN|Case=Gen|Number=Plur
+vahel: false: -2 : ADP|AdpType=Post
+(: false: -2 : PUNCT|_
+näiteks: false: -2 : ADV|_
+madal: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+tootlikkus: true : NOUN|Case=Nom|Number=Sing
+põllumajandussektori: true : NOUN|Case=Gen|Number=Sing
+ja: false: -2 : CCONJ|_
+kõrgema: true : ADJ|Case=Gen|Degree=Cmp|Number=Sing
+tootlikkus: false: 0 : NOUN|Case=Com|Number=Sing
+tööstussektori: true : NOUN|Case=Gen|Number=Sing
+vahel: false: -2 : ADP|AdpType=Post
+): false: -2 : PUNCT|_
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+suurem: true : ADJ|Case=Nom|Degree=Cmp|Number=Sing
+kui: false: -2 : SCONJ|_
+sektorite: true : NOUN|Case=Gen|Number=Plur
+sees: false: -2 : ADP|AdpType=Post
+,: false: -2 : PUNCT|_
+siis: false: -2 : ADV|_
+esmalt: false: -2 : ADV|_
+sektoritevaheline: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+liikumise: true : NOUN|Case=Gen|Number=Sing
+alguse: true : NOUN|Case=Gen|Number=Sing
+sissetulekute: true : NOUN|Case=Gen|Number=Plur
+ebavõrdsus: true : NOUN|Case=Nom|Number=Sing
+suurenema: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+ning: false: -2 : CCONJ|_
+vähenema: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+hiljem: false: -2 : ADV|_
+,: false: -2 : PUNCT|_
+kui: false: -2 : SCONJ|_
+enamus: true : NOUN|Case=Nom|Number=Sing
+tööjõus: true : NOUN|Case=Ine|Number=Sing
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+juba: false: -2 : ADV|_
+uus: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+sektor: true : NOUN|Case=Nom|Hyph=Yes|Number=Sing
+või: false: -2 : CCONJ|_
+kui: false: -2 : SCONJ|_
+liikumine: true : NOUN|Case=Nom|Number=Sing
+sektorite: true : NOUN|Case=Gen|Number=Plur
+vahel: false: -2 : ADP|AdpType=Post
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+võrdsustama: false: -2 : VERB|Tense=Past|VerbForm=Part|Voice=Pass
+tulu_määr: false: 0 : NOUN|Case=Com|Number=Sing
+mõlemale: true : DET|Case=All|Number=Sing|PronType=Tot
+sektoreis: true : NOUN|Case=Ine|Number=Plur
+(: false: -2 : PUNCT|_
+unk: true : NOUN|Case=Nom|Number=Sing
+,: false: -2 : PUNCT|_
+unk: true : NUM|Case=Nom|Number=Sing|NumForm=Digit|NumType=Card
+): false: -2 : PUNCT|_
+.: false: -2 : PUNCT|_
+<eos>: false: -2 : <eos>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<bos>: false: -2 : PUNCT|_
+kuid: false: -2 : CCONJ|_
+raamat: true : NOUN|Case=Nom|Number=Sing
+valitsema: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+unk: true : NOUN|Case=Nom|Number=Sing
+;: false: -2 : PUNCT|_
+näiteks: false: -2 : ADV|_
+päike: true : PROPN|Case=Nom|Number=Sing
+,: false: -2 : PUNCT|_
+üks: true : DET|Case=Nom|Number=Sing|PronType=Ind
+sagedamini: false: -2 : ADV|_
+esinev: true : ADJ|Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act
+kujund: true : NOUN|Case=Nom|Number=Sing
+,: false: -2 : PUNCT|_
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+kunagi: false: -2 : ADV|_
+lähemalt: false: -2 : ADV|_
+ise_loomustama: false: -2 : VERB|Tense=Past|VerbForm=Part|Voice=Pass
+;: false: -2 : PUNCT|_
+unk: true : NOUN|Case=Nom|Number=Sing
+mõjuma: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+päikese: true : PROPN|Case=Gen|Number=Sing
+kui: false: -2 : SCONJ|_
+ungi: true : NOUN|Case=Gen|Number=Sing
+varre: true : NOUN|Case=Gen|Number=Sing
+otsas: false: -2 : ADP|AdpType=Post
+,: false: -2 : PUNCT|_
+kui: false: -2 : SCONJ|_
+unk: true : NOUN|Case=Nom|Number=Sing
+liiklusmärkides: true : NOUN|Case=Ine|Number=Plur
+kuskil: false: -2 : ADV|_
+ungil: true : NOUN|Case=Ade|Number=Sing
+;: false: -2 : PUNCT|_
+neil: true : PRON|Case=Ade|Number=Plur|Person=3|PronType=Prs
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+<unk>: false: 0 : NOUN|Case=Com|Number=Sing
+suurlinna: true : NOUN|Case=Gen|Number=Sing
+kõrvetav: true : ADJ|Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act
+subtroopiline: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+päike: true : NOUN|Case=Nom|Number=Sing
+,: false: -2 : PUNCT|_
+vaid: false: -2 : CCONJ|_
+selline: true : PRON|Case=Nom|Number=Sing|PronType=Dem
+,: false: -2 : PUNCT|_
+mis: true : PRON|Case=Nom|Number=Sing|PronType=Int,Rel
+lahkelt: false: -2 : ADV|_
+valgustama: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+meil: true : PRON|Case=Ade|Number=Plur|Person=1|PronType=Prs
+välja: false: -2 : ADV|_
+ses: true : PRON|Case=Ine|Number=Sing|PronType=Dem
+": false: -2 : PUNCT|_
+pisike: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+unk: true : NOUN|Case=Nom|Number=Sing
+,: false: -2 : PUNCT|_
+kes: true : PRON|Case=Nom|Number=Sing|PronType=Int,Rel
+tulema: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+unk: true : NOUN|Case=Nom|Number=Sing
+": false: -2 : PUNCT|_
+(: false: -2 : PUNCT|_
+lk: false: -2 : NOUN|Abbr=Yes
+46: true : NUM|Case=Nom|Number=Sing|NumForm=Digit|NumType=Card
+): false: -2 : PUNCT|_
+.: false: -2 : PUNCT|_
+<eos>: false: -2 : <eos>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<bos>: false: -2 : NOUN|Abbr=Yes
+unk: true : NOUN|Case=Nom|Number=Sing
+ei: false: -2 : AUX|Polarity=Neg
+tegema: false: -2 : VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act
+“: false: -2 : PUNCT|_
+asjatuid: true : ADJ|Case=Par|Degree=Pos|Number=Plur
+unk: true : NOUN|Case=Nom|Number=Sing
+”: false: -2 : PUNCT|_
+mitte: false: -2 : ADV|Polarity=Neg
+uus: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+tekst: true : NOUN|Case=Nom|Number=Sing
+ega: false: -2 : CCONJ|Polarity=Neg
+unk: true : NOUN|Case=Nom|Number=Sing
+(: false: -2 : PUNCT|_
+mis: true : PRON|Case=Nom|Number=Sing|PronType=Int,Rel
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+korrektne: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+ja: false: -2 : CCONJ|_
+täpne: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+,: false: -2 : PUNCT|_
+kuid: false: -2 : CCONJ|_
+unk: true : NOUN|Case=Nom|Number=Sing
+professionaalne: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+-: false: -2 : PUNCT|_
+nagu: false: -2 : SCONJ|_
+teine: true : DET|Case=Nom|Number=Sing|PronType=Dem
+unk: true : NOUN|Case=Nom|Number=Sing
+unk: true : NUM|Case=Nom|Number=Sing|NumForm=Digit|NumType=Card
+): false: -2 : PUNCT|_
+,: false: -2 : PUNCT|_
+aga: false: -2 : CCONJ|_
+just: false: -2 : ADV|_
+suurepärane: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+idee: false: 0 : NOUN|Case=Com|Number=Sing
+panema: false: -2 : VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass
+tublid: true : ADJ|Case=Nom|Degree=Pos|Number=Plur
+rahvusvahelisile: true : ADJ|Case=All|Degree=Pos|Number=Plur
+unk: true : NOUN|Case=Nom|Number=Sing
+(: false: -2 : PUNCT|_
+lisaks: true : NOUN|Case=Tra|Number=Sing
+nimetatud: false: -2 : ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass
+unk: true : PROPN|Case=Nom|Number=Sing
+unk: true : PROPN|Case=Nom|Number=Sing
+,: false: -2 : PUNCT|_
+unk: true : PROPN|Case=Nom|Number=Sing
+unk: true : NOUN|Case=Nom|Number=Sing
+,: false: -2 : PUNCT|_
+unkideks: true : ADJ|Case=Tra|Degree=Pos|Hyph=Yes|Number=Plur
+unk: true : NOUN|Case=Nom|Number=Sing
+jt: false: -2 : ADV|Abbr=Yes
+): false: -2 : PUNCT|_
+laulma: false: -2 : VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass
+ja: false: -2 : CCONJ|_
+tantsima: false: -2 : VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass
+“: false: -2 : PUNCT|_
+kuldse: true : ADJ|Case=Gen|Degree=Pos|Number=Sing
+ungi: true : NOUN|Case=Gen|Number=Sing
+”: false: -2 : PUNCT|_
+kerge: true : ADJ|Case=Gen|Degree=Pos|Number=Sing
+muusika: true : NOUN|Case=Gen|Number=Sing
+klassika: true : NOUN|Case=Gen|Number=Sing
+.: false: -2 : PUNCT|_
+<eos>: false: -2 : <eos>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+bosi: true : NOUN|Case=Gen|Number=Sing
+sihipärane: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+<unk>: false: 0 : NOUN|Case=Com|Number=Sing
+paistma: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+tartu: true : PROPN|Case=Gen|Number=Sing
+silmas: true : NOUN|Case=Ine|Number=Sing
+as: false: -2 : PROPN|Abbr=Yes
+unk: true : PROPN|Case=Nom|Number=Sing
+&: false: -2 : SYM|_
+co: false: -2 : PROPN|Abbr=Yes
+(: false: -2 : PUNCT|_
+kapitali: true : NOUN|Case=Gen|Number=Sing
+ungi: true : PROPN|Case=Gen|Number=Sing
+,: false: -2 : PUNCT|_
+vanemuine: true : PROPN|Case=Gen|Number=Sing
+21: false: -2 : NUM|NumForm=Digit|NumType=Card
+unk: true : NUM|Case=Nom|Number=Sing|NumForm=Digit|NumType=Card
+): false: -2 : PUNCT|_
+,: false: -2 : PUNCT|_
+oü: false: -2 : PROPN|Abbr=Yes
+rüütel: true : PROPN|Case=Nom|Number=Sing
+maja: true : NOUN|Case=Gen|Number=Sing
+(: false: -2 : PUNCT|_
+rüütli: true : PROPN|Case=Gen|Number=Sing
+tänaval: true : NOUN|Case=Ade|Number=Sing
+tagasta=tud: false: -2 : ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass
+maja: true : NOUN|Case=Gen|Number=Sing
+unk: true : NUM|Case=Nom|Number=Sing|NumForm=Digit|NumType=Card
+): false: -2 : PUNCT|_
+,: false: -2 : PUNCT|_
+oü: false: -2 : PROPN|Abbr=Yes
+tartu: true : PROPN|Case=Gen|Number=Sing
+ungi: true : PROPN|Case=Gen|Number=Sing
+(: false: -2 : PUNCT|_
+unk: true : NOUN|Case=Nom|Number=Sing
+): false: -2 : PUNCT|_
+,: false: -2 : PUNCT|_
+oü: false: -2 : PROPN|Abbr=Yes
+raua: true : PROPN|Case=Gen|Number=Sing
+maja: true : NOUN|Case=Gen|Number=Sing
+(: false: -2 : PUNCT|_
+korterelamu: true : NOUN|Case=Nom|Number=Sing
+): false: -2 : PUNCT|_
+,: false: -2 : PUNCT|_
+unk: true : PROPN|Case=Nom|Number=Sing
+kinnisvara: true : NOUN|Case=Nom|Number=Sing
+oü: false: -2 : PROPN|Abbr=Yes
+(: false: -2 : PUNCT|_
+vahi: true : NOUN|Case=Gen|Number=Sing
+tänaval: true : NOUN|Case=Ade|Number=Sing
+unk: true : NUM|Case=Nom|Number=Sing|NumForm=Digit|NumType=Card
+): false: -2 : PUNCT|_
+ning: false: -2 : CCONJ|_
+as: true : PROPN|Abbr=Yes|Case=Gen|Number=Sing
+fortuuna: true : NOUN|Case=Gen|Number=Sing
+elamu: true : NOUN|Case=Nom|Number=Sing
+(: false: -2 : PUNCT|_
+fortuuna: true : NOUN|Case=Gen|Number=Sing
+keskus: true : NOUN|Case=Nom|Number=Sing
+): false: -2 : PUNCT|_
+.: false: -2 : PUNCT|_
+<eos>: false: -2 : <eos>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<bos>: false: -2 : NOUN|Abbr=Yes
+vägivalla: true : NOUN|Case=Gen|Number=Sing
+ja: false: -2 : CCONJ|_
+uimastite: true : NOUN|Case=Gen|Number=Plur
+teemal: true : NOUN|Case=Ade|Number=Sing
+armastavate: true : ADJ|Case=Gen|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act
+ungi: true : NOUN|Case=Gen|Number=Sing
+kohtusse: true : NOUN|Case=Ill|Number=Sing
+kaebamiseks: true : NOUN|Case=Tra|Number=Sing
+plaanima: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+lisaks: true : NOUN|Case=Tra|Number=Sing
+ungile: true : ADJ|Case=All|Degree=Pos|Number=Sing
+ungile: true : NOUN|Case=All|Number=Sing
+24aastaseks: true : ADJ|Case=Tra|Degree=Pos|Number=Sing
+ungi: true : NOUN|Case=Gen|Number=Sing
+ema: true : NOUN|Case=Nom|Number=Sing
+unk: true : NOUN|Case=Nom|Number=Sing
+,: false: -2 : PUNCT|_
+kes: true : PRON|Case=Nom|Number=Sing|PronType=Int,Rel
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+leidma: false: -2 : VERB|Tense=Past|VerbForm=Part|Voice=Act
+selle: true : PRON|Case=Gen|Number=Sing|PronType=Dem
+alusel: true : NOUN|Case=Ade|Number=Sing
+hiti: true : NOUN|Case=Gen|Number=Sing
+": false: -2 : PUNCT|_
+ungi: true : NOUN|Case=Gen|Number=Sing
+name: false: -2 : X|_
+is: false: -2 : X|Abbr=Yes
+": false: -2 : PUNCT|_
+unk: true : NOUN|Case=Nom|Number=Sing
+": false: -2 : PUNCT|_
+i: false: -2 : X|_
+just: false: -2 : ADV|_
+ungi: true : NOUN|Case=Gen|Number=Sing
+out: false: -2 : X|_
+ungi: true : NOUN|Case=Gen|Number=Sing
+unk: true : NOUN|Case=Nom|Number=Sing
+ungi: true : NOUN|Case=Gen|Number=Sing
+more: true : NOUN|Case=Nom|Number=Sing
+unk: true : PROPN|Case=Nom|Number=Sing
+ungi: true : NOUN|Case=Gen|Number=Sing
+i: false: -2 : X|Abbr=Yes
+do: false: -2 : PROPN|Abbr=Yes
+": false: -2 : PUNCT|_
+(: false: -2 : PUNCT|_
+": false: -2 : PUNCT|_
+saama: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+just: false: -2 : ADV|_
+teadma: false: -2 : VERB|VerbForm=Inf
+,: false: -2 : PUNCT|_
+et: false: -2 : SCONJ|_
+me: true : PRON|Case=Gen|Number=Plur|Person=1|PronType=Prs
+ema: true : NOUN|Case=Nom|Number=Sing
+pruukima: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+rohkem: false: -2 : ADV|_
+uimasteid: true : NOUN|Case=Par|Number=Plur
+kui: false: -2 : SCONJ|_
+ma: true : PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs
+": false: -2 : PUNCT|_
+): false: -2 : PUNCT|_
+.: false: -2 : PUNCT|_
+<eos>: false: -2 : <eos>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+bos: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+asi: true : NOUN|Case=Nom|Number=Sing
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+aga: false: -2 : ADV|_
+nii: false: -2 : ADV|_
+,: false: -2 : PUNCT|_
+et: false: -2 : SCONJ|_
+kuigi: false: -2 : SCONJ|_
+unk: true : NOUN|Case=Nom|Number=Sing
+,: false: -2 : PUNCT|_
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+unk: true : NOUN|Case=Nom|Number=Sing
+kulgu: true : NOUN|Case=Par|Number=Sing
+ette: false: -2 : ADV|_
+ära: false: -2 : ADV|_
+määratlema: false: -2 : VERB|Tense=Past|VerbForm=Part|Voice=Pass
+;: false: -2 : PUNCT|_
+ta: true : PRON|Case=Nom|Number=Sing|Person=3|PronType=Prs
+koosnema: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+nii: false: -2 : ADV|_
+laena=tud: false: -2 : ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass
+kui: false: -2 : CCONJ|_
+ka: false: -2 : ADV|_
+omaks: true : PRON|Case=Tra|Number=Sing|Poss=Yes|PronType=Prs
+,: false: -2 : PUNCT|_
+kuid: false: -2 : CCONJ|_
+eal: true : DET|Case=Ade|Number=Sing|PronType=Tot
+juhil: true : NOUN|Case=Ade|Number=Sing
+ungi: true : PROPN|Case=Gen|Number=Sing
+elemendes: true : NOUN|Case=Ine|Number=Plur
+(: false: -2 : PUNCT|_
+vabam: true : ADJ|Case=Nom|Degree=Cmp|Number=Sing
+,: false: -2 : PUNCT|_
+nn: false: -2 : ADJ|Abbr=Yes
+spontaanne: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+unk: true : NOUN|Case=Nom|Number=Sing
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+erand: true : NOUN|Case=Nom|Number=Sing
+,: false: -2 : PUNCT|_
+mis: true : PRON|Case=Nom|Number=Sing|PronType=Int,Rel
+ei: false: -2 : AUX|Polarity=Neg
+mahtuma: false: -2 : VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act
+hästi: false: -2 : ADV|_
+jazzi: true : NOUN|Case=Gen|Number=Sing
+sisse: false: -2 : ADP|AdpType=Post
+:: false: -2 : PUNCT|_
+ungi: true : NOUN|Case=Gen|Hyph=Yes|Number=Sing
+ja: false: -2 : CCONJ|_
+ungi: true : PROPN|Case=Gen|Number=Sing
+<unk>: false: 0 : NOUN|Case=Com|Number=Sing
+unk: true : NOUN|Case=Nom|Number=Sing
+;: false: -2 : PUNCT|_
+aga: false: -2 : CCONJ|_
+see: true : DET|Case=Nom|Number=Sing|PronType=Dem
+muusik: true : NOUN|Case=Nom|Number=Sing
+ju: false: -2 : ADV|_
+raamatus: true : NOUN|Case=Ine|Number=Sing
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+): false: -2 : PUNCT|_
+.: false: -2 : PUNCT|_
+<eos>: false: -2 : <eos>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<bos>: false: -2 : ADV|_
+nii: false: -2 : ADV|_
+ei: false: -2 : AUX|Polarity=Neg
+vastanduma: false: -2 : VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act
+jazzi: true : NOUN|Case=Gen|Number=Sing
+vormis: true : NOUN|Case=Ine|Number=Sing
+mitte: false: -2 : ADV|Polarity=Neg
+ainult: false: -2 : ADV|_
+": false: -2 : PUNCT|_
+jazzi: true : NOUN|Case=Gen|Number=Sing
+": false: -2 : PUNCT|_
+teksti: true : NOUN|Case=Gen|Number=Sing
+,: false: -2 : PUNCT|_
+vaid: false: -2 : CCONJ|_
+ka: false: -2 : ADV|_
+autori: true : NOUN|Case=Gen|Number=Sing
+avalduse: true : NOUN|Case=Gen|Number=Sing
+eessõnas: true : NOUN|Case=Ine|Number=Sing
+(: false: -2 : PUNCT|_
+eessõnas: true : NOUN|Case=Ine|Number=Sing
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+võima: false: -2 : AUX|Tense=Past|VerbForm=Part|Voice=Act
+küll: false: -2 : ADV|_
+trükkima: false: -2 : VERB|VerbForm=Inf
+jätma: false: -2 : VERB|VerbForm=Inf
+!: false: -2 : PUNCT|_
+): false: -2 : PUNCT|_
+,: false: -2 : PUNCT|_
+kus: false: -2 : ADV|_
+ta: true : PRON|Case=Nom|Number=Sing|Person=3|PronType=Prs
+ilmselt: false: -2 : ADV|_
+õigustama: false: 0 : VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+oma: true : PRON|Case=Gen|Number=Sing|Poss=Yes|PronType=Prs
+unke: true : NOUN|Case=Par|Number=Plur
+,: false: -2 : PUNCT|_
+unke: true : NOUN|Case=Par|Number=Plur
+ja: false: -2 : CCONJ|_
+unke: true : NOUN|Case=Par|Number=Plur
+:: false: -2 : PUNCT|_
+": false: -2 : PUNCT|_
+unk: true : NOUN|Case=Nom|Number=Sing
+siduma: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+ungi: true : NOUN|Case=Gen|Number=Sing
+vabadus: false: 0 : NOUN|Case=Com|Number=Sing
+:: false: -2 : PUNCT|_
+üks: true : DET|Case=Nom|Number=Sing|PronType=Ind
+tekst: true : NOUN|Case=Nom|Number=Sing
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+olema: false: -2 : AUX|Tense=Past|VerbForm=Part|Voice=Act
+ette: false: -2 : ADV|_
+planeerima: false: -2 : VERB|Tense=Past|VerbForm=Part|Voice=Pass
+,: false: -2 : PUNCT|_
+luuletused: true : NOUN|Case=Nom|Number=Plur
+võima: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+korduvalt: false: -2 : ADV|_
+muutma: false: -2 : VERB|VerbForm=Inf
+suunda: true : NOUN|Case=Par|Number=Sing
+...: false: -2 : PUNCT|_
+": false: -2 : PUNCT|_
+.: false: -2 : PUNCT|_
+<eos>: false: -2 : <eos>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<bos>: false: -2 : NOUN|Abbr=Yes
+oletused: true : NOUN|Case=Nom|Number=Plur
+andma: false: 0 : VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+kinnitust: true : NOUN|Case=Par|Number=Sing
+ungi: true : NOUN|Case=Gen|Number=Sing
+ja: false: -2 : CCONJ|_
+ungi: true : NOUN|Case=Gen|Number=Sing
+(: false: -2 : PUNCT|_
+1998: true : NUM|Case=Nom|Number=Sing|NumForm=Digit|NumType=Card
+): false: -2 : PUNCT|_
+uurimused: true : NOUN|Case=Nom|Number=Plur
+iraani: true : PROPN|Case=Gen|Number=Sing
+andmeil: true : NOUN|Case=Ade|Number=Plur
+aastail: true : NOUN|Case=Ade|Number=Plur
+<unk>: false: 0 : NOUN|Case=Ela|Number=Plur
+,: false: -2 : PUNCT|_
+kus: false: -2 : ADV|_
+kulutused: true : NOUN|Case=Nom|Number=Plur
+hariduse: true : NOUN|Case=Gen|Number=Sing
+inimeste: true : NOUN|Case=Gen|Number=Plur
+kohta: false: -2 : ADP|AdpType=Post
+osutuma: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+sissetulekute: true : NOUN|Case=Gen|Number=Plur
+ebavõrdsuse: true : NOUN|Case=Gen|Number=Sing
+mõjurite: true : NOUN|Case=Gen|Number=Plur
+ebaoluliseks: true : ADJ|Case=Tra|Degree=Pos|Number=Sing
+arvatavasti: false: -2 : ADV|_
+just: false: -2 : ADV|_
+see_tõttu: false: -2 : ADV|_
+,: false: -2 : PUNCT|_
+et: false: -2 : SCONJ|_
+analüüs: true : NOUN|Case=Nom|Number=Sing
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+kaasama: false: -2 : VERB|Tense=Past|VerbForm=Part|Voice=Pass
+ka: false: -2 : ADV|_
+valitsuse: true : NOUN|Case=Gen|Number=Sing
+kulutuste: true : NOUN|Case=Gen|Number=Plur
+näitajaid: true : NOUN|Case=Par|Number=Plur
+inimeste: true : NOUN|Case=Gen|Number=Plur
+kohta: false: -2 : ADP|AdpType=Post
+,: false: -2 : PUNCT|_
+mis: true : PRON|Case=Nom|Number=Sing|PronType=Int,Rel
+osutuma: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+oluliste: true : ADJ|Case=Gen|Degree=Pos|Number=Plur
+sissetulekute: true : NOUN|Case=Gen|Number=Plur
+ebavõrdsust: true : NOUN|Case=Par|Number=Sing
+vähendavate: true : ADJ|Case=Gen|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act
+tegureile: true : NOUN|Case=All|Number=Plur
+ja: false: -2 : CCONJ|_
+hõlmama: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+muu_hulgas: false: -2 : ADV|_
+ka: false: -2 : ADV|_
+enamuse: true : NOUN|Case=Gen|Number=Sing
+kulutusi: true : NOUN|Case=Par|Number=Plur
+haridusele: true : NOUN|Case=All|Number=Sing
+.: false: -2 : PUNCT|_
+<eos>: false: -2 : <eos>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<bos>: false: -2 : ADV|_
+kui: false: -2 : SCONJ|_
+inimene: true : NOUN|Case=Nom|Number=Sing
+tahtma: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+rikkaks: true : ADJ|Case=Tra|Degree=Pos|Number=Sing
+saama: false: -2 : VERB|VerbForm=Inf
+(: false: -2 : PUNCT|_
+a: false: -2 : NOUN|Abbr=Yes
+miks: false: -2 : ADV|_
+muidu: false: -2 : ADV|_
+see: true : DET|Case=Nom|Number=Sing|PronType=Dem
+unk: true : NOUN|Case=Nom|Number=Sing
+andres: true : PROPN|Case=Nom|Number=Sing
+ja: false: -2 : CCONJ|_
+me: true : PRON|Case=Gen|Number=Plur|Person=1|PronType=Prs
+isa: true : NOUN|Case=Nom|Number=Sing
+ja: false: -2 : CCONJ|_
+ema: true : NOUN|Case=Nom|Number=Sing
+nii_palju: false: -2 : ADV|_
+tööd: true : NOUN|Case=Par|Number=Sing
+tegema: false: -2 : VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass
+-: false: -2 : PUNCT|_
+ikka: false: -2 : ADV|_
+raha: true : NOUN|Case=Gen|Number=Sing
+pärast: false: -2 : ADP|AdpType=Post
+,: false: -2 : PUNCT|_
+mis: true : PRON|Case=Nom|Number=Sing|PronType=Int,Rel
+siis: false: -2 : ADV|_
+,: false: -2 : PUNCT|_
+et: false: -2 : SCONJ|_
+üks: true : NUM|Case=Nom|Number=Sing|NumForm=Letter|NumType=Card
+või: false: -2 : CCONJ|_
+teine: true : PRON|Case=Nom|Number=Sing|PronType=Dem
+moka_otsast: false: -2 : ADV|_
+ka: false: -2 : ADV|_
+jumal: true : NOUN|Case=Nom|Number=Sing
+või: false: -2 : CCONJ|_
+armastust: true : NOUN|Case=Par|Number=Sing
+rääkima: false: -2 : VERB|VerbForm=Inf
+): false: -2 : PUNCT|_
+,: false: -2 : PUNCT|_
+siis: false: -2 : ADV|_
+ta: true : PRON|Case=Nom|Number=Sing|Person=3|PronType=Prs
+tegema: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+palju: false: -2 : ADV|_
+töid: true : NOUN|Case=Par|Number=Plur
+ja: false: -2 : CCONJ|_
+looma: false: -2 : VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass
+väärtusi: true : NOUN|Case=Par|Number=Plur
+ja: false: -2 : CCONJ|_
+teised: true : PRON|Case=Nom|Number=Plur|PronType=Dem
+olema: false: 0 : AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+tal: true : PRON|Case=Ade|Number=Sing|Person=3|PronType=Prs
+hea: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+meel: true : NOUN|Case=Nom|Number=Sing
+.: false: -2 : PUNCT|_
+<eos>: false: -2 : <eos>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<bos>: false: -2 : PUNCT|_
+ja: false: -2 : CCONJ|_
+teine: true : DET|Case=Nom|Number=Sing|PronType=Dem
+asi: true : NOUN|Case=Nom|Number=Sing
+-: false: -2 : PUNCT|_
+eesti: true : PROPN|Case=Gen|Number=Sing
+kaitsepolitsei: true : PROPN|Case=Gen|Number=Sing
+ja: false: -2 : CCONJ|_
+kgb: false: -2 : PROPN|Abbr=Yes
+vahel: false: -2 : ADP|AdpType=Post
+olema: false: 0 : AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+ju: false: -2 : ADV|_
+suurepärane: true : ADJ|Case=Nom|Degree=Pos|Number=Sing
+koostöö: true : NOUN|Case=Nom|Number=Sing
+-: false: -2 : PUNCT|_
+kõigud: true : DET|Case=Nom|Number=Plur|PronType=Tot
+eesti: true : PROPN|Case=Gen|Number=Sing
+kommunistid: true : NOUN|Case=Nom|Number=Plur
+,: false: -2 : PUNCT|_
+kes: true : PRON|Case=Nom|Number=Plur|PronType=Int,Rel
+venemaa: true : PROPN|Case=Gen|Number=Sing
+põrandal: true : NOUN|Case=Ade|Number=Sing
+alla: false: -2 : ADP|AdpType=Post
+eesti: true : PROPN|Case=Ine|Number=Sing
+saatma: false: -2 : VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass
+,: false: -2 : PUNCT|_
+arreteerima: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+äärmiselt: false: -2 : ADV|_
+kiiresti: false: -2 : ADV|_
+ja: false: -2 : CCONJ|_
+teise: true : PRON|Case=Gen|Number=Sing|PronType=Dem
+poolt: false: -2 : ADV|_
+,: false: -2 : PUNCT|_
+väitma: false: 0 : VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+ha: false: -2 : NOUN|Abbr=Yes
+,: false: -2 : PUNCT|_
+et: false: -2 : SCONJ|_
+lääs: false: 0 : NOUN|Case=Add|Number=Sing
+tul=nud: false: -2 : ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act
+luurajad: true : NOUN|Case=Nom|Number=Plur
+,: false: -2 : PUNCT|_
+kes: true : PRON|Case=Nom|Number=Plur|PronType=Int,Rel
+saatma: false: 0 : VERB|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+läbi: false: -2 : ADP|AdpType=Prep
+eesti: true : PROPN|Case=Gen|Number=Sing
+venemaale: true : PROPN|Case=All|Number=Sing
+,: false: -2 : PUNCT|_
+võtma: false: -2 : VERB|VerbForm=Conv
+seal: false: -2 : ADV|_
+ka: false: -2 : ADV|_
+ruttu: false: -2 : ADV|_
+kinni: false: -2 : ADV|_
+.: false: -2 : PUNCT|_
+": false: -2 : PUNCT|_
+<eos>: false: -2 : <eos>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+<pad>: false: -2 : <pad>
+läbi: 394/1064
+CCONJ|Polarity=Neg
+NOUN|Abbr=Yes
+ADP|AdpType=Post
+ADP|AdpType=Prep
+ADV|_
+ADV|Abbr=Yes
+X|Abbr=Yes
+VERB|VerbForm=Conv
+AUX|Tense=Past|VerbForm=Part|Voice=Act
+ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass
+VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass
+ADJ|Degree=Pos
+VERB|Tense=Past|VerbForm=Part|Voice=Act
+VERB|Tense=Past|VerbForm=Part|Voice=Pass
+ADJ|Abbr=Yes
+CCONJ|_
+ADV|Polarity=Neg
+VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass
+PROPN|Abbr=Yes
+SYM|_
+<pad>
+X|_
+<eos>
+VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act
+NUM|NumForm=Digit|NumType=Card
+SCONJ|_
+ADJ|Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act
+AUX|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act
+VERB|VerbForm=Inf
+AUX|Polarity=Neg
+PUNCT|_
+2019-02-18 02:18:46 INFO: Test loss: 1.366, Test acc: 65.965%, Test OOV acc: 25.387%
+
+Process finished with exit code 0

@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.DS_Store
+*.env
+*.tmp
+*.pkl
+*.lem
+*.toklabels
+
+logs/
+*_test_treebanks
+
+params/*/*.json
+!params/*/default.json

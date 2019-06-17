@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+.idea/
+.models/
+.vector_cache/
+utils/in/
+utils/in2/
+utils/out/

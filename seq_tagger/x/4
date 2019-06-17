@@ -1,0 +1,82 @@
+* 'b'       {kinnitab}        VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act:
+* 'd'       {tahad}           VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act:
+* 'da'      {koondada}        VERB|VerbForm=Inf:
+* 'des'     {kasutades}       VERB|VerbForm=Conv:
+'ge'      {Vaadake}         VERB|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act:
+'gem'     {Lisagem}         VERB|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act:
+'gu'      {võtku}           VERB|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act:
+'ks'      {eksisteerikski}  VERB|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act:
+'ks'      {läheks}          VERB|Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act:
+'ksid'    {oskaksid}        VERB|Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act:
+'ksin'    {arvaksin}        VERB|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act:
+'ksite'   {paneksite}       VERB|Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act:
+'ma'      VERB|Case=Ill|VerbForm=Sup|Voice=Act:      {langema}
+'maks'    VERB|Case=Tra|VerbForm=Sup|Voice=Act:      {võtmaks}
+'mas'     VERB|Case=Ine|VerbForm=Sup|Voice=Act:      {toimumas}
+'mast'    VERB|Case=Ela|VerbForm=Sup|Voice=Act:      {laulmast}
+'mata'    VERB|Case=Abe|VerbForm=Sup|Voice=Act:      {kasutamata}
+'mata'    VERB|Case=All|VerbForm=Sup|Voice=Act:      {minema}
+'me'      {läheme}          VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act:
+'n'       {kasutan}         VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act:
+'nednud'  {polnudki}        VERB|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act:
+'nego'    {Pole}            VERB|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act:
+'nud'     {kahanenud}       VERB|Tense=Past|VerbForm=Part|Voice=Act:
+'nud'     {mõjutanud}       VERB|Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act:
+'o'       {ole}             VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act:
+'o'       {pruugi}          VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act:     Connegative=Yes
+'o'       {osta}            VERB|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act: Polarity=Neg
+'o'       {võta}            VERB|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act:
+
+'s'       {karjus}          VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act:   Hyph=Yes|
+'s'       {osutus}          VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act:
+'s'       {viskas}          VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act:
+
+'sid'     {analüüsisid}     VERB|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act:
+'sid'     {võbelesid}       VERB|Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act:
+'sid'     {pakkusid}        VERB|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act:
+'sid'     {tuleneksidki}    VERB|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act:
+
+'sime'    {vahetasime}      VERB|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act:
+'sime'    {Väljusime}       VERB|Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act:
+
+'sin'     {arvasin}         VERB|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act:
+'sin'     {Valasin}         VERB|Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act:
+'site'    {panite}          VERB|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act:
+'ta'      {lasta}           VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass:
+'ta'      {vt}              VERB|Mood=Imp|VerbForm=Fin:       Abbr=Yes|
+'tagu'    {Räägitagu}       VERB|Mood=Imp|Tense=Pres|VerbForm=Fin|Voice=Pass:
+'taks'    {kulutataks}      VERB|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Pass:
+'takse'   {Oletatakse}      VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass:
+'tama'    {suletama}        VERB|VerbForm=Sup|Voice=Pass:
+'te'      {julgete}         VERB|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act:
+'ti'      {saavutati}       VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass:
+'ti'      {valati}          VERB|Mood=Ind|Tense=Imp|VerbForm=Fin|Voice=Act:
+'ti'      {valati}          VERB|Mood=Ind|Tense=Imp|VerbForm=Fin|Voice=Pass:
+'tud'     {aetud}           VERB|Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass:
+'tud'     {kutsutud}        VERB|Connegative=Yes|Mood=Ind|Tense=Imp|VerbForm=Fin|Voice=Pass:
+'tud'     {uuritud}         VERB|Tense=Past|VerbForm=Part|Voice=Pass:
+'tuks'    {tõusnuks}        VERB|Mood=Cnd|Tense=Past|VerbForm=Fin|Voice=Act:
+'vad'     {jõuavad}         VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act:
+'vat'     {toretsevat}      VERB|Tense=Pres|VerbForm=Part|Voice=Act:
+'vat'     {tõusvat}         VERB|Mood=Qot|Tense=Pres|VerbForm=Fin|Voice=Act:
+
+Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act
+Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act
+Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act
+Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass
+Mood=Imp|VerbForm=Fin:       Abbr=Yes
+Mood=Imp|Tense=Pres|VerbForm=Fin|Voice=Pass
+Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Pass
+Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass
+VerbForm=Sup|Voice=Pass
+Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act
+Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass
+Mood=Ind|Tense=Imp|VerbForm=Fin|Voice=Act
+Mood=Ind|Tense=Imp|VerbForm=Fin|Voice=Pass
+Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass
+Connegative=Yes|Mood=Ind|Tense=Imp|VerbForm=Fin|Voice=Pass
+Tense=Past|VerbForm=Part|Voice=Pass
+Mood=Cnd|Tense=Past|VerbForm=Fin|Voice=Act
+Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act
+Tense=Pres|VerbForm=Part|Voice=Act
+Mood=Qot|Tense=Pres|VerbForm=Fin|Voice=Act

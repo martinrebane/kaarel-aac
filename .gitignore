@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+.idea/
+.models/
+.vector_cache/
+marmot/*
+
